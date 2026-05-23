@@ -1,0 +1,38 @@
+{
+  "id": "ui-portal-waypoint-selected",
+  "kind": "ui",
+  "routeId": "ui",
+  "treeId": "portal",
+  "role": "selected-button",
+  "provider": "codex-account-built-in-image2",
+  "target": "public/assets/image2/ui/portal-waypoint-selected.png",
+  "createdAt": "2026-05-19T00:00:00+09:00",
+  "runtimeSize": "768x104",
+  "style": "Premium Diablo-like selected waypoint row bitmap texture. Dark brass highlight, ember rim, subtle portal-blue core accent. No SVG.",
+  "ontology": {
+    "active": true,
+    "routeId": "ui",
+    "treeId": "portal",
+    "role": "selected-button",
+    "clause": "ONTOLOGY ACTIVE: selected waypoint row must feel activated by the portal without becoming a modern cyan button."
+  },
+  "prompt": "Create one long horizontal bitmap UI texture for a selected waypoint destination row in a Diablo-like dark fantasy ARPG. Dark carved stone base, black iron bevel, brighter tarnished brass edge, restrained ember-gold activation glow, tiny blue-violet portal energy line inside the material. Keep the center readable for HTML text. No embedded text, no letters, no numbers, no icons, no arrows, no characters, no watermark. Avoid cyan modern button, flat vector, SVG look, CSS gradient look, plastic shine, cartoon UI, bokeh, lens flare, white diagonal shine. Opaque PNG, production game UI strip.",
+  "negative_prompt": [
+    "text",
+    "letters",
+    "numbers",
+    "icons",
+    "arrows",
+    "watermark",
+    "SVG",
+    "flat vector",
+    "CSS gradient",
+    "cyan modern button",
+    "white diagonal shine"
+  ],
+  "acceptance": [
+    "Selected row reads as activated but not modern cyan UI.",
+    "No text, icon, arrow, character, or watermark is embedded.",
+    "Visual language matches the waypoint panel."
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "schemaVersion": "candidate-runtime-1",
+  "outputs": [
+    {
+      "key": "hero-celestial-guardian-t1",
+      "path": "/assets/forge/candidates/final/hero-celestial-guardian-t1.png",
+      "size": [
+        1024,
+        2048
+      ]
+    },
+    {
+      "key": "hero-celestial-guardian-t2",
+      "path": "/assets/forge/candidates/final/hero-celestial-guardian-t2.png",
+      "size": [
+        1024,
+        2048
+      ]
+    },
+    {
+      "key": "hero-celestial-guardian-t3",
+      "path": "/assets/forge/candidates/final/hero-celestial-guardian-t3.png",
+      "size": [
+        1024,
+        2048
+      ]
+    },
+    {
+      "key": "hero-celestial-oracle-t1",
+      "path": "/assets/forge/candidates/final/hero-celestial-oracle-t1.png",
+      "size": [
+        1024,
+        2048
+      ]
+    },
+    {
+      "key": "hero-celestial-oracle-t2",
+      "path": "/assets/forge/candidates/final/hero-celestial-oracle-t2.png",
+      "size": [
+        1024,
+        2048
+      ]
+    },
+    {
+      "key": "hero-celestial-oracle-t3",
+      "path": "/assets/forge/candidates/final/hero-celestial-oracle-t3.png",
+      "size": [
+        1024,
+        2048
+      ]
+    },
+    {
+      "key": "hero-demon-greatsword-t1",
+      "path": "/assets/forge/candidates/final/hero-demon-greatsword-t1.png",
+      "size": [
+        1024,
+        2048
+      ]
+    },
+    {
+      "key": "hero-demon-greatsword-t2",
+      "path": "/assets/forge/candidates/final/hero-demon-greatsword-t2.png",
+      "size": [
+        1024,
+        2048
+      ]
+    },
+    {
+      "key": "hero-demon-greatsword-t3",
+      "path": "/assets/forge/candidates/final/hero-demon-greatsword-t3.png",
+      "size": [
+        1024,
+        2048
+      ]
+    },
+    {
+      "key": "hero-demon-warlock-t1",
+      "path": "/assets/forge/candidates/final/hero-demon-warlock-t1.png",
+      "size": [
+        1024,
+        2048
+      ]
+    },
+    {
+      "key": "hero-demon-warlock-t2",
+      "path": "/assets/forge/candidates/final/hero-demon-warlock-t2.png",
+      "size": [
+        1024,
+        2048
+      ]
+    },
+    {
+      "key": "hero-demon-warlock-t3",
+      "path": "/assets/forge/candidates/final/hero-demon-warlock-t3.png",
+      "size": [
+        1024,
+        2048
+      ]
+    },
+    {
+      "key": "hero-dragonkin-lancer-t1",
+      "path": "/assets/forge/candidates/final/hero-dragonkin-lancer-t1.png",
+      "size": [
+        1024,
+        2048
+      ]
+    },
+    {
+      "key": "hero-dragonkin-lancer-t2",
+      "path": "/assets/forge/candidates/final/hero-dragonkin-lancer-t2.png",
+      "size": [
+        1024,
+        2048
+      ]
+    },
+    {
+      "key": "hero-dragonkin-lancer-t3",
+      "path": "/assets/forge/candidates/final/hero-dragonkin-lancer-t3.png",
+      "size": [
+        1024,
+        2048
+      ]
+    },
+    {
+      "key": "hero-dragonkin-sage-t1",
+      "path": "/assets/forge/candidates/final/hero-dragonkin-sage-t1.png",
+      "size": [
+        1024,
+        2048
+      ]
+    },
+    {
+      "key": "hero-dragonkin-sage-t2",
+      "path": "/assets/forge/candidates/final/hero-dragonkin-sage-t2.png",
+      "size": [
+        1024,
+        2048
+      ]
+    },
+    {
+      "key": "hero-dragonkin-sage-t3",
+      "path": "/assets/forge/candidates/final/hero-dragonkin-sage-t3.png",
+      "size": [
+        1024,
+        2048
+      ]
+    },
+    {
+      "key": "hero-elf-duelist-t1",
+      "path": "/assets/forge/candidates/final/hero-elf-duelist-t1.png",
+      "size": [
+        1024,
+        2048
+      ]
+    },
+    {
+      "key": "hero-elf-duelist-t2",
+      "path": "/assets/forge/candidates/final/hero-elf-duelist-t2.png",
+      "size": [
+        1024,
+        2048
+      ]
+    },
+    {
+      "key": "hero-elf-duelist-t3",
+      "path": "/assets/forge/candidates/final/hero-elf-duelist-t3.png",
+      "size": [
+        1024,
+        2048
+      ]
+    },
+    {
+      "key": "hero-elf-ranger-t1",
+      "path": "/assets/forge/candidates/final/hero-elf-ranger-t1.png",
+      "size": [
+        1024,
+        2048
+      ]
+    },
+    {
+      "key": "hero-elf-ranger-t2",
+      "path": "/assets/forge/candidates/final/hero-elf-ranger-t2.png",
+      "size": [
+        1024,
+        2048
+      ]
+    },
+    {
+      "key": "hero-elf-ranger-t3",
+      "path": "/assets/forge/candidates/final/hero-elf-ranger-t3.png",
+      "size": [
+        1024,
+        2048
+      ]
+    },
+    {
+      "key": "hero-human-archer-t1",
+      "path": "/assets/forge/candidates/final/hero-human-archer-t1.png",
+      "size": [
+        1024,
+        2048
+      ]
+    },
+    {
+      "key": "hero-human-archer-t2",
+      "path": "/assets/forge/candidates/final/hero-human-archer-t2.png",
+      "size": [
+        1024,
+        2048
+      ]
+    },
+    {
+      "key": "hero-human-archer-t3",
+      "path": "/assets/forge/candidates/final/hero-human-archer-t3.png",
+      "size": [
+        1024,
+        2048
+      ]
+    },
+    {
+      "key": "hero-human-knight-t1",
+      "path": "/assets/forge/candidates/final/hero-human-knight-t1.png",
+      "size": [
+        1024,
+        2048
+      ]
+    },
+    {
+      "key": "hero-human-knight-t2",
+      "path": "/assets/forge/candidates/final/hero-human-knight-t2.png",
+      "size": [
+        1024,
+        2048
+      ]
+    },
+    {
+      "key": "hero-human-knight-t3",
+      "path": "/assets/forge/candidates/final/hero-human-knight-t3.png",
+      "size": [
+        1024,
+        2048
+      ]
+    }
+  ]
+}

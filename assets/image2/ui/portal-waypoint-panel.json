@@ -1,0 +1,39 @@
+{
+  "id": "ui-portal-waypoint-panel",
+  "kind": "ui",
+  "routeId": "ui",
+  "treeId": "portal",
+  "role": "surface",
+  "provider": "codex-account-built-in-image2",
+  "target": "public/assets/image2/ui/portal-waypoint-panel.png",
+  "createdAt": "2026-05-19T00:00:00+09:00",
+  "runtimeSize": "768x1024",
+  "style": "Premium Diablo-like dark fantasy waypoint panel bitmap texture. Carved black stone, aged iron, tarnished brass trim, subtle blue-violet portal energy accent. No SVG.",
+  "ontology": {
+    "active": true,
+    "routeId": "ui",
+    "treeId": "portal",
+    "role": "waypoint",
+    "clause": "ONTOLOGY ACTIVE: waypoint UI must read as a crown-gate portal decision surface, preserving dark fantasy material logic and fast destination selection."
+  },
+  "prompt": "Create a high-end bitmap UI texture for a Diablo-like dark fantasy ARPG waypoint destination window. Tall vertical panel, carved black stone body, blackened iron frame, tarnished brass inlay, worn scratches, compact gothic corners, mature and restrained. Add a very subtle blue-violet portal aura in the upper ornament only, not a neon glass frame. The center must remain dark and readable for Korean destination labels placed by HTML. No embedded text, no letters, no numbers, no icons, no characters, no buttons, no item slots, no watermark. Avoid cyan modern glass UI, flat vector, SVG look, CSS gradient look, plastic shine, cartoon UI, bright beige palette, bokeh, lens flare, white diagonal shine. Opaque PNG, production game UI material, not a screenshot.",
+  "negative_prompt": [
+    "text",
+    "letters",
+    "numbers",
+    "watermark",
+    "SVG",
+    "flat vector",
+    "CSS gradient",
+    "cyan glass panel",
+    "white diagonal shine",
+    "cartoon UI",
+    "characters",
+    "icons"
+  ],
+  "acceptance": [
+    "Looks like a premium dark fantasy waypoint panel texture.",
+    "No text, icon, character, or watermark is embedded.",
+    "Panel is suitable for overlaying HTML destination rows."
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "updatedAt": "2026-05-20T22:30:33+09:00",
+  "strictOpenaiComplete": true,
+  "items": [
+    {
+      "id": "ash_market",
+      "target": "public/assets/image2/fields/ash_market.png",
+      "provider": "openai-image2-codex-app",
+      "strictOpenai": true,
+      "sourcePath": "/Users/kangjunlee/.codex/generated_images/builtin-map-open-v4-20260520-222033-55620/ash_market.png",
+      "sourceSha16": "e15941e6ab6b7a9a",
+      "targetSha16": "645325b59735ebad"
+    },
+    {
+      "id": "border_ruins",
+      "target": "public/assets/image2/fields/border_ruins.png",
+      "provider": "openai-image2-codex-app",
+      "strictOpenai": true,
+      "sourcePath": "/Users/kangjunlee/.codex/generated_images/builtin-map-open-v4-20260520-221957/border_ruins.png",
+      "sourceSha16": "cf1229b700afccc0",
+      "targetSha16": "319258d0019855f4"
+    },
+    {
+      "id": "crown_gate",
+      "target": "public/assets/image2/fields/crown_gate.png",
+      "provider": "openai-image2-codex-app",
+      "strictOpenai": true,
+      "sourcePath": "/Users/kangjunlee/.codex/generated_images/builtin-map-open-v4-20260520-222033-55673/crown_gate.png",
+      "sourceSha16": "aa23ef572540925d",
+      "targetSha16": "583f018f5b5ad086"
+    },
+    {
+      "id": "ember_grove",
+      "target": "public/assets/image2/fields/ember_grove.png",
+      "provider": "openai-image2-codex-app",
+      "strictOpenai": true,
+      "sourcePath": "/Users/kangjunlee/.codex/generated_images/builtin-map-open-v4-20260520-221957/ember_grove.png",
+      "sourceSha16": "5d8d353f502802ba",
+      "targetSha16": "70f6020cbe023c3b"
+    },
+    {
+      "id": "frost_watch",
+      "target": "public/assets/image2/fields/frost_watch.png",
+      "provider": "openai-image2-codex-app",
+      "strictOpenai": true,
+      "sourcePath": "/Users/kangjunlee/.codex/generated_images/builtin-map-open-v4-20260520-222033-55673/frost_watch.png",
+      "sourceSha16": "d24a8f73195a1ee5",
+      "targetSha16": "b8f72fcb088d247d"
+    },
+    {
+      "id": "mist_fen",
+      "target": "public/assets/image2/fields/mist_fen.png",
+      "provider": "openai-image2-codex-app",
+      "strictOpenai": true,
+      "sourcePath": "/Users/kangjunlee/.codex/generated_images/builtin-map-open-v4-20260520-221957/mist_fen.png",
+      "sourceSha16": "c9fb6465b10877ff",
+      "targetSha16": "04f0b7d883d65f03"
+    },
+    {
+      "id": "moon_mine",
+      "target": "public/assets/image2/fields/moon_mine.png",
+      "provider": "openai-image2-codex-app",
+      "strictOpenai": true,
+      "sourcePath": "/Users/kangjunlee/.codex/generated_images/builtin-map-open-v4-20260520-221957/moon_mine.png",
+      "sourceSha16": "c1f898a550685c88",
+      "targetSha16": "c6bd0dbe7865c9f4"
+    },
+    {
+      "id": "royal_bastion",
+      "target": "public/assets/image2/fields/royal_bastion.png",
+      "provider": "openai-image2-codex-app",
+      "strictOpenai": true,
+      "sourcePath": "/Users/kangjunlee/.codex/generated_images/builtin-map-open-v4-20260520-222033-55673/royal_bastion.png",
+      "sourceSha16": "dcc1f1257f13e4b2",
+      "targetSha16": "1213c9baac22f141"
+    },
+    {
+      "id": "sunken_chapel",
+      "target": "public/assets/image2/fields/sunken_chapel.png",
+      "provider": "openai-image2-codex-app",
+      "strictOpenai": true,
+      "sourcePath": "/Users/kangjunlee/.codex/generated_images/builtin-map-open-v4-20260520-222033-55620/sunken_chapel.png",
+      "sourceSha16": "c24787b23973612e",
+      "targetSha16": "28edbbbe0a5938b0"
+    },
+    {
+      "id": "thorn_pass",
+      "target": "public/assets/image2/fields/thorn_pass.png",
+      "provider": "openai-image2-codex-app",
+      "strictOpenai": true,
+      "sourcePath": "/Users/kangjunlee/.codex/generated_images/builtin-map-open-v4-20260520-222033-55620/thorn_pass.png",
+      "sourceSha16": "3ffebb723ac608b0",
+      "targetSha16": "4c13d550e98a63f2"
+    },
+    {
+      "id": "town",
+      "target": "public/assets/image2/fields/town_hub.png",
+      "provider": "openai-image2-codex-app",
+      "strictOpenai": true,
+      "sourcePath": "/Users/kangjunlee/.codex/generated_images/builtin-map-open-v4-20260520-221437/town.png",
+      "sourceSha16": "bed65f23064ebbb0",
+      "targetSha16": "581dd18f683db8a0"
+    }
+  ]
+}

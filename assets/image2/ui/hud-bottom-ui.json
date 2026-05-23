@@ -1,0 +1,35 @@
+{
+  "id": "ui-hud-bottom-pack",
+  "kind": "ui-texture-pack",
+  "routeId": "ui",
+  "treeId": "hud",
+  "provider": "codex-account-built-in-image2",
+  "createdAt": "2026-05-19T00:00:00+09:00",
+  "targets": [
+    "hud-command-belt-panel.png",
+    "hud-command-belt-panel-alpha.png",
+    "hud-command-belt-integrated.png",
+    "hud-command-belt-integrated-alpha.png",
+    "hud-command-belt-integrated-tight.png",
+    "hud-action-slot.png",
+    "hud-potion-slot.png",
+    "hud-hp-orb.png",
+    "hud-hp-orb-alpha.png",
+    "hud-hp-orb-frame.png",
+    "hud-mp-orb.png",
+    "hud-mp-orb-alpha.png",
+    "hud-mp-orb-frame.png",
+    "hud-potion-hp-icon.png",
+    "hud-potion-mp-icon.png",
+    "hud-potion-antidote-icon.png",
+    "hud-potion-portal-icon.png"
+  ],
+  "style": "Bottom HUD texture pack matching the Image2 waypoint panel material language. No SVG.",
+  "ontology": {
+    "active": true,
+    "routeId": "ui",
+    "treeId": "hud",
+    "role": "bottom-hud",
+    "clause": "ONTOLOGY ACTIVE: bottom HUD must keep resources, skill actions, potion actions, and XP clear under combat pressure."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "source": "public/assets/ui/character-select-campfire-reference.png",
+  "crop": [
+    0,
+    0,
+    487,
+    365
+  ],
+  "frames": 8,
+  "frameSize": [
+    360,
+    270
+  ],
+  "flameBox": [
+    76,
+    17,
+    284,
+    244
+  ],
+  "embers": 36,
+  "mode": "photo-reference-ember-sprite"
+}

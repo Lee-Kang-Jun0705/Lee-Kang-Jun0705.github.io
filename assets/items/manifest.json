@@ -1,0 +1,1202 @@
+[
+  {
+    "key": "common-sword",
+    "rarity": "일반",
+    "family": "검"
+  },
+  {
+    "key": "common-axe",
+    "rarity": "일반",
+    "family": "도끼"
+  },
+  {
+    "key": "common-spear",
+    "rarity": "일반",
+    "family": "창"
+  },
+  {
+    "key": "common-bow",
+    "rarity": "일반",
+    "family": "활"
+  },
+  {
+    "key": "common-dagger",
+    "rarity": "일반",
+    "family": "단검"
+  },
+  {
+    "key": "common-staff",
+    "rarity": "일반",
+    "family": "지팡이"
+  },
+  {
+    "key": "common-greatsword",
+    "rarity": "일반",
+    "family": "대검"
+  },
+  {
+    "key": "common-mace",
+    "rarity": "일반",
+    "family": "철퇴"
+  },
+  {
+    "key": "common-crossbow",
+    "rarity": "일반",
+    "family": "석궁"
+  },
+  {
+    "key": "common-grimoire",
+    "rarity": "일반",
+    "family": "마법서"
+  },
+  {
+    "key": "common-scythe",
+    "rarity": "일반",
+    "family": "낫"
+  },
+  {
+    "key": "common-fist",
+    "rarity": "일반",
+    "family": "권갑"
+  },
+  {
+    "key": "common-helm",
+    "rarity": "일반",
+    "family": "투구"
+  },
+  {
+    "key": "common-armor",
+    "rarity": "일반",
+    "family": "갑옷"
+  },
+  {
+    "key": "common-gloves",
+    "rarity": "일반",
+    "family": "장갑"
+  },
+  {
+    "key": "common-boots",
+    "rarity": "일반",
+    "family": "장화"
+  },
+  {
+    "key": "common-shield",
+    "rarity": "일반",
+    "family": "방패"
+  },
+  {
+    "key": "common-cloak",
+    "rarity": "일반",
+    "family": "망토"
+  },
+  {
+    "key": "common-pauldrons",
+    "rarity": "일반",
+    "family": "어깨갑"
+  },
+  {
+    "key": "common-bracelet",
+    "rarity": "일반",
+    "family": "팔찌"
+  },
+  {
+    "key": "common-orb",
+    "rarity": "일반",
+    "family": "보주"
+  },
+  {
+    "key": "common-totem",
+    "rarity": "일반",
+    "family": "토템"
+  },
+  {
+    "key": "common-banner",
+    "rarity": "일반",
+    "family": "깃발"
+  },
+  {
+    "key": "common-seal",
+    "rarity": "일반",
+    "family": "인장"
+  },
+  {
+    "key": "common-ring",
+    "rarity": "일반",
+    "family": "반지"
+  },
+  {
+    "key": "common-amulet",
+    "rarity": "일반",
+    "family": "목걸이"
+  },
+  {
+    "key": "common-belt",
+    "rarity": "일반",
+    "family": "허리띠"
+  },
+  {
+    "key": "common-charm",
+    "rarity": "일반",
+    "family": "부적"
+  },
+  {
+    "key": "common-rune",
+    "rarity": "일반",
+    "family": "룬석"
+  },
+  {
+    "key": "common-relic",
+    "rarity": "일반",
+    "family": "성물"
+  },
+  {
+    "key": "fine-sword",
+    "rarity": "고급",
+    "family": "검"
+  },
+  {
+    "key": "fine-axe",
+    "rarity": "고급",
+    "family": "도끼"
+  },
+  {
+    "key": "fine-spear",
+    "rarity": "고급",
+    "family": "창"
+  },
+  {
+    "key": "fine-bow",
+    "rarity": "고급",
+    "family": "활"
+  },
+  {
+    "key": "fine-dagger",
+    "rarity": "고급",
+    "family": "단검"
+  },
+  {
+    "key": "fine-staff",
+    "rarity": "고급",
+    "family": "지팡이"
+  },
+  {
+    "key": "fine-greatsword",
+    "rarity": "고급",
+    "family": "대검"
+  },
+  {
+    "key": "fine-mace",
+    "rarity": "고급",
+    "family": "철퇴"
+  },
+  {
+    "key": "fine-crossbow",
+    "rarity": "고급",
+    "family": "석궁"
+  },
+  {
+    "key": "fine-grimoire",
+    "rarity": "고급",
+    "family": "마법서"
+  },
+  {
+    "key": "fine-scythe",
+    "rarity": "고급",
+    "family": "낫"
+  },
+  {
+    "key": "fine-fist",
+    "rarity": "고급",
+    "family": "권갑"
+  },
+  {
+    "key": "fine-helm",
+    "rarity": "고급",
+    "family": "투구"
+  },
+  {
+    "key": "fine-armor",
+    "rarity": "고급",
+    "family": "갑옷"
+  },
+  {
+    "key": "fine-gloves",
+    "rarity": "고급",
+    "family": "장갑"
+  },
+  {
+    "key": "fine-boots",
+    "rarity": "고급",
+    "family": "장화"
+  },
+  {
+    "key": "fine-shield",
+    "rarity": "고급",
+    "family": "방패"
+  },
+  {
+    "key": "fine-cloak",
+    "rarity": "고급",
+    "family": "망토"
+  },
+  {
+    "key": "fine-pauldrons",
+    "rarity": "고급",
+    "family": "어깨갑"
+  },
+  {
+    "key": "fine-bracelet",
+    "rarity": "고급",
+    "family": "팔찌"
+  },
+  {
+    "key": "fine-orb",
+    "rarity": "고급",
+    "family": "보주"
+  },
+  {
+    "key": "fine-totem",
+    "rarity": "고급",
+    "family": "토템"
+  },
+  {
+    "key": "fine-banner",
+    "rarity": "고급",
+    "family": "깃발"
+  },
+  {
+    "key": "fine-seal",
+    "rarity": "고급",
+    "family": "인장"
+  },
+  {
+    "key": "fine-ring",
+    "rarity": "고급",
+    "family": "반지"
+  },
+  {
+    "key": "fine-amulet",
+    "rarity": "고급",
+    "family": "목걸이"
+  },
+  {
+    "key": "fine-belt",
+    "rarity": "고급",
+    "family": "허리띠"
+  },
+  {
+    "key": "fine-charm",
+    "rarity": "고급",
+    "family": "부적"
+  },
+  {
+    "key": "fine-rune",
+    "rarity": "고급",
+    "family": "룬석"
+  },
+  {
+    "key": "fine-relic",
+    "rarity": "고급",
+    "family": "성물"
+  },
+  {
+    "key": "magic-sword",
+    "rarity": "마법",
+    "family": "검"
+  },
+  {
+    "key": "magic-axe",
+    "rarity": "마법",
+    "family": "도끼"
+  },
+  {
+    "key": "magic-spear",
+    "rarity": "마법",
+    "family": "창"
+  },
+  {
+    "key": "magic-bow",
+    "rarity": "마법",
+    "family": "활"
+  },
+  {
+    "key": "magic-dagger",
+    "rarity": "마법",
+    "family": "단검"
+  },
+  {
+    "key": "magic-staff",
+    "rarity": "마법",
+    "family": "지팡이"
+  },
+  {
+    "key": "magic-greatsword",
+    "rarity": "마법",
+    "family": "대검"
+  },
+  {
+    "key": "magic-mace",
+    "rarity": "마법",
+    "family": "철퇴"
+  },
+  {
+    "key": "magic-crossbow",
+    "rarity": "마법",
+    "family": "석궁"
+  },
+  {
+    "key": "magic-grimoire",
+    "rarity": "마법",
+    "family": "마법서"
+  },
+  {
+    "key": "magic-scythe",
+    "rarity": "마법",
+    "family": "낫"
+  },
+  {
+    "key": "magic-fist",
+    "rarity": "마법",
+    "family": "권갑"
+  },
+  {
+    "key": "magic-helm",
+    "rarity": "마법",
+    "family": "투구"
+  },
+  {
+    "key": "magic-armor",
+    "rarity": "마법",
+    "family": "갑옷"
+  },
+  {
+    "key": "magic-gloves",
+    "rarity": "마법",
+    "family": "장갑"
+  },
+  {
+    "key": "magic-boots",
+    "rarity": "마법",
+    "family": "장화"
+  },
+  {
+    "key": "magic-shield",
+    "rarity": "마법",
+    "family": "방패"
+  },
+  {
+    "key": "magic-cloak",
+    "rarity": "마법",
+    "family": "망토"
+  },
+  {
+    "key": "magic-pauldrons",
+    "rarity": "마법",
+    "family": "어깨갑"
+  },
+  {
+    "key": "magic-bracelet",
+    "rarity": "마법",
+    "family": "팔찌"
+  },
+  {
+    "key": "magic-orb",
+    "rarity": "마법",
+    "family": "보주"
+  },
+  {
+    "key": "magic-totem",
+    "rarity": "마법",
+    "family": "토템"
+  },
+  {
+    "key": "magic-banner",
+    "rarity": "마법",
+    "family": "깃발"
+  },
+  {
+    "key": "magic-seal",
+    "rarity": "마법",
+    "family": "인장"
+  },
+  {
+    "key": "magic-ring",
+    "rarity": "마법",
+    "family": "반지"
+  },
+  {
+    "key": "magic-amulet",
+    "rarity": "마법",
+    "family": "목걸이"
+  },
+  {
+    "key": "magic-belt",
+    "rarity": "마법",
+    "family": "허리띠"
+  },
+  {
+    "key": "magic-charm",
+    "rarity": "마법",
+    "family": "부적"
+  },
+  {
+    "key": "magic-rune",
+    "rarity": "마법",
+    "family": "룬석"
+  },
+  {
+    "key": "magic-relic",
+    "rarity": "마법",
+    "family": "성물"
+  },
+  {
+    "key": "rare-sword",
+    "rarity": "희귀",
+    "family": "검"
+  },
+  {
+    "key": "rare-axe",
+    "rarity": "희귀",
+    "family": "도끼"
+  },
+  {
+    "key": "rare-spear",
+    "rarity": "희귀",
+    "family": "창"
+  },
+  {
+    "key": "rare-bow",
+    "rarity": "희귀",
+    "family": "활"
+  },
+  {
+    "key": "rare-dagger",
+    "rarity": "희귀",
+    "family": "단검"
+  },
+  {
+    "key": "rare-staff",
+    "rarity": "희귀",
+    "family": "지팡이"
+  },
+  {
+    "key": "rare-greatsword",
+    "rarity": "희귀",
+    "family": "대검"
+  },
+  {
+    "key": "rare-mace",
+    "rarity": "희귀",
+    "family": "철퇴"
+  },
+  {
+    "key": "rare-crossbow",
+    "rarity": "희귀",
+    "family": "석궁"
+  },
+  {
+    "key": "rare-grimoire",
+    "rarity": "희귀",
+    "family": "마법서"
+  },
+  {
+    "key": "rare-scythe",
+    "rarity": "희귀",
+    "family": "낫"
+  },
+  {
+    "key": "rare-fist",
+    "rarity": "희귀",
+    "family": "권갑"
+  },
+  {
+    "key": "rare-helm",
+    "rarity": "희귀",
+    "family": "투구"
+  },
+  {
+    "key": "rare-armor",
+    "rarity": "희귀",
+    "family": "갑옷"
+  },
+  {
+    "key": "rare-gloves",
+    "rarity": "희귀",
+    "family": "장갑"
+  },
+  {
+    "key": "rare-boots",
+    "rarity": "희귀",
+    "family": "장화"
+  },
+  {
+    "key": "rare-shield",
+    "rarity": "희귀",
+    "family": "방패"
+  },
+  {
+    "key": "rare-cloak",
+    "rarity": "희귀",
+    "family": "망토"
+  },
+  {
+    "key": "rare-pauldrons",
+    "rarity": "희귀",
+    "family": "어깨갑"
+  },
+  {
+    "key": "rare-bracelet",
+    "rarity": "희귀",
+    "family": "팔찌"
+  },
+  {
+    "key": "rare-orb",
+    "rarity": "희귀",
+    "family": "보주"
+  },
+  {
+    "key": "rare-totem",
+    "rarity": "희귀",
+    "family": "토템"
+  },
+  {
+    "key": "rare-banner",
+    "rarity": "희귀",
+    "family": "깃발"
+  },
+  {
+    "key": "rare-seal",
+    "rarity": "희귀",
+    "family": "인장"
+  },
+  {
+    "key": "rare-ring",
+    "rarity": "희귀",
+    "family": "반지"
+  },
+  {
+    "key": "rare-amulet",
+    "rarity": "희귀",
+    "family": "목걸이"
+  },
+  {
+    "key": "rare-belt",
+    "rarity": "희귀",
+    "family": "허리띠"
+  },
+  {
+    "key": "rare-charm",
+    "rarity": "희귀",
+    "family": "부적"
+  },
+  {
+    "key": "rare-rune",
+    "rarity": "희귀",
+    "family": "룬석"
+  },
+  {
+    "key": "rare-relic",
+    "rarity": "희귀",
+    "family": "성물"
+  },
+  {
+    "key": "heroic-sword",
+    "rarity": "영웅",
+    "family": "검"
+  },
+  {
+    "key": "heroic-axe",
+    "rarity": "영웅",
+    "family": "도끼"
+  },
+  {
+    "key": "heroic-spear",
+    "rarity": "영웅",
+    "family": "창"
+  },
+  {
+    "key": "heroic-bow",
+    "rarity": "영웅",
+    "family": "활"
+  },
+  {
+    "key": "heroic-dagger",
+    "rarity": "영웅",
+    "family": "단검"
+  },
+  {
+    "key": "heroic-staff",
+    "rarity": "영웅",
+    "family": "지팡이"
+  },
+  {
+    "key": "heroic-greatsword",
+    "rarity": "영웅",
+    "family": "대검"
+  },
+  {
+    "key": "heroic-mace",
+    "rarity": "영웅",
+    "family": "철퇴"
+  },
+  {
+    "key": "heroic-crossbow",
+    "rarity": "영웅",
+    "family": "석궁"
+  },
+  {
+    "key": "heroic-grimoire",
+    "rarity": "영웅",
+    "family": "마법서"
+  },
+  {
+    "key": "heroic-scythe",
+    "rarity": "영웅",
+    "family": "낫"
+  },
+  {
+    "key": "heroic-fist",
+    "rarity": "영웅",
+    "family": "권갑"
+  },
+  {
+    "key": "heroic-helm",
+    "rarity": "영웅",
+    "family": "투구"
+  },
+  {
+    "key": "heroic-armor",
+    "rarity": "영웅",
+    "family": "갑옷"
+  },
+  {
+    "key": "heroic-gloves",
+    "rarity": "영웅",
+    "family": "장갑"
+  },
+  {
+    "key": "heroic-boots",
+    "rarity": "영웅",
+    "family": "장화"
+  },
+  {
+    "key": "heroic-shield",
+    "rarity": "영웅",
+    "family": "방패"
+  },
+  {
+    "key": "heroic-cloak",
+    "rarity": "영웅",
+    "family": "망토"
+  },
+  {
+    "key": "heroic-pauldrons",
+    "rarity": "영웅",
+    "family": "어깨갑"
+  },
+  {
+    "key": "heroic-bracelet",
+    "rarity": "영웅",
+    "family": "팔찌"
+  },
+  {
+    "key": "heroic-orb",
+    "rarity": "영웅",
+    "family": "보주"
+  },
+  {
+    "key": "heroic-totem",
+    "rarity": "영웅",
+    "family": "토템"
+  },
+  {
+    "key": "heroic-banner",
+    "rarity": "영웅",
+    "family": "깃발"
+  },
+  {
+    "key": "heroic-seal",
+    "rarity": "영웅",
+    "family": "인장"
+  },
+  {
+    "key": "heroic-ring",
+    "rarity": "영웅",
+    "family": "반지"
+  },
+  {
+    "key": "heroic-amulet",
+    "rarity": "영웅",
+    "family": "목걸이"
+  },
+  {
+    "key": "heroic-belt",
+    "rarity": "영웅",
+    "family": "허리띠"
+  },
+  {
+    "key": "heroic-charm",
+    "rarity": "영웅",
+    "family": "부적"
+  },
+  {
+    "key": "heroic-rune",
+    "rarity": "영웅",
+    "family": "룬석"
+  },
+  {
+    "key": "heroic-relic",
+    "rarity": "영웅",
+    "family": "성물"
+  },
+  {
+    "key": "legendary-sword",
+    "rarity": "전설",
+    "family": "검"
+  },
+  {
+    "key": "legendary-axe",
+    "rarity": "전설",
+    "family": "도끼"
+  },
+  {
+    "key": "legendary-spear",
+    "rarity": "전설",
+    "family": "창"
+  },
+  {
+    "key": "legendary-bow",
+    "rarity": "전설",
+    "family": "활"
+  },
+  {
+    "key": "legendary-dagger",
+    "rarity": "전설",
+    "family": "단검"
+  },
+  {
+    "key": "legendary-staff",
+    "rarity": "전설",
+    "family": "지팡이"
+  },
+  {
+    "key": "legendary-greatsword",
+    "rarity": "전설",
+    "family": "대검"
+  },
+  {
+    "key": "legendary-mace",
+    "rarity": "전설",
+    "family": "철퇴"
+  },
+  {
+    "key": "legendary-crossbow",
+    "rarity": "전설",
+    "family": "석궁"
+  },
+  {
+    "key": "legendary-grimoire",
+    "rarity": "전설",
+    "family": "마법서"
+  },
+  {
+    "key": "legendary-scythe",
+    "rarity": "전설",
+    "family": "낫"
+  },
+  {
+    "key": "legendary-fist",
+    "rarity": "전설",
+    "family": "권갑"
+  },
+  {
+    "key": "legendary-helm",
+    "rarity": "전설",
+    "family": "투구"
+  },
+  {
+    "key": "legendary-armor",
+    "rarity": "전설",
+    "family": "갑옷"
+  },
+  {
+    "key": "legendary-gloves",
+    "rarity": "전설",
+    "family": "장갑"
+  },
+  {
+    "key": "legendary-boots",
+    "rarity": "전설",
+    "family": "장화"
+  },
+  {
+    "key": "legendary-shield",
+    "rarity": "전설",
+    "family": "방패"
+  },
+  {
+    "key": "legendary-cloak",
+    "rarity": "전설",
+    "family": "망토"
+  },
+  {
+    "key": "legendary-pauldrons",
+    "rarity": "전설",
+    "family": "어깨갑"
+  },
+  {
+    "key": "legendary-bracelet",
+    "rarity": "전설",
+    "family": "팔찌"
+  },
+  {
+    "key": "legendary-orb",
+    "rarity": "전설",
+    "family": "보주"
+  },
+  {
+    "key": "legendary-totem",
+    "rarity": "전설",
+    "family": "토템"
+  },
+  {
+    "key": "legendary-banner",
+    "rarity": "전설",
+    "family": "깃발"
+  },
+  {
+    "key": "legendary-seal",
+    "rarity": "전설",
+    "family": "인장"
+  },
+  {
+    "key": "legendary-ring",
+    "rarity": "전설",
+    "family": "반지"
+  },
+  {
+    "key": "legendary-amulet",
+    "rarity": "전설",
+    "family": "목걸이"
+  },
+  {
+    "key": "legendary-belt",
+    "rarity": "전설",
+    "family": "허리띠"
+  },
+  {
+    "key": "legendary-charm",
+    "rarity": "전설",
+    "family": "부적"
+  },
+  {
+    "key": "legendary-rune",
+    "rarity": "전설",
+    "family": "룬석"
+  },
+  {
+    "key": "legendary-relic",
+    "rarity": "전설",
+    "family": "성물"
+  },
+  {
+    "key": "mythic-sword",
+    "rarity": "신화",
+    "family": "검"
+  },
+  {
+    "key": "mythic-axe",
+    "rarity": "신화",
+    "family": "도끼"
+  },
+  {
+    "key": "mythic-spear",
+    "rarity": "신화",
+    "family": "창"
+  },
+  {
+    "key": "mythic-bow",
+    "rarity": "신화",
+    "family": "활"
+  },
+  {
+    "key": "mythic-dagger",
+    "rarity": "신화",
+    "family": "단검"
+  },
+  {
+    "key": "mythic-staff",
+    "rarity": "신화",
+    "family": "지팡이"
+  },
+  {
+    "key": "mythic-greatsword",
+    "rarity": "신화",
+    "family": "대검"
+  },
+  {
+    "key": "mythic-mace",
+    "rarity": "신화",
+    "family": "철퇴"
+  },
+  {
+    "key": "mythic-crossbow",
+    "rarity": "신화",
+    "family": "석궁"
+  },
+  {
+    "key": "mythic-grimoire",
+    "rarity": "신화",
+    "family": "마법서"
+  },
+  {
+    "key": "mythic-scythe",
+    "rarity": "신화",
+    "family": "낫"
+  },
+  {
+    "key": "mythic-fist",
+    "rarity": "신화",
+    "family": "권갑"
+  },
+  {
+    "key": "mythic-helm",
+    "rarity": "신화",
+    "family": "투구"
+  },
+  {
+    "key": "mythic-armor",
+    "rarity": "신화",
+    "family": "갑옷"
+  },
+  {
+    "key": "mythic-gloves",
+    "rarity": "신화",
+    "family": "장갑"
+  },
+  {
+    "key": "mythic-boots",
+    "rarity": "신화",
+    "family": "장화"
+  },
+  {
+    "key": "mythic-shield",
+    "rarity": "신화",
+    "family": "방패"
+  },
+  {
+    "key": "mythic-cloak",
+    "rarity": "신화",
+    "family": "망토"
+  },
+  {
+    "key": "mythic-pauldrons",
+    "rarity": "신화",
+    "family": "어깨갑"
+  },
+  {
+    "key": "mythic-bracelet",
+    "rarity": "신화",
+    "family": "팔찌"
+  },
+  {
+    "key": "mythic-orb",
+    "rarity": "신화",
+    "family": "보주"
+  },
+  {
+    "key": "mythic-totem",
+    "rarity": "신화",
+    "family": "토템"
+  },
+  {
+    "key": "mythic-banner",
+    "rarity": "신화",
+    "family": "깃발"
+  },
+  {
+    "key": "mythic-seal",
+    "rarity": "신화",
+    "family": "인장"
+  },
+  {
+    "key": "mythic-ring",
+    "rarity": "신화",
+    "family": "반지"
+  },
+  {
+    "key": "mythic-amulet",
+    "rarity": "신화",
+    "family": "목걸이"
+  },
+  {
+    "key": "mythic-belt",
+    "rarity": "신화",
+    "family": "허리띠"
+  },
+  {
+    "key": "mythic-charm",
+    "rarity": "신화",
+    "family": "부적"
+  },
+  {
+    "key": "mythic-rune",
+    "rarity": "신화",
+    "family": "룬석"
+  },
+  {
+    "key": "mythic-relic",
+    "rarity": "신화",
+    "family": "성물"
+  },
+  {
+    "key": "primordial-sword",
+    "rarity": "태초",
+    "family": "검"
+  },
+  {
+    "key": "primordial-axe",
+    "rarity": "태초",
+    "family": "도끼"
+  },
+  {
+    "key": "primordial-spear",
+    "rarity": "태초",
+    "family": "창"
+  },
+  {
+    "key": "primordial-bow",
+    "rarity": "태초",
+    "family": "활"
+  },
+  {
+    "key": "primordial-dagger",
+    "rarity": "태초",
+    "family": "단검"
+  },
+  {
+    "key": "primordial-staff",
+    "rarity": "태초",
+    "family": "지팡이"
+  },
+  {
+    "key": "primordial-greatsword",
+    "rarity": "태초",
+    "family": "대검"
+  },
+  {
+    "key": "primordial-mace",
+    "rarity": "태초",
+    "family": "철퇴"
+  },
+  {
+    "key": "primordial-crossbow",
+    "rarity": "태초",
+    "family": "석궁"
+  },
+  {
+    "key": "primordial-grimoire",
+    "rarity": "태초",
+    "family": "마법서"
+  },
+  {
+    "key": "primordial-scythe",
+    "rarity": "태초",
+    "family": "낫"
+  },
+  {
+    "key": "primordial-fist",
+    "rarity": "태초",
+    "family": "권갑"
+  },
+  {
+    "key": "primordial-helm",
+    "rarity": "태초",
+    "family": "투구"
+  },
+  {
+    "key": "primordial-armor",
+    "rarity": "태초",
+    "family": "갑옷"
+  },
+  {
+    "key": "primordial-gloves",
+    "rarity": "태초",
+    "family": "장갑"
+  },
+  {
+    "key": "primordial-boots",
+    "rarity": "태초",
+    "family": "장화"
+  },
+  {
+    "key": "primordial-shield",
+    "rarity": "태초",
+    "family": "방패"
+  },
+  {
+    "key": "primordial-cloak",
+    "rarity": "태초",
+    "family": "망토"
+  },
+  {
+    "key": "primordial-pauldrons",
+    "rarity": "태초",
+    "family": "어깨갑"
+  },
+  {
+    "key": "primordial-bracelet",
+    "rarity": "태초",
+    "family": "팔찌"
+  },
+  {
+    "key": "primordial-orb",
+    "rarity": "태초",
+    "family": "보주"
+  },
+  {
+    "key": "primordial-totem",
+    "rarity": "태초",
+    "family": "토템"
+  },
+  {
+    "key": "primordial-banner",
+    "rarity": "태초",
+    "family": "깃발"
+  },
+  {
+    "key": "primordial-seal",
+    "rarity": "태초",
+    "family": "인장"
+  },
+  {
+    "key": "primordial-ring",
+    "rarity": "태초",
+    "family": "반지"
+  },
+  {
+    "key": "primordial-amulet",
+    "rarity": "태초",
+    "family": "목걸이"
+  },
+  {
+    "key": "primordial-belt",
+    "rarity": "태초",
+    "family": "허리띠"
+  },
+  {
+    "key": "primordial-charm",
+    "rarity": "태초",
+    "family": "부적"
+  },
+  {
+    "key": "primordial-rune",
+    "rarity": "태초",
+    "family": "룬석"
+  },
+  {
+    "key": "primordial-relic",
+    "rarity": "태초",
+    "family": "성물"
+  }
+]

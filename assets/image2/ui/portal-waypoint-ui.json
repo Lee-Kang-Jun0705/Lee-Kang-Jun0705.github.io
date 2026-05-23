@@ -1,0 +1,41 @@
+{
+  "id": "ui-portal-waypoint-menu",
+  "kind": "ui-texture-pack",
+  "routeId": "ui",
+  "treeId": "portal",
+  "provider": "codex-account-built-in-image2",
+  "createdAt": "2026-05-19T00:00:00+09:00",
+  "targets": [
+    "portal-waypoint-panel.png",
+    "portal-waypoint-row.png",
+    "portal-waypoint-selected.png"
+  ],
+  "runtimeSizes": {
+    "panel": "768x1024",
+    "row": "768x104",
+    "selected": "768x104"
+  },
+  "source": "Generated with GPT-5.5 Codex account built-in Image2 via scripts/generate_skill_image2_assets.py --kind ui.",
+  "runReport": "artifacts/skill-image2/codex-account-runs/latest-run.json",
+  "style": "Diablo-like dark fantasy waypoint selector: carved stone, blackened iron, tarnished brass, restrained portal-blue accent. No SVG.",
+  "ontology": {
+    "active": true,
+    "routeId": "ui",
+    "treeId": "portal",
+    "role": "waypoint",
+    "clause": "ONTOLOGY ACTIVE: waypoint UI must read as a crown-gate portal decision surface, preserving dark fantasy material logic and fast destination selection."
+  },
+  "negative_prompt": [
+    "SVG",
+    "flat vector",
+    "cyan glass panel",
+    "CSS gradient look",
+    "embedded text",
+    "watermark"
+  ],
+  "acceptance": [
+    "PNG bitmap assets only.",
+    "No embedded text.",
+    "Visual language matches inventory and skill panels."
+  ]
+}
