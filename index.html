@@ -11,13 +11,69 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon-180.png" />
     <title>DiabloStory ARPG</title>
-    <script type="module" crossorigin src="/assets/index-BGl6qjaS.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-DtkOBVTI.css">
+    <style>
+      html,body{margin:0;padding:0;background:#1a0d12;color:#f0d8b0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;}
+      #boot-loading{position:fixed;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;background:radial-gradient(ellipse at center,#2a1218 0%,#0a0508 80%);z-index:9999;transition:opacity .45s ease;}
+      #boot-loading[data-done="true"]{opacity:0;pointer-events:none;}
+      #boot-loading .title{font-size:clamp(20px,4vw,32px);letter-spacing:.3em;font-weight:700;color:#e6c98c;text-shadow:0 0 18px rgba(230,180,90,.45);margin-bottom:28px;}
+      #boot-loading .bar-wrap{width:min(70vw,360px);height:8px;background:rgba(60,30,20,.6);border:1px solid rgba(200,150,80,.35);border-radius:6px;overflow:hidden;box-shadow:inset 0 0 8px rgba(0,0,0,.6);}
+      #boot-loading .bar-fill{height:100%;width:0%;background:linear-gradient(90deg,#c89060,#e6c98c,#fbe6a4);box-shadow:0 0 10px rgba(230,180,90,.6);transition:width .25s ease;}
+      #boot-loading .pct{margin-top:14px;font-size:14px;letter-spacing:.18em;color:rgba(230,200,140,.85);font-variant-numeric:tabular-nums;}
+      #boot-loading .status{margin-top:6px;font-size:12px;letter-spacing:.1em;color:rgba(230,200,140,.55);}
+    </style>
+    <script type="module" crossorigin src="/assets/index-BB6eC2TK.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/data-skills-C5RB5X9P.js">
+    <link rel="modulepreload" crossorigin href="/assets/data-candidates-kHKZnu23.js">
+    <link rel="modulepreload" crossorigin href="/assets/data-misc-CVG990rS.js">
+    <link rel="modulepreload" crossorigin href="/assets/data-narratives-Cb86Q2uY.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-ET_4eCm4.css">
   <link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script></head>
   <body>
+    <div id="boot-loading" role="status" aria-live="polite">
+      <div class="title">DIABLO STORY</div>
+      <div class="bar-wrap"><div class="bar-fill" id="boot-bar"></div></div>
+      <div class="pct" id="boot-pct">0%</div>
+      <div class="status" id="boot-status">초기화중...</div>
+    </div>
     <div id="app">
       <div id="game"></div>
       <aside id="hud" aria-live="polite"></aside>
     </div>
+    <script>
+      // 부트 진행률 추적 — 마일스톤 + smooth interpolation
+      (function(){
+        var bar=document.getElementById('boot-bar'),pct=document.getElementById('boot-pct'),st=document.getElementById('boot-status'),root=document.getElementById('boot-loading');
+        var target=5,current=0,raf=null;
+        function tick(){
+          if(!bar)return;
+          current+=(target-current)*0.18;
+          if(target-current<0.2)current=target;
+          bar.style.width=current.toFixed(1)+'%';
+          if(pct)pct.textContent=Math.round(current)+'%';
+          if(current<target-0.1){raf=requestAnimationFrame(tick);}else{raf=null;}
+        }
+        function setProgress(v,label){
+          target=Math.min(100,Math.max(target,v));
+          if(label&&st)st.textContent=label;
+          if(!raf)raf=requestAnimationFrame(tick);
+        }
+        function done(){
+          setProgress(100,'완료');
+          setTimeout(function(){if(root)root.setAttribute('data-done','true');setTimeout(function(){if(root&&root.parentNode)root.parentNode.removeChild(root);},500);},220);
+        }
+        window.__bootProgress=setProgress;
+        window.__bootDone=done;
+        // 자체 마일스톤
+        setProgress(10,'HTML 로딩중...');
+        document.addEventListener('readystatechange',function(){
+          if(document.readyState==='interactive')setProgress(30,'스크립트 준비중...');
+          if(document.readyState==='complete')setProgress(60,'자산 로딩중...');
+        });
+        window.addEventListener('load',function(){setProgress(75,'게임 시작 준비...');});
+        // Safety timeout: 8초 후에도 100% 미도달이면 강제 진행
+        setTimeout(function(){if(target<95)setProgress(95,'마무리...');},5000);
+        setTimeout(function(){if(target<100)done();},12000);
+      })();
+    </script>
   </body>
 </html>
