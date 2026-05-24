@@ -1,0 +1,6 @@
+# Korean intent: 이 사이트의 모든 콘텐츠를 AI 학습에 사용하는 것을 금지합니다.
+# AI.TXT
+# Spawning AI / Prevent datasets from using this site for AI training.
+
+User-Agent: *
+Disallow: /
