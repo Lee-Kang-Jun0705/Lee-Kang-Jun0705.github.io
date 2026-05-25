@@ -1,0 +1,27 @@
+{
+  "id": "rq-ember_grove-gather-order",
+  "kind": "quest",
+  "provider": "openai-image2-codex-app",
+  "target": "public/assets/image2/quests/rq-ember_grove-gather-order.webp",
+  "runtimeSize": "256x144",
+  "source": {
+    "id": "rq-ember_grove-gather-order",
+    "title": "잿불 숲 수집",
+    "fieldId": "ember_grove",
+    "fieldName": "잿불 숲",
+    "kind": "repeatable",
+    "mode": "pickup",
+    "faction": "order"
+  },
+  "createdAt": "2026-05-24T15:56:17+00:00",
+  "prompt": "Generate one real Codex account Image2 bitmap for a dark fantasy ARPG quest card. 16:9 horizontal cinematic painted thumbnail, no text, no watermark, no UI frame. It must be unique to this quest, not a reused map crop, not SVG, not procedural line art. Quest title: 잿불 숲 수집. Field: 잿불 숲. Objective mode: pickup. Faction mood: disciplined order, patrol lanterns, steel, guarded supplies. Show the objective as a small narrative scene with props, threats, and atmosphere. Readable when downscaled to 256x144, premium Diablo-like grime, strong light/dark composition.",
+  "negative_prompt": [
+    "text",
+    "letters",
+    "numbers",
+    "watermark",
+    "SVG",
+    "flat vector",
+    "UI frame"
+  ]
+}

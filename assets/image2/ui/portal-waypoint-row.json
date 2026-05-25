@@ -6,17 +6,17 @@
   "role": "button",
   "provider": "codex-account-built-in-image2",
   "target": "public/assets/image2/ui/portal-waypoint-row.png",
-  "createdAt": "2026-05-19T00:00:00+09:00",
+  "createdAt": "2026-05-24T17:40:00+09:00",
   "runtimeSize": "768x104",
-  "style": "Premium Diablo-like dark fantasy waypoint row bitmap texture. Dark stone strip, aged brass edge, low contrast center. No SVG.",
+  "style": "Obsidian relic destination row bitmap texture. Dark gunmetal, blackened silver bevel, smoky center, no Diablo-like waypoint strip. No SVG.",
   "ontology": {
     "active": true,
     "routeId": "ui",
     "treeId": "portal",
     "role": "button",
-    "clause": "ONTOLOGY ACTIVE: waypoint row must keep destination labels readable while matching carved gothic portal materials."
+    "clause": "ONTOLOGY ACTIVE: rift ledger row must keep destination labels readable while matching Black Contract obsidian relic materials."
   },
-  "prompt": "Create one long horizontal bitmap UI texture for an unselected waypoint destination row in a Diablo-like dark fantasy ARPG. Fill the entire canvas edge-to-edge with dark game UI material; absolutely no white canvas, no white border, no white padding, no paper background, no empty outside margin. Dark carved stone strip, black iron bevel, thin tarnished brass edge, quiet worn texture, shallow inset center for overlay text. Keep the middle low contrast and readable. No embedded text, no letters, no numbers, no icons, no arrows, no characters, no watermark. Avoid cyan modern UI, flat vector, SVG look, CSS gradient look, plastic shine, cartoon UI, bokeh, lens flare, white diagonal shine. Opaque PNG, production game UI strip.",
+  "prompt": "Thin horizontal premium dark fantasy UI row texture for an ARPG destination list, obsidian relic nameplate, dark gunmetal, blackened silver bevel, faint smoky texture, carved edge highlights, restrained antique silver trim, tiny empty gem sockets integrated into corners, center must be very dark and readable for Korean HTML overlay text. No text, no letters, no numbers, no icons, no arrows, no characters, no watermark, no gothic arch, no brown leather, no Diablo-like stone strip, no bright gold frame. Opaque production bitmap row asset, not a screenshot.",
   "negative_prompt": [
     "text",
     "letters",
@@ -27,6 +27,10 @@
     "white canvas",
     "white padding",
     "white outside margin",
+    "Diablo-like waypoint",
+    "gothic arch",
+    "brown leather",
+    "bright gold frame",
     "SVG",
     "flat vector",
     "CSS gradient",
@@ -36,6 +40,6 @@
   "acceptance": [
     "Long horizontal row texture suitable under HTML text.",
     "No text, icon, arrow, character, or watermark is embedded.",
-    "Visual language matches the waypoint panel."
+    "Visual language matches the rift ledger panel."
   ]
 }

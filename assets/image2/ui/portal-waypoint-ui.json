@@ -4,7 +4,7 @@
   "routeId": "ui",
   "treeId": "portal",
   "provider": "codex-account-built-in-image2",
-  "createdAt": "2026-05-19T00:00:00+09:00",
+  "createdAt": "2026-05-24T17:40:00+09:00",
   "targets": [
     "portal-waypoint-panel.png",
     "portal-waypoint-row.png",
@@ -15,19 +15,23 @@
     "row": "768x104",
     "selected": "768x104"
   },
-  "source": "Generated with GPT-5.5 Codex account built-in Image2 via scripts/generate_skill_image2_assets.py --kind ui.",
-  "runReport": "artifacts/skill-image2/codex-account-runs/latest-run.json",
-  "style": "Diablo-like dark fantasy waypoint selector: carved stone, blackened iron, tarnished brass, restrained portal-blue accent. No SVG.",
+  "source": "Generated with account-linked Image2/Nano Banana Pro, then normalized to runtime PNG/WebP sizes.",
+  "runReport": "artifacts/image2/waypoint-relic/",
+  "style": "Obsidian relic rift ledger selector: blackened silver, cold moonlit rim light, muted crimson contract cracks, no waypoint wording, no gothic arch. No SVG.",
   "ontology": {
     "active": true,
     "routeId": "ui",
     "treeId": "portal",
-    "role": "waypoint",
-    "clause": "ONTOLOGY ACTIVE: waypoint UI must read as a crown-gate portal decision surface, preserving dark fantasy material logic and fast destination selection."
+    "role": "rift-ledger",
+    "clause": "ONTOLOGY ACTIVE: rift ledger UI must read as a Black Contract transit surface, preserving dark fantasy material logic and fast destination selection without Diablo-like waypoint cues."
   },
   "negative_prompt": [
     "SVG",
     "flat vector",
+    "Diablo-like waypoint",
+    "gothic arch",
+    "brown leather",
+    "bright gold frame",
     "cyan glass panel",
     "CSS gradient look",
     "embedded text",
