@@ -1,0 +1,21 @@
+{
+  "id": "ui-hud-potion-portal-icon",
+  "kind": "ui",
+  "routeId": "ui",
+  "treeId": "hud",
+  "role": "potion-icon",
+  "provider": "codex-account-built-in-image2",
+  "target": "public/assets/image2/ui/hud-potion-portal-icon.png",
+  "runtimeSize": "128x128",
+  "style": "Small amber town portal vial icon matching dark fantasy Image2 HUD materials. Matte black background.",
+  "ontology": {
+    "active": true,
+    "routeId": "ui",
+    "treeId": "hud",
+    "role": "portal-potion",
+    "clause": "ONTOLOGY ACTIVE: potion icons must stay readable as quick actions and match the bottom HUD material language."
+  },
+  "prompt": "Create one small amber gold town portal potion vial icon for a Diablo-like dark fantasy ARPG HUD. Tarnished brass cap, blackened iron accents, warm amber glass liquid, compact high readability. Matte black background, centered icon fills about 72% of canvas. No text, no number, no frame, no character, no watermark, no SVG, no flat vector.",
+  "negative_prompt": ["text", "number", "frame", "character", "watermark", "SVG", "flat vector", "white background"],
+  "acceptance": ["Amber potion vial icon on matte black background.", "No text or number.", "Matches dark fantasy HUD material."]
+}
