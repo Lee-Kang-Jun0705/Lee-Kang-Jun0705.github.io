@@ -1,0 +1,42 @@
+{
+  "id": "ui-portal-waypoint-selected",
+  "kind": "ui",
+  "routeId": "ui",
+  "treeId": "portal",
+  "role": "selected-button",
+  "provider": "codex-account-built-in-image2",
+  "target": "public/assets/image2/ui/portal-waypoint-selected.png",
+  "createdAt": "2026-05-24T17:40:00+09:00",
+  "runtimeSize": "768x104",
+  "style": "Activated obsidian relic destination row bitmap texture. Muted ruby crack glow, blackened silver trim, no Diablo-like selected waypoint. No SVG.",
+  "ontology": {
+    "active": true,
+    "routeId": "ui",
+    "treeId": "portal",
+    "role": "selected-button",
+    "clause": "ONTOLOGY ACTIVE: selected rift ledger row must feel activated by contract ember light without becoming a modern cyan or Diablo-like button."
+  },
+  "prompt": "Selected active horizontal premium dark fantasy UI row texture for an ARPG destination list, activated obsidian relic nameplate, blackened silver trim, thin inner crimson ember line, muted ruby crack glow, soft bloom only along edges, luminous engraved contract geometry, center still dark and readable for Korean HTML overlay text. No text, no letters, no numbers, no icons, no arrows, no characters, no watermark, no gothic arch, no brown leather, no Diablo-like stone strip, no bright gold button. Opaque production bitmap selected row asset, not a screenshot.",
+  "negative_prompt": [
+    "text",
+    "letters",
+    "numbers",
+    "icons",
+    "arrows",
+    "watermark",
+    "Diablo-like waypoint",
+    "gothic arch",
+    "brown leather",
+    "bright gold button",
+    "SVG",
+    "flat vector",
+    "CSS gradient",
+    "cyan modern button",
+    "white diagonal shine"
+  ],
+  "acceptance": [
+    "Selected row reads as activated by muted contract ember light.",
+    "No text, icon, arrow, character, or watermark is embedded.",
+    "Visual language matches the rift ledger panel."
+  ]
+}

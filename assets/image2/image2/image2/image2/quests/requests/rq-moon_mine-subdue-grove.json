@@ -1,0 +1,27 @@
+{
+  "id": "rq-moon_mine-subdue-grove",
+  "kind": "quest",
+  "provider": "openai-image2-codex-app",
+  "target": "public/assets/image2/quests/rq-moon_mine-subdue-grove.webp",
+  "runtimeSize": "256x144",
+  "source": {
+    "id": "rq-moon_mine-subdue-grove",
+    "title": "달빛 광산 토벌",
+    "fieldId": "moon_mine",
+    "fieldName": "달빛 광산",
+    "kind": "repeatable",
+    "mode": "boss",
+    "faction": "grove"
+  },
+  "createdAt": "2026-05-24T15:56:17+00:00",
+  "prompt": "Generate one real Codex account Image2 bitmap for a dark fantasy ARPG quest card. 16:9 horizontal cinematic painted thumbnail, no text, no watermark, no UI frame. It must be unique to this quest, not a reused map crop, not SVG, not procedural line art. Quest title: 달빛 광산 토벌. Field: 달빛 광산. Objective mode: boss.  Show the objective as a small narrative scene with props, threats, and atmosphere. Readable when downscaled to 256x144, premium Diablo-like grime, strong light/dark composition.",
+  "negative_prompt": [
+    "text",
+    "letters",
+    "numbers",
+    "watermark",
+    "SVG",
+    "flat vector",
+    "UI frame"
+  ]
+}
