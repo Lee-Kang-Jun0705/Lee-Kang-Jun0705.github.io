@@ -1,0 +1,39 @@
+{
+  "id": "ui-hud-command-belt-panel",
+  "kind": "ui",
+  "routeId": "ui",
+  "treeId": "hud",
+  "role": "command-belt",
+  "provider": "codex-account-built-in-image2",
+  "target": "public/assets/image2/ui/hud-command-belt-panel.png",
+  "createdAt": "2026-05-19T00:00:00+09:00",
+  "runtimeSize": "1536x256",
+  "style": "Premium Diablo-like bottom command belt bitmap texture. Black stone, aged iron, tarnished brass, waypoint-panel material language. No SVG.",
+  "ontology": {
+    "active": true,
+    "routeId": "ui",
+    "treeId": "hud",
+    "role": "command-belt",
+    "clause": "ONTOLOGY ACTIVE: bottom HUD must keep HP/MP, combat skills, potions, and XP readable while matching the crown-gate dark fantasy interface."
+  },
+  "prompt": "Create one wide horizontal bitmap UI texture for the bottom command belt of a Diablo-like dark fantasy ARPG. Use the same premium material language as a gothic waypoint panel: carved black stone, blackened iron rails, tarnished brass inlay, compact ornate corners, worn scratches, mature and restrained. The center must have a long dark inset area for HTML skill and potion slots, with a thin top experience rail area. No embedded text, no letters, no numbers, no icons, no characters, no HP or MP orbs, no item slots drawn as separate icons, no watermark. Fill the full canvas edge-to-edge with dark game UI material. Avoid cyan modern glass, flat vector, SVG look, CSS gradient look, plastic shine, bokeh, lens flare, white diagonal shine, beige paper UI. Opaque PNG, production game UI material, not a screenshot.",
+  "negative_prompt": [
+    "text",
+    "letters",
+    "numbers",
+    "icons",
+    "characters",
+    "HP orb",
+    "MP orb",
+    "watermark",
+    "SVG",
+    "flat vector",
+    "white canvas",
+    "cyan modern glass"
+  ],
+  "acceptance": [
+    "Wide bottom command belt texture with no embedded text or icons.",
+    "Edge-to-edge dark fantasy material with no white margin.",
+    "Matches the waypoint panel material language."
+  ]
+}

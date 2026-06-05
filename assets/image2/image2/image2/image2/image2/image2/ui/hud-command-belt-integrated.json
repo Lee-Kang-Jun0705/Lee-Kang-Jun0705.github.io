@@ -1,0 +1,41 @@
+{
+  "id": "ui-hud-command-belt-integrated",
+  "kind": "ui",
+  "routeId": "ui",
+  "treeId": "hud",
+  "role": "integrated-command-belt",
+  "provider": "codex-account-built-in-image2",
+  "target": "public/assets/image2/ui/hud-command-belt-integrated.png",
+  "createdAt": "2026-05-19T00:00:00+09:00",
+  "runtimeSize": "1536x256",
+  "style": "One-piece Diablo-like bottom command belt with carved-in recessed wells for skills and potions. No SVG.",
+  "ontology": {
+    "active": true,
+    "routeId": "ui",
+    "treeId": "hud",
+    "role": "integrated-command-belt",
+    "clause": "ONTOLOGY ACTIVE: bottom HUD must integrate quick skills, potions, XP, and resource orbs into one readable combat interface."
+  },
+  "prompt": "Create one wide horizontal bitmap UI texture for the bottom command belt of a Diablo-like dark fantasy ARPG. It must be a single integrated metal-and-stone belt, not separate floating slot frames. Material: black carved stone, blackened iron, tarnished brass inlay, worn scratches, premium gothic waypoint-panel language. Layout: a thin top recessed experience rail across the center; below it, exactly nine empty carved-in recessed wells integrated into the belt material: one wider primary attack well on the left, four equal combat skill wells in the middle, and four smaller potion wells on the right with a subtle vertical brass separator before the potion group. The wells must be empty dark centers ready for HTML icons and text overlays. No embedded text, no letters, no numbers, no icons, no potions, no skill art, no characters, no HP or MP orbs, no watermark. Fill the useful belt edge-to-edge with dark UI material, pure black outside empty margins are acceptable for alpha cleanup. Avoid separate square cards, floating frames, cyan glass, flat vector, SVG look, CSS gradient look, plastic shine, white canvas, beige paper UI.",
+  "negative_prompt": [
+    "text",
+    "letters",
+    "numbers",
+    "icons",
+    "potions",
+    "skill art",
+    "characters",
+    "HP orb",
+    "MP orb",
+    "watermark",
+    "SVG",
+    "flat vector",
+    "floating slot cards",
+    "white canvas"
+  ],
+  "acceptance": [
+    "One-piece command belt, not separate slot card art.",
+    "Exactly nine empty recessed wells: one primary, four skills, four potions.",
+    "No embedded text, icons, potions, characters, or watermark."
+  ]
+}

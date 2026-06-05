@@ -1,0 +1,81 @@
+{
+  "provider": "openai-image2-codex-app",
+  "mode": "real-image2-import",
+  "runtimeSize": "256x144",
+  "importedAt": "2026-05-24T16:09:32+00:00",
+  "actualImage2Count": 10,
+  "actualImage2Ids": [
+    "cq-guardian-1-1",
+    "q-border-oath",
+    "q-fen-antidote",
+    "q-moon-ore",
+    "q-royal-writ",
+    "rq-ember_grove-gather-abyss",
+    "rq-ember_grove-gather-order",
+    "rq-ember_grove-hunt-abyss",
+    "rq-ember_grove-hunt-order",
+    "q-ash-road"
+  ],
+  "sources": [
+    {
+      "id": "cq-guardian-1-1",
+      "source": "/Users/kangjunlee/Desktop/diablo2_codex app/tmp/quest-image2-real/cq-guardian-1-1.png",
+      "target": "/Users/kangjunlee/Desktop/diablo2_codex app/public/assets/image2/quests/cq-guardian-1-1.webp",
+      "bytes": 12306
+    },
+    {
+      "id": "q-border-oath",
+      "source": "/Users/kangjunlee/Desktop/diablo2_codex app/tmp/quest-image2-real/q-border-oath.png",
+      "target": "/Users/kangjunlee/Desktop/diablo2_codex app/public/assets/image2/quests/q-border-oath.webp",
+      "bytes": 12154
+    },
+    {
+      "id": "q-fen-antidote",
+      "source": "/Users/kangjunlee/Desktop/diablo2_codex app/tmp/quest-image2-real/q-fen-antidote.png",
+      "target": "/Users/kangjunlee/Desktop/diablo2_codex app/public/assets/image2/quests/q-fen-antidote.webp",
+      "bytes": 14194
+    },
+    {
+      "id": "q-moon-ore",
+      "source": "/Users/kangjunlee/Desktop/diablo2_codex app/tmp/quest-image2-real/q-moon-ore.png",
+      "target": "/Users/kangjunlee/Desktop/diablo2_codex app/public/assets/image2/quests/q-moon-ore.webp",
+      "bytes": 11754
+    },
+    {
+      "id": "q-royal-writ",
+      "source": "/Users/kangjunlee/Desktop/diablo2_codex app/tmp/quest-image2-real/q-royal-writ.png",
+      "target": "/Users/kangjunlee/Desktop/diablo2_codex app/public/assets/image2/quests/q-royal-writ.webp",
+      "bytes": 12152
+    },
+    {
+      "id": "rq-ember_grove-gather-abyss",
+      "source": "/Users/kangjunlee/Desktop/diablo2_codex app/tmp/quest-image2-real/rq-ember_grove-gather-abyss.png",
+      "target": "/Users/kangjunlee/Desktop/diablo2_codex app/public/assets/image2/quests/rq-ember_grove-gather-abyss.webp",
+      "bytes": 12786
+    },
+    {
+      "id": "rq-ember_grove-gather-order",
+      "source": "/Users/kangjunlee/Desktop/diablo2_codex app/tmp/quest-image2-real/rq-ember_grove-gather-order.png",
+      "target": "/Users/kangjunlee/Desktop/diablo2_codex app/public/assets/image2/quests/rq-ember_grove-gather-order.webp",
+      "bytes": 15188
+    },
+    {
+      "id": "rq-ember_grove-hunt-abyss",
+      "source": "/Users/kangjunlee/Desktop/diablo2_codex app/tmp/quest-image2-real/rq-ember_grove-hunt-abyss.png",
+      "target": "/Users/kangjunlee/Desktop/diablo2_codex app/public/assets/image2/quests/rq-ember_grove-hunt-abyss.webp",
+      "bytes": 14618
+    },
+    {
+      "id": "rq-ember_grove-hunt-order",
+      "source": "/Users/kangjunlee/Desktop/diablo2_codex app/tmp/quest-image2-real/rq-ember_grove-hunt-order.png",
+      "target": "/Users/kangjunlee/Desktop/diablo2_codex app/public/assets/image2/quests/rq-ember_grove-hunt-order.webp",
+      "bytes": 12774
+    },
+    {
+      "id": "q-ash-road",
+      "source": "/Users/kangjunlee/Desktop/diablo2_codex app/tmp/quest-image2-real-test/q-ash-road.png",
+      "target": "/Users/kangjunlee/Desktop/diablo2_codex app/public/assets/image2/quests/q-ash-road.webp",
+      "bytes": 10768
+    }
+  ]
+}

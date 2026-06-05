@@ -1,0 +1,26 @@
+{
+  "id": "cq-guardian-3-2",
+  "kind": "quest",
+  "provider": "openai-image2-codex-app",
+  "target": "public/assets/image2/quests/cq-guardian-3-2.webp",
+  "runtimeSize": "256x144",
+  "source": {
+    "id": "cq-guardian-3-2",
+    "title": "양쪽으로부터",
+    "fieldId": "crown_gate",
+    "fieldName": "왕관 관문",
+    "kind": "story-guardian",
+    "mode": "defend"
+  },
+  "createdAt": "2026-05-24T15:56:17+00:00",
+  "prompt": "Generate one real Codex account Image2 bitmap for a dark fantasy ARPG quest card. 16:9 horizontal cinematic painted thumbnail, no text, no watermark, no UI frame. It must be unique to this quest, not a reused map crop, not SVG, not procedural line art. Quest title: 양쪽으로부터. Field: 왕관 관문. Objective mode: defend.  Show the objective as a small narrative scene with props, threats, and atmosphere. Readable when downscaled to 256x144, premium Diablo-like grime, strong light/dark composition.",
+  "negative_prompt": [
+    "text",
+    "letters",
+    "numbers",
+    "watermark",
+    "SVG",
+    "flat vector",
+    "UI frame"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "ui-start-primary-blue-button",
+  "kind": "ui",
+  "routeId": "ui",
+  "treeId": "start-screen",
+  "role": "primary-button",
+  "provider": "codex-account-built-in-image2",
+  "target": "public/assets/image2/ui/start-primary-blue-button.png",
+  "createdAt": "2026-05-20T21:32:00+09:00",
+  "runtimeSize": "768x118",
+  "style": "Original blue soulfire dark fantasy primary button bitmap texture. No SVG.",
+  "ontology": {
+    "active": true,
+    "routeId": "ui",
+    "treeId": "start-screen",
+    "role": "primary-button",
+    "clause": "ONTOLOGY ACTIVE: primary start button must be readable, compact, and tied to blue soulfire crown-gate UI."
+  },
+  "prompt": "Create one long horizontal bitmap UI texture for a primary game start button in an original dark fantasy ARPG. Black stone base, cold iron bevel, dark blue oxidized silver rim, sapphire soulfire glow from the center seam, tiny blue flame licking the corners, and a readable dark center for overlaid Korean text. Make it distinct from Diablo II buttons: less brass, no orange, sharper crown-gate notches, colder blue material language. No embedded text, no letters, no numbers, no icons, no arrows, no characters, no watermark. Avoid flat vector, SVG look, CSS gradient look, modern neon button, plastic shine, cartoon UI, bokeh, lens flare, white diagonal shine. Opaque PNG, production game UI strip.",
+  "negative_prompt": [
+    "text",
+    "letters",
+    "numbers",
+    "icons",
+    "arrows",
+    "characters",
+    "watermark",
+    "SVG",
+    "flat vector",
+    "orange fire",
+    "brass Diablo clone",
+    "modern neon button"
+  ],
+  "acceptance": [
+    "Primary button reads as blue soulfire dark fantasy UI.",
+    "No embedded text, icon, character, or watermark.",
+    "Center remains readable for overlaid Korean text."
+  ]
+}
