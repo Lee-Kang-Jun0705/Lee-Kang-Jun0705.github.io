@@ -1,0 +1,40 @@
+{
+  "id": "ui-hud-hp-orb",
+  "kind": "ui",
+  "routeId": "ui",
+  "treeId": "hud",
+  "role": "hp-orb",
+  "provider": "codex-account-built-in-image2",
+  "target": "public/assets/image2/ui/hud-hp-orb.png",
+  "createdAt": "2026-05-19T00:00:00+09:00",
+  "runtimeSize": "512x512",
+  "style": "Premium dark fantasy HP orb matching the Image2 command belt: blackened iron, tarnished brass, dark ruby glass. No SVG.",
+  "ontology": {
+    "active": true,
+    "routeId": "ui",
+    "treeId": "hud",
+    "role": "hp-orb",
+    "clause": "ONTOLOGY ACTIVE: HP resource orb must match the command belt material language while remaining instantly readable."
+  },
+  "prompt": "Create one circular HP resource orb for a Diablo-like dark fantasy ARPG bottom HUD. The orb must visually match a gothic Image2 command belt: blackened iron claw frame, tarnished brass rim, dark carved stone outer ring, CRIMSON RED blood-ruby liquid glass center, worn metal scratches, restrained premium fantasy material. The glass/liquid center must be red only, not blue and not purple. Square 512x512 PNG on pure black outside background so the parent runner can cut the outside alpha. No embedded text, no HP letters, no numbers, no icons, no character, no watermark. Avoid blue, sapphire, cyan, old plastic glossy sphere, sci-fi glass, white shine streaks, flat vector, SVG look, cartoon UI, beige paper.",
+  "negative_prompt": [
+    "text",
+    "HP letters",
+    "numbers",
+    "icons",
+    "characters",
+    "watermark",
+    "SVG",
+    "flat vector",
+    "plastic orb",
+    "blue orb",
+    "sapphire",
+    "cyan",
+    "white outside margin"
+  ],
+  "acceptance": [
+    "Circular red HP orb with blackened iron and brass frame.",
+    "No embedded text, numbers, icons, or character.",
+    "Matches the command belt material language."
+  ]
+}

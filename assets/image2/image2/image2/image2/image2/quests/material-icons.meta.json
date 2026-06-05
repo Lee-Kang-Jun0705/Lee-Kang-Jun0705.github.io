@@ -1,0 +1,22 @@
+{
+  "provider": "image2-derived-runtime-assets",
+  "runtimeSize": "96x96",
+  "source": "Existing /assets/image2/quests quest thumbnails were cropped and normalized into material icons.",
+  "targets": [
+    "material-ember_grove.webp",
+    "material-moon_mine.webp",
+    "material-border_ruins.webp",
+    "material-mist_fen.webp",
+    "material-sunken_chapel.webp",
+    "material-thorn_pass.webp",
+    "material-ash_market.webp",
+    "material-frost_watch.webp",
+    "material-royal_bastion.webp",
+    "material-crown_gate.webp"
+  ],
+  "acceptance": [
+    "Every pickup quest can display a concrete quest-item image.",
+    "Icons stay inside the Image2 quest asset folder.",
+    "No SVG placeholder or unrelated UI icon is used."
+  ]
+}

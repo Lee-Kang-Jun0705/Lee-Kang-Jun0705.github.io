@@ -1,0 +1,48 @@
+{
+  "id": "ui-portal-waypoint-panel",
+  "kind": "ui",
+  "routeId": "ui",
+  "treeId": "portal",
+  "role": "surface",
+  "provider": "codex-account-built-in-image2",
+  "target": "public/assets/image2/ui/portal-waypoint-panel.png",
+  "createdAt": "2026-05-24T17:40:00+09:00",
+  "runtimeSize": "768x1024",
+  "postprocess": {
+    "alpha": true,
+    "sourceIssue": "Initial runtime normalization used an incomplete right-edge crop, making the modal frame look cut off.",
+    "crop": "complete source artifacts/image2/waypoint-relic/portal-relic-panel.png crop x=160..1660 y=180..2180, restore right edge, trim external background strips, normalize visible frame to full 768x1024 canvas",
+    "layering": "Runtime uses a separate .portal-menu-frame DOM layer between .portal-menu and .portal-menu-backdrop."
+  },
+  "style": "Obsidian relic transit panel bitmap texture. Blackened silver, cold moonlit rim, muted crimson cracks, no gothic arch, no Diablo-like waypoint language. No SVG.",
+  "ontology": {
+    "active": true,
+    "routeId": "ui",
+    "treeId": "portal",
+    "role": "rift-ledger",
+    "clause": "ONTOLOGY ACTIVE: rift ledger UI must read as a Black Contract transit surface, preserving dark fantasy material logic and fast destination selection without Diablo-like waypoint cues."
+  },
+  "prompt": "Premium dark fantasy game UI panel texture, vertical obsidian relic transit plaque for an ARPG destination menu. Floating black obsidian metal slab, layered double bevels, blackened silver trim, muted crimson ember cracks, cold moonlit rim light, faint engraved contract geometry, restrained expensive look. No gothic arch, no brown leather, no Diablo-like stone cathedral frame, no skulls, no text, no letters, no numbers, no icons, no characters, no watermark. Center area must be dark, quiet, low contrast and readable for Korean HTML labels. Production bitmap UI asset, opaque image, not a screenshot.",
+  "negative_prompt": [
+    "text",
+    "letters",
+    "numbers",
+    "watermark",
+    "SVG",
+    "flat vector",
+    "CSS gradient",
+    "Diablo-like waypoint",
+    "gothic arch",
+    "brown leather",
+    "cyan glass panel",
+    "white diagonal shine",
+    "cartoon UI",
+    "characters",
+    "icons"
+  ],
+  "acceptance": [
+    "Looks like a premium Black Contract rift ledger panel texture.",
+    "No text, icon, character, or watermark is embedded.",
+    "Panel is suitable for overlaying HTML destination rows."
+  ]
+}
