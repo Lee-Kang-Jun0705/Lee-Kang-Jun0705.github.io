@@ -1,0 +1,40 @@
+{
+  "id": "ui-start-diablostory-logo",
+  "kind": "ui",
+  "routeId": "ui",
+  "treeId": "start-screen",
+  "role": "title-logo",
+  "provider": "codex-account-built-in-image2",
+  "target": "public/assets/image2/ui/start-diablostory-logo.png",
+  "createdAt": "2026-05-20T21:32:00+09:00",
+  "runtimeSize": "1536x512",
+  "style": "Original blue soulfire dark fantasy bitmap title logo on matte black background. No SVG.",
+  "ontology": {
+    "active": true,
+    "routeId": "ui",
+    "treeId": "start-screen",
+    "role": "title-logo",
+    "clause": "ONTOLOGY ACTIVE: start title must feel like DiabloStory's own blue soulfire crown-gate identity, not a direct Diablo logo imitation."
+  },
+  "prompt": "Create a production bitmap title logo on a matte black background for an original dark fantasy ARPG title screen. The exact visible word must be DIABLOSTORY, spelled D I A B L O S T O R Y, one line only. Use sharp hand-forged gothic serif letters, cold steel bevels, deep obsidian inner shadows, sapphire-blue soulfire cracks, cyan-white flame tips, and subtle crown-gate runic accents worked into a few letters. Make the silhouette distinct from existing Diablo franchise logos: narrower vertical cuts, blue ghost-fire aura, less orange/gold, no copied letter shapes. The word must be centered, large, readable, and not cropped. No subtitle, no Korean text, no extra words, no Blizzard logo, no trademark symbol, no UI frame, no characters, no watermark. Avoid orange hellfire, direct Diablo II logo imitation, AI-logo polish, smooth vector edges, flat SVG look, modern sans-serif, neon cyberpunk, plastic 3D, oversaturated bloom, and illegible letter mutations.",
+  "negative_prompt": [
+    "SVG",
+    "vector logo",
+    "modern sans-serif",
+    "extra words",
+    "subtitle",
+    "Korean text",
+    "watermark",
+    "Blizzard",
+    "orange flames",
+    "direct Diablo logo imitation",
+    "characters",
+    "cropped letters",
+    "misspelled text"
+  ],
+  "acceptance": [
+    "The image is a PNG bitmap, not SVG or CSS text.",
+    "The only visible word is exactly DIABLOSTORY.",
+    "The logo uses blue soulfire and an original DiabloStory silhouette."
+  ]
+}
