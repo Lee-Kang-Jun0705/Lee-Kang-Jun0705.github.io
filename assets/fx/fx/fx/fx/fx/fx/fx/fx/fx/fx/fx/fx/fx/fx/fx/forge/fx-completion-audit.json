@@ -1,0 +1,2569 @@
+{
+  "generatedAt": "2026-06-05T05:06:59.359750+00:00",
+  "summary": {
+    "skillFxIds": 156,
+    "requiredRuntimeFx": 161,
+    "directImage2Fx": 9,
+    "failures": 0,
+    "svgFiles": 0,
+    "review": "public/assets/fx/forge/review/fx-completion-qc.html",
+    "jsonRecords": 312,
+    "runDirs": 656,
+    "missingSkillSources": []
+  },
+  "failures": [],
+  "forgeRows": [
+    {
+      "path": "public/assets/fx/forge/projectiles.png",
+      "size": [
+        768,
+        1280
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 1,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/combat-effects.png",
+      "size": [
+        768,
+        1792
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 13,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/monster-effects.png",
+      "size": [
+        768,
+        896
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 3,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/portal.png",
+      "size": [
+        2048,
+        512
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/spike-behavior-fx.png",
+      "size": [
+        768,
+        512
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 56,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/guardian-shield-fortress.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/guardian-holy-tribunal.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/guardian-judgment-final.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/oracle-radiance-dawn-judgment.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/oracle-sentence-final-sentence.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/oracle-heal-healing-choir.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/greatsword-greatsword-guillotine.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 1208,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/greatsword-hellfire-hellforge.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 237,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/greatsword-blood-blood-revel.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 247,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/warlock-curse-doom-sentence.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/warlock-blackflame-black-sun.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 1627,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/warlock-abyss-voidfall.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/knight-sword-king-blow.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/knight-shield-royal-wall.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/knight-command-all-out.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/archer-snipe-sure-arrow.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 1,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/archer-pierce-sky-piercer.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 1,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/archer-tactic-kill-zone.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/duelist-duelist-execution-dance.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 135,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/duelist-evasion-mirror-dance.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/duelist-moonlight-fullmoon.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/ranger-spiritbow-king-rain.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/ranger-bind-worldroot.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/ranger-wild-wild-host.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/lancer-charge-skyfall.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/lancer-dragonblood-dragon-rage.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/lancer-shatter-earth-shatter.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 7,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/sage-fire-meteor.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/sage-dragonword-elder-roar.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/sage-rune-ancient-stasis.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/mercSig-swordsman-comrade-blade.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/mercSig-pathwarden-not-late-arrow.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/mercSig-warden-bastion-shadow.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/mercSig-warlockpupil-fringe-flame.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 68,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/mercSig-starlit-starlight-guard.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/mercSig-forestdruid-forest-ember.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/mercSig-cleric-endless-prayer.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/mercSig-winged-wing-shield.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/mercSig-crystal-crystal-thrust.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/mercSig-runepriest-ward-bind.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/mercSig-totem-totem-call.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 211,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/mercSig-shadowblade-nameless-blade.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 750,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/mercSig-violet-violet-bind.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/mercSig-ironwall-ironwall-formation.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 1,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/mercSig-paladin-oath-strike.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 25,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/mercSig-forestarcher-forest-glance.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/mercSig-emberknight-dragonblood-formation.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/mercSig-spellblade-arcblade-flow.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/mercSig-watchman-citizen-stance.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/mercSig-mage-wandering-circle.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/mercSig-rogue-plunderer-shadow.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 238,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/guardian-shield-taunt.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 9,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/guardian-shield-bulwark.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 204,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/guardian-holy-prayer.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 48,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/guardian-holy-barrier.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 340,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/guardian-judgment-punish.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 38,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/guardian-judgment-atonement.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 6,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/oracle-radiance-nova.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/oracle-radiance-dawn-ray.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 24,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/oracle-sentence-edict.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/oracle-sentence-execution.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 74,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/oracle-heal-aegis.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/oracle-heal-resurrection.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 11,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/greatsword-greatsword-execution-cut.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 37,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/greatsword-greatsword-skull-split.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 247,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/greatsword-hellfire-flame-burst.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 66,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/greatsword-hellfire-inferno-edge.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 22,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/greatsword-blood-vampiric-cut.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 150,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/greatsword-blood-crimson-harvest.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 488,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/warlock-curse-decay.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 2065,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/warlock-curse-doom-word.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 343,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/warlock-blackflame-eruption.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 663,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/warlock-blackflame-wildfire.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 324,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/warlock-abyss-terror.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 133,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/warlock-abyss-rift.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 121,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/knight-sword-cross-cut.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 97,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/knight-sword-lion-strike.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 148,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/knight-shield-counterwall.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 59,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/knight-shield-shield-crash.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 318,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/knight-command-rally.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 485,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/knight-command-war-cry.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 14,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/archer-snipe-eagle-shot.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 70,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/archer-snipe-death-mark.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 299,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/archer-pierce-split-bolt.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 85,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/archer-pierce-rail-shot.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 78,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/archer-tactic-trap-volley.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 111,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/archer-tactic-hunt-call.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 23,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/duelist-duelist-ripper.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 49,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/duelist-duelist-red-finale.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 83,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/duelist-evasion-riposte.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 18,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/duelist-evasion-phantom-cut.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 20,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/duelist-moonlight-crescent.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 35,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/duelist-moonlight-silver-rush.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 87,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/ranger-spiritbow-storm-arrow.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 10,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/ranger-spiritbow-rain-shot.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/ranger-bind-root-cage.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 4,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/ranger-bind-bramble-field.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/ranger-wild-fang-rush.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 11,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/ranger-wild-nature-wrath.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 2,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/lancer-charge-line-break.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 19,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/lancer-charge-sky-charge.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 18,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/lancer-dragonblood-dragon-roar.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 62,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/lancer-dragonblood-blood-lance.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 114,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/lancer-shatter-breaker.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 19,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/lancer-shatter-earth-split.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 51,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/sage-fire-blaze-ring.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/sage-fire-inferno.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 36,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/sage-dragonword-bind-word.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/sage-dragonword-break-word.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 1,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/sage-rune-time-sigil.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 101,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/sage-rune-rune-prison.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 48,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/mercSkill-watchman-taunt.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 1,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/mercSkill-watchman-block-counter.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 700,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/mercSkill-runearcher-rune-arrow.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 128,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/mercSkill-runearcher-mark-trap.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/mercSkill-shadowrogue-blink.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 280,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/mercSkill-shadowrogue-bleeding-cut.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/mercSkill-emberpriest-burn-field.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/mercSkill-emberpriest-ignite-mark.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/mercSkill-cleric-aura-mend.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 165,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/mercSkill-cleric-light-strike.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 73,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/guardian-shield-bash.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 62,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/guardian-holy-sanctify.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 10,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/guardian-judgment-riposte.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 32,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/oracle-radiance-flash.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 22,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/oracle-sentence-verdict.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 72,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/oracle-heal-saving-hand.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 41,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/greatsword-greatsword-sky-cleave.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 227,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/greatsword-hellfire-hellslash.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 27,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/greatsword-blood-blood-thirst.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 575,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/warlock-curse-frailty.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/warlock-blackflame-spark.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 184,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/warlock-abyss-grasp.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 856,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/knight-sword-combo.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 15,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/knight-shield-bash.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 129,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/knight-command-charge-order.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 12,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/archer-snipe-vital-shot.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 61,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/archer-pierce-piercing-shot.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 84,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/archer-tactic-mark-shot.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 2581,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/duelist-duelist-twin-lash.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 14,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/duelist-evasion-afterimage.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 217,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/duelist-moonlight-moon-cut.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 28,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/ranger-spiritbow-spirit-shot.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 76,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/ranger-bind-thorn-snare.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 4,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/ranger-wild-beast-call.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 38,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/lancer-charge-gale-charge.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 46,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/lancer-dragonblood-awakening.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 196,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/lancer-shatter-crush.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 146,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/sage-fire-flame-storm.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/sage-dragonword-sear.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/sage-rune-ward.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 69,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/mercSkill-watchman-guard-sweep.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 20,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/mercSkill-runearcher-snipe.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/mercSkill-shadowrogue-twin-strike.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 72,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/mercSkill-emberpriest-spark.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/fx/forge/mercSkill-cleric-heal-touch.png",
+      "size": [
+        768,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 28,
+      "keyResidue": 0
+    }
+  ],
+  "directRows": [
+    {
+      "path": "public/assets/image2/fx/skill.webp",
+      "size": [
+        256,
+        256
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/image2/fx/hit.webp",
+      "size": [
+        256,
+        256
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/image2/fx/death-smoke.webp",
+      "size": [
+        512,
+        128
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/image2/fx/loot-beam-legendary.webp",
+      "size": [
+        1024,
+        256
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/image2/fx/loot-beam-mythic.webp",
+      "size": [
+        1024,
+        256
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/image2/fx/loot-beam-primordial.webp",
+      "size": [
+        1024,
+        256
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/image2/fx/gold-small.webp",
+      "size": [
+        1024,
+        1024
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 2745,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/image2/fx/gold-medium.webp",
+      "size": [
+        1024,
+        1024
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 12251,
+      "keyResidue": 0
+    },
+    {
+      "path": "public/assets/image2/fx/gold-large.webp",
+      "size": [
+        1024,
+        1024
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 1,
+      "keyResidue": 0
+    }
+  ]
+}
