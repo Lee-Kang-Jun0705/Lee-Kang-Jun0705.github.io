@@ -1,0 +1,37 @@
+{
+  "id": "ui-hud-potion-slot",
+  "kind": "ui",
+  "routeId": "ui",
+  "treeId": "hud",
+  "role": "potion-slot",
+  "provider": "codex-account-built-in-image2",
+  "target": "public/assets/image2/ui/hud-potion-slot.png",
+  "createdAt": "2026-05-19T00:00:00+09:00",
+  "runtimeSize": "256x256",
+  "style": "Premium Diablo-like compact potion slot bitmap frame. Dark stone, black iron, brass edge, small bottle-safe center. No SVG.",
+  "ontology": {
+    "active": true,
+    "routeId": "ui",
+    "treeId": "hud",
+    "role": "potion-slot",
+    "clause": "ONTOLOGY ACTIVE: potion slot frames must keep consumable identity and number labels readable in the bottom HUD."
+  },
+  "prompt": "Create one compact square bitmap UI frame for a Diablo-like dark fantasy ARPG potion belt slot. Black carved stone frame, blackened iron bevel, tarnished brass edge, dark inset center suitable for a small potion bottle overlay, slightly more compact and utilitarian than a skill slot. No embedded text, no letters, no numbers, no bottle icon, no character, no watermark. Fill the full canvas edge-to-edge; no white canvas, no outside margin. Avoid flat vector, SVG look, CSS gradient look, plastic shine, cartoon UI, bokeh, lens flare, white diagonal shine. Opaque PNG, production game UI potion frame.",
+  "negative_prompt": [
+    "text",
+    "letters",
+    "numbers",
+    "bottle icon",
+    "characters",
+    "watermark",
+    "SVG",
+    "flat vector",
+    "white canvas",
+    "white outside margin"
+  ],
+  "acceptance": [
+    "Compact potion slot texture with readable center.",
+    "No text, bottle icon, character, or watermark is embedded.",
+    "No white outside margin."
+  ]
+}

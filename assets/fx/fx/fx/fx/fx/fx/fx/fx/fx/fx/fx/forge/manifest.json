@@ -2,11 +2,16 @@
   "frame": 128,
   "portalFrame": 256,
   "projectileRows": [
-    "arrow",
-    "bolt",
-    "fire",
-    "ice",
-    "shadow"
+    "arrow-basic",
+    "bolt-basic",
+    "fire-basic",
+    "ice-basic",
+    "shadow-basic",
+    "arrow-skill",
+    "bolt-skill",
+    "fire-skill",
+    "ice-skill",
+    "shadow-skill"
   ],
   "combatRows": [
     "slash",
@@ -205,5 +210,20 @@
       ]
     }
   },
-  "portalSource": "reference-2x2-motion-grid-dimensional-flame-portal-sheet; transparent-rgba; lossless-png"
+  "portalSource": "reference-2x2-motion-grid-dimensional-flame-portal-sheet; transparent-rgba; lossless-png",
+  "projectileProvider": "openai-image2-codex-app",
+  "projectileGeneratedAt": "2026-06-05T06:46:21.495423+00:00",
+  "projectileSources": [
+    "public/assets/image2/fx/projectiles/arrow-basic-source.png",
+    "public/assets/image2/fx/projectiles/bolt-basic-source.png",
+    "public/assets/image2/fx/projectiles/fire-basic-source.png",
+    "public/assets/image2/fx/projectiles/ice-basic-source.png",
+    "public/assets/image2/fx/projectiles/shadow-basic-source.png",
+    "public/assets/image2/fx/projectiles/arrow-skill-source.png",
+    "public/assets/image2/fx/projectiles/bolt-skill-source.png",
+    "public/assets/image2/fx/projectiles/fire-skill-source.png",
+    "public/assets/image2/fx/projectiles/ice-skill-source.png",
+    "public/assets/image2/fx/projectiles/shadow-skill-source.png"
+  ],
+  "projectileRepair": "arrow-skill runtime row recentered from existing Image2-cleaned atlas; no Image2 regeneration"
 }

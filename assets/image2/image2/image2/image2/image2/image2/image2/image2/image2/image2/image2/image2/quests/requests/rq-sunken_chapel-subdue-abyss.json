@@ -1,0 +1,27 @@
+{
+  "id": "rq-sunken_chapel-subdue-abyss",
+  "kind": "quest",
+  "provider": "openai-image2-codex-app",
+  "target": "public/assets/image2/quests/rq-sunken_chapel-subdue-abyss.webp",
+  "runtimeSize": "256x144",
+  "source": {
+    "id": "rq-sunken_chapel-subdue-abyss",
+    "title": "침몰 예배당 토벌",
+    "fieldId": "sunken_chapel",
+    "fieldName": "침몰 예배당",
+    "kind": "repeatable",
+    "mode": "boss",
+    "faction": "abyss"
+  },
+  "createdAt": "2026-05-24T15:56:17+00:00",
+  "prompt": "Generate one real Codex account Image2 bitmap for a dark fantasy ARPG quest card. 16:9 horizontal cinematic painted thumbnail, no text, no watermark, no UI frame. It must be unique to this quest, not a reused map crop, not SVG, not procedural line art. Quest title: 침몰 예배당 토벌. Field: 침몰 예배당. Objective mode: boss. Faction mood: abyssal, cursed, black ember, dangerous. Show the objective as a small narrative scene with props, threats, and atmosphere. Readable when downscaled to 256x144, premium Diablo-like grime, strong light/dark composition.",
+  "negative_prompt": [
+    "text",
+    "letters",
+    "numbers",
+    "watermark",
+    "SVG",
+    "flat vector",
+    "UI frame"
+  ]
+}

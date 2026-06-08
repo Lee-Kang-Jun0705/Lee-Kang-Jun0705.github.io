@@ -1,0 +1,45 @@
+{
+  "id": "ui-portal-waypoint-menu",
+  "kind": "ui-texture-pack",
+  "routeId": "ui",
+  "treeId": "portal",
+  "provider": "codex-account-built-in-image2",
+  "createdAt": "2026-05-24T17:40:00+09:00",
+  "targets": [
+    "portal-waypoint-panel.png",
+    "portal-waypoint-row.png",
+    "portal-waypoint-selected.png"
+  ],
+  "runtimeSizes": {
+    "panel": "768x1024",
+    "row": "768x104",
+    "selected": "768x104"
+  },
+  "source": "Generated with account-linked Image2/Nano Banana Pro, then normalized to runtime PNG/WebP sizes.",
+  "runReport": "artifacts/image2/waypoint-relic/",
+  "style": "Obsidian relic rift ledger selector: blackened silver, cold moonlit rim light, muted crimson contract cracks, no waypoint wording, no gothic arch. No SVG.",
+  "ontology": {
+    "active": true,
+    "routeId": "ui",
+    "treeId": "portal",
+    "role": "rift-ledger",
+    "clause": "ONTOLOGY ACTIVE: rift ledger UI must read as a Black Contract transit surface, preserving dark fantasy material logic and fast destination selection without Diablo-like waypoint cues."
+  },
+  "negative_prompt": [
+    "SVG",
+    "flat vector",
+    "Diablo-like waypoint",
+    "gothic arch",
+    "brown leather",
+    "bright gold frame",
+    "cyan glass panel",
+    "CSS gradient look",
+    "embedded text",
+    "watermark"
+  ],
+  "acceptance": [
+    "PNG bitmap assets only.",
+    "No embedded text.",
+    "Visual language matches inventory and skill panels."
+  ]
+}
