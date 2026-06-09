@@ -1,0 +1,539 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FX Skill Runtime Map</title>
+  <style>
+    :root{color-scheme:dark;--bg:#101112;--panel:#17191b;--line:#33383d;--text:#f2efe8;--muted:#a8a29a;--gold:#d8b35b;--green:#56d889;--red:#df665d;--blue:#67a8f5}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:14px/1.45 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:0;overflow:auto}
+    header{position:sticky;top:0;z-index:4;background:rgba(16,17,18,.96);border-bottom:1px solid var(--line);padding:14px 18px 12px}
+    h1{margin:0 0 10px;font-size:20px;font-weight:800}.bar{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.pill{border:1px solid var(--line);background:#202326;color:var(--muted);padding:5px 8px;border-radius:6px;font-size:12px}
+    .pill strong{color:var(--text)}select,input,button{border:1px solid var(--line);background:#1d2023;color:var(--text);border-radius:6px;padding:7px 9px;font:inherit}input{min-width:260px}button{cursor:pointer}
+    main{padding:16px 18px 28px;max-width:1680px;margin:0 auto}.panel{border:1px solid var(--line);background:var(--panel);border-radius:8px;margin-bottom:14px}.panel h2{margin:0;padding:12px 14px;border-bottom:1px solid var(--line);font-size:15px}
+    .owners{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:10px;padding:12px}.owner{border:1px solid #30363c;background:#121416;border-radius:8px;padding:10px;min-height:132px;cursor:pointer}
+    .owner:hover,.owner.selectedOwner{border-color:var(--blue);background:#141b23}
+    .ownerTop{display:flex;justify-content:space-between;gap:8px}.owner h3{margin:0;font-size:15px}.meta{color:var(--muted);font-size:12px}.line{display:flex;align-items:center;gap:8px;margin-top:8px;min-height:32px}
+    .sprite{width:64px;height:64px;display:inline-block;flex:0 0 64px;background-repeat:no-repeat;background-color:#0b0c0e;border:1px solid #3b4148;border-radius:6px;image-rendering:auto;vertical-align:middle}
+    .mini{width:42px;height:42px;flex-basis:42px}.tag{display:inline-flex;align-items:center;border:1px solid #3b4148;border-radius:999px;padding:2px 7px;font-size:12px;color:#c9c3b9;margin:1px 3px 1px 0;white-space:nowrap}
+    .mode-projectile{border-color:#4c76ad;color:#9ec8ff}.mode-melee{border-color:#9b7050;color:#e7b27d}.mode-guard,.mode-support{border-color:#638b61;color:#a7e5a6}.mode-passive{border-color:#777;color:#bbb}
+    .tableWrap{overflow:auto;max-height:none}table{width:100%;min-width:1320px;border-collapse:collapse}th,td{border-bottom:1px solid #2d3237;padding:9px 10px;vertical-align:top;text-align:left}th{position:sticky;top:81px;background:#1b1e21;z-index:3;color:#d9d2c8;font-size:12px}
+    .skillName{font-weight:800}.id{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;color:#9ea7ad;font-size:11px;word-break:break-all}.fxCell{display:flex;gap:7px;align-items:center;min-width:160px}
+    .fxText b{display:block;font-size:12px}.fxText span{display:block;color:var(--muted);font:11px ui-monospace,SFMono-Regular,Menlo,monospace;max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+    .notes{color:#c4bdae;font-size:12px;max-width:280px}.empty{color:#6f7478}.count{color:var(--gold)}.warn{color:var(--red)}.ok{color:var(--green)}.blue{color:var(--blue)}
+    .previewGrid{display:grid;grid-template-columns:minmax(360px,1fr) 340px;gap:14px;padding:12px}.stage{position:relative;height:360px;overflow:hidden;border:1px solid #2e343a;border-radius:8px;background:linear-gradient(#171a1d,#111315 64%,#24211b)}
+    .ground{position:absolute;left:0;right:0;bottom:58px;height:42px;background:radial-gradient(ellipse at center,rgba(216,179,91,.2),transparent 62%)}.motionSprite,.fxBig,.shot{position:absolute;background-repeat:no-repeat;image-rendering:auto;transform-origin:center center}
+    .actor{width:136px;height:136px;left:94px;bottom:86px}.monster{width:136px;height:136px;right:auto;bottom:88px;transform:scaleX(-1)}.fxBig{left:0;bottom:0;width:58px;height:58px;background-color:transparent}
+    .contactMark{position:absolute;left:0;right:auto;bottom:0;width:12px;height:12px;border:1px solid #d8b35b;border-radius:50%;box-shadow:0 0 10px rgba(216,179,91,.45);opacity:0;transform-origin:center}
+    .shot{width:64px;height:64px;left:0;bottom:0;opacity:0}.trail{position:absolute;left:0;right:auto;bottom:0;height:1px;background:linear-gradient(90deg,transparent,#59616a,transparent);opacity:.7;transform-origin:left center}.previewSide{border:1px solid #30363c;background:#121416;border-radius:8px;padding:12px}
+    .previewSide h3{margin:0 0 8px;font-size:15px}.previewSide label{display:block;margin:8px 0 4px;color:#cfc8bd;font-size:12px}.previewSide select{width:100%}.checkLine{display:flex!important;align-items:center;gap:7px;margin-top:10px!important}.checkLine input{width:15px;height:15px;min-width:15px}.legend,.loadout{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:10px}.loadout{grid-template-columns:1fr}.legend div,.slot{border:1px solid #30363c;border-radius:6px;padding:7px;background:#181b1e;min-height:42px}.legend b,.slot b{display:block;font-size:12px}.legend span,.slot span{font:11px ui-monospace,SFMono-Regular,Menlo,monospace;color:#9ea7ad;word-break:break-all}.slot{display:flex;align-items:center;gap:8px}
+    tr.selectable{cursor:pointer}tr.selectable:hover{background:#181c20}tr.selectedRow{outline:1px solid var(--blue);background:#141b23}
+    @media (max-width:760px){header{position:static}.bar>*{width:100%}input{min-width:0}.owners{grid-template-columns:1fr}th{top:0}}
+    @media (max-width:980px){.previewGrid{grid-template-columns:1fr}.stage{height:320px}.actor{left:34px}.monster{right:28px}.trail{left:150px;right:122px}}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>캐릭터 / 용병 발사체·FX 런타임 매핑</h1>
+    <div class="bar">
+      <span class="pill">소스 기준 <strong id="generated">-</strong></span>
+      <span class="pill">스킬 <strong id="skillCount">0</strong></span>
+      <span class="pill">전용 시트 <strong id="sheetCount">0</strong></span>
+      <span class="pill">표시 <strong id="visibleCount">0</strong></span>
+      <select id="ownerFilter"><option value="all">전체 캐릭터/용병</option></select>
+      <select id="modeFilter"><option value="all">전체 모드</option></select>
+      <select id="sheetFilter"><option value="all">전체 시트</option><option value="dedicated">전용 시트 있음</option><option value="fallback">공용 FX 폴백</option></select>
+      <input id="search" placeholder="스킬명, id, FX, 탄종">
+      <button id="reset">초기화</button>
+    </div>
+  </header>
+  <main>
+    <section class="panel">
+      <h2>공격 모션 / 몬스터 타격 프리뷰</h2>
+      <div class="previewGrid">
+        <div class="stage" id="combatStage">
+          <div class="ground"></div><div class="trail"></div>
+          <span id="actorMotion" class="motionSprite actor"></span>
+          <span id="monsterMotion" class="motionSprite monster"></span>
+          <span id="skillSheetFx" class="fxBig skillSheetFx"></span>
+          <span id="castFx" class="fxBig castFx"></span>
+          <span id="launchFx" class="fxBig launchFx"></span>
+          <span id="projectileShot" class="shot"></span>
+          <span id="contactMark" class="contactMark"></span>
+        </div>
+        <aside class="previewSide">
+          <h3 id="previewTitle">-</h3>
+          <label for="previewOwner">캐릭터/용병</label><select id="previewOwner"></select>
+          <label for="previewSkill">스킬</label><select id="previewSkill"></select>
+          <div class="loadout" id="previewLoadout"></div>
+          <div class="legend" id="previewLegend"></div>
+        </aside>
+      </div>
+    </section>
+    <section class="panel">
+      <h2>기본 발사체 / 평타 FX</h2>
+      <div id="owners" class="owners"></div>
+    </section>
+    <section class="panel">
+      <h2>스킬별 연결 표</h2>
+      <div class="tableWrap">
+        <table>
+          <thead><tr><th>캐릭터</th><th>스킬</th><th>모드</th><th>전용 시트</th><th>시전 FX</th><th>발사체</th><th>발사 / 근접 / 추가 FX</th><th>행동 태그 / 메모</th></tr></thead>
+          <tbody id="rows"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+  <script>
+    const endpoint="fx-skill-runtime-map.json?refresh="+Date.now();
+    const tuneEndpoint="fx-runtime-motion-user-state.json?refresh="+Date.now();
+    const runtimeStorageKey="fx-runtime-motion-qc-tuning-v1";
+    const state={data:null,tuning:{projectiles:{},skills:{},core:{}},owner:"all",mode:"all",sheet:"all",q:"",spriteAt:0,combatAt:0,previewOwner:"archer",selected:null};
+    const $=(id)=>document.getElementById(id);
+    Promise.all([fetch(endpoint,{cache:"no-store"}).then((r)=>r.json()),loadRuntimeTuning()]).then(([data,tuning])=>{state.tuning=tuning;init(data)});
+
+    async function loadRuntimeTuning(){
+      let file={projectiles:{},skills:{},core:{}};
+      try{file=parseRuntimeTuning(await fetch(tuneEndpoint,{cache:"no-store"}).then((r)=>r.json()))}catch(error){}
+      return mergeRuntimeTuning(file,parseLocalRuntimeTuning());
+    }
+
+    function parseRuntimeTuning(data){
+      const projectiles={};const skills={};const core={};
+      (data.projectileTuning||[]).forEach((line)=>{const item=parseProjectileTune(line);if(item)projectiles[item.id]=item});
+      (data.skillTuning||[]).forEach((item)=>{if(item.id)skills[item.id]={rot:Number(item.rot||0),flipX:Boolean(item.flip)}});
+      (data.coreFxTuning||[]).forEach((item)=>{if(item.id)core[item.id]={rot:Number(item.rot||0),flipX:Boolean(item.flip)}});
+      return {projectiles,skills,core,savedAt:data.savedAt||""};
+    }
+
+    function parseLocalRuntimeTuning(){
+      let data={};try{data=JSON.parse(localStorage.getItem(runtimeStorageKey)||"{}")}catch(error){}
+      const projectiles={};const skills={};const core={};
+      (data.configs||[]).forEach((item,index)=>{if(item.id)projectiles[item.id]=localProjectileTune(item,index)});
+      Object.entries(data.skills||{}).forEach(([id,item])=>{skills[id]={rot:Number(item.rot||0),flipX:Boolean(item.flipX)}});
+      Object.entries(data.fxConfigs||{}).forEach(([id,item])=>{core[id]={rot:Number(item.rot||0),flipX:Boolean(item.flipX)}});
+      return {projectiles,skills,core,savedAt:"localStorage"};
+    }
+
+    function localProjectileTune(item,index){
+      return {id:item.id,index,mode:item.animMode||"",speed:Number(item.speed||1),angleOffset:Number(item.angleOffset||0),spriteRot:Number(item.spriteRot||0),flipX:Boolean(item.flipX),scale:Number(item.scale||1),base:{sx:Number(item.sx||76),sy:Number(item.sy||104+index*66),ex:Number(item.ex||714),ey:Number(item.ey||104+index*66)}};
+    }
+
+    function mergeRuntimeTuning(file,local){
+      return {projectiles:{...file.projectiles,...local.projectiles},skills:{...file.skills,...local.skills},core:{...file.core,...local.core},savedAt:local.savedAt||file.savedAt};
+    }
+
+    function parseProjectileTune(line){
+      const match=String(line).match(/^(\d+):([^\s]+)\s+(.*)$/);if(!match)return null;
+      const index=Number(match[1]),id=match[2],rest=match[3];
+      const read=(key,fb=0)=>Number(rest.match(new RegExp(`${key}=(-?\\d+(?:\\.\\d+)?)`))?.[1]??fb);
+      const base=rest.match(/base\s+(-?\d+(?:\.\d+)?),(-?\d+(?:\.\d+)?)>(-?\d+(?:\.\d+)?),(-?\d+(?:\.\d+)?)/);
+      return {id,index,mode:rest.match(/mode=([^\s]+)/)?.[1]||"",speed:read("speed",1),angleOffset:read("path",0),spriteRot:read("rot",0),flipX:/flip=on/.test(rest),scale:read("scale",1),base:base?{sx:Number(base[1]),sy:Number(base[2]),ex:Number(base[3]),ey:Number(base[4])}:null};
+    }
+
+    function init(data){
+      state.data=data; $("generated").textContent=new Date(data.generatedAt).toLocaleString();
+      $("skillCount").textContent=data.summary.skillCount; $("sheetCount").textContent=data.summary.dedicatedSheetCount;
+      state.selected=defaultPreviewSkill()?.id||data.skills.find((row)=>row.mode!=="passive")?.id;
+      bindControls(); fillFilters(); render();
+      nextFrame(animateSprites);
+      nextFrame(animateCombat);
+      window.setInterval(motionFallbackTick,140);
+    }
+
+    function bindControls(){
+      $("ownerFilter").addEventListener("change",(e)=>{state.owner=e.target.value;render()});
+      $("modeFilter").addEventListener("change",(e)=>{state.mode=e.target.value;render()});
+      $("sheetFilter").addEventListener("change",(e)=>{state.sheet=e.target.value;render()});
+      $("search").addEventListener("input",(e)=>{state.q=e.target.value.toLowerCase().trim();render()});
+      $("reset").addEventListener("click",()=>{state.owner=state.mode=state.sheet="all";state.q="";syncControls();render()});
+      $("previewOwner").addEventListener("change",(e)=>{state.previewOwner=e.target.value;state.selected=defaultPreviewSkill()?.id;render()});
+      $("previewSkill").addEventListener("change",(e)=>{state.selected=e.target.value;render()});
+    }
+
+    function fillFilters(){
+      state.data.owners.forEach((owner)=>$("ownerFilter").insertAdjacentHTML("beforeend",`<option value="${esc(owner.id)}">${esc(owner.label)}</option>`));
+      state.data.owners.filter((owner)=>owner.type!=="global").forEach((owner)=>$("previewOwner").insertAdjacentHTML("beforeend",`<option value="${esc(owner.id)}">${esc(owner.label)}</option>`));
+      ["projectile","melee","guard","support","passive"].forEach((mode)=>$("modeFilter").insertAdjacentHTML("beforeend",`<option value="${mode}">${mode}</option>`));
+    }
+
+    function render(){
+      syncControls();
+      const rows=state.data.skills.filter(pass);
+      $("owners").innerHTML=state.data.owners.filter(ownerPass).map(ownerCard).join("");
+      $("rows").innerHTML=rows.map(skillRow).join("");
+      $("visibleCount").textContent=rows.length;
+      prepareSprites();
+      bindRowSelect();
+      bindOwnerCards();
+      syncPreview();
+      safeUpdateSprites(Date.now());
+      safeUpdateCombat(Date.now());
+    }
+
+    function syncControls(){
+      $("ownerFilter").value=state.owner; $("modeFilter").value=state.mode; $("sheetFilter").value=state.sheet; $("search").value=state.q;
+    }
+
+    function pass(row){
+      if(state.owner!=="all"&&row.ownerId!==state.owner)return false;
+      if(state.mode!=="all"&&row.mode!==state.mode)return false;
+      if(state.sheet==="dedicated"&&!row.skillSheet)return false;
+      if(state.sheet==="fallback"&&(row.skillSheet||row.mode==="passive"))return false;
+      return !state.q||blob(row).includes(state.q);
+    }
+
+    function ownerPass(owner){
+      if(state.owner!=="all"&&owner.id!==state.owner)return false;
+      if(!state.q)return true;
+      return `${owner.id} ${owner.label} ${owner.labelEn||""} ${JSON.stringify(owner.basic||{})}`.toLowerCase().includes(state.q);
+    }
+
+    function bindRowSelect(){
+      document.querySelectorAll("tr[data-skill-id]").forEach((row)=>row.addEventListener("click",()=>{state.selected=row.dataset.skillId;state.previewOwner=skillById(state.selected)?.ownerId||state.previewOwner;render()}));
+    }
+
+    function bindOwnerCards(){
+      document.querySelectorAll("[data-owner-id]").forEach((card)=>card.addEventListener("click",()=>selectOwnerBasic(card.dataset.ownerId)));
+    }
+
+    function selectOwnerBasic(ownerId){
+      state.previewOwner=ownerId;state.selected=defaultPreviewSkill()?.id;render();
+      document.querySelector("#combatStage")?.scrollIntoView({block:"center",behavior:"smooth"});
+    }
+
+    function syncPreview(){
+      const rows=previewRows();
+      if(!rows.some((row)=>row.id===state.selected))state.selected=rows[0]?.id||state.selected;
+      $("previewOwner").value=state.previewOwner;
+      $("previewSkill").innerHTML=rows.map((row)=>`<option value="${esc(row.id)}">${esc(row.name)} · ${esc(row.mode)}</option>`).join("");
+      if(state.selected)$("previewSkill").value=state.selected;
+      renderCombatLegend();
+    }
+
+    function previewRows(){
+      const owner=ownerById(state.previewOwner);
+      return [basicPreviewRow(owner),...state.data.skills.filter((row)=>row.ownerId===state.previewOwner&&row.mode!=="passive")].filter(Boolean);
+    }
+
+    function defaultPreviewSkill(){
+      return previewRows()[0];
+    }
+
+    function skillById(id){
+      return state.data.skills.find((row)=>row.id===id)||previewRows().find((row)=>row.id===id);
+    }
+
+    function ownerById(id){
+      return state.data.owners.find((owner)=>owner.id===id);
+    }
+
+    function basicPreviewRow(owner){
+      if(!owner?.basic)return null;
+      const basic=owner.basic;
+      return {
+        id:`basic:${owner.id}`,name:"기본 공격",ownerId:owner.id,ownerType:owner.type,ownerLabel:owner.label,
+        mode:basic.mode,role:"basic",tier:"basic",motion:basic.projectile?"attack1":"attack2",
+        spriteKey:owner.spriteKey,spriteAsset:owner.spriteAsset,skillSheet:null,castFx:null,
+        projectile:basic.projectile||null,launchFx:basic.launchFx||null,impactFx:basic.impactFx||null,
+        meleeFx:basic.meleeFx||null,utilityFx:[],behavior:{kinds:[]},notes:basic.notes||[],
+      };
+    }
+
+    function ownerCard(owner){
+      const basic=owner.basic;
+      const selected=owner.id===state.previewOwner?" selectedOwner":"";
+      return `<article class="owner${selected}" data-owner-id="${esc(owner.id)}"><div class="ownerTop"><h3>${esc(owner.label)}</h3><span class="meta">${esc(owner.type)} · ${owner.skillCount} skills</span></div>${basic?basicView(basic):"<p class='empty'>공용 스킬 그룹</p>"}</article>`;
+    }
+
+    function basicView(basic){
+      const main=basic.projectile?projectileCell(basic.projectile):fxCell(basic.meleeFx,"평타");
+      return `<div class="line">${main}</div><p class="notes">${esc((basic.notes||[]).join(" · "))}</p>`;
+    }
+
+    function skillRow(row){
+      const selected=row.id===state.selected?" selectedRow":"";
+      return `<tr class="selectable${selected}" data-skill-id="${esc(row.id)}"><td><b>${esc(row.ownerLabel)}</b><div class="meta">${esc(row.ownerType)} ${row.treeName?"/ "+esc(row.treeName):""}</div></td><td><div class="skillName">${esc(row.name)}</div><div class="id">${esc(row.id)}</div></td><td>${modeTag(row.mode)}${tag(row.role)}${tag(String(row.tier))}</td><td>${sheetCell(row.skillSheet)}</td><td>${fxCell(row.castFx,"시전")}</td><td>${projectileCell(row.projectile)}</td><td>${actionFxCells(row)}</td><td>${behaviorCell(row)}</td></tr>`;
+    }
+
+    function actionFxCells(row){
+      const cells=[fxCell(row.launchFx,"발사"),fxCell(row.meleeFx,"근접"),...(row.utilityFx||[]).map((fx)=>fxCell(fx,"추가"))].filter(Boolean);
+      return cells.length?cells.join(""):"<span class='empty'>직접 FX 없음</span>";
+    }
+
+    function behaviorCell(row){
+      const kinds=(row.behavior?.kinds||[]).map(tag).join("");
+      const notes=(row.notes||[]).map((note)=>`<div>${esc(note)}</div>`).join("");
+      return `<div>${kinds||"<span class='empty'>태그 없음</span>"}</div><div class="notes">${notes}</div>`;
+    }
+
+    function sheetCell(sheet){
+      if(!sheet)return "<span class='empty'>전용 없음</span>";
+      return `<div class="fxCell">${sprite(sheet.preview,"mini")}<div class="fxText"><b class="ok">전용 시트</b><span>${esc(sheet.animKey)}</span></div></div>`;
+    }
+
+    function projectileCell(item){
+      if(!item)return "<span class='empty'>발사체 없음</span>";
+      return `<div class="fxCell">${sprite(item.preview,"mini")}<div class="fxText"><b class="blue">${esc(item.kind)} · ${esc(item.source)}</b><span>${esc(item.animKey)}</span></div></div>`;
+    }
+
+    function fxCell(fx,label){
+      if(!fx)return "";
+      return `<div class="fxCell">${sprite(fx.preview,"mini")}<div class="fxText"><b>${esc(label)} · ${esc(fx.kind)}</b><span>${esc(fx.animKey)}</span></div></div>`;
+    }
+
+    function sprite(preview,klass=""){
+      if(!preview)return "";
+      return `<span class="sprite ${klass}" data-asset="${esc(preview.asset)}" data-row="${preview.row}" data-cols="${preview.cols}" data-rows="${preview.rows}" data-frames="${preview.frames}" data-start="${preview.start||0}"></span>`;
+    }
+
+    function prepareSprites(){
+      document.querySelectorAll(".sprite").forEach((el)=>{const size=el.classList.contains("mini")?42:64;el.dataset.size=size;el.style.backgroundImage=`url("${el.dataset.asset}")`;el.style.backgroundSize=`${Number(el.dataset.cols)*size}px ${Number(el.dataset.rows)*size}px`;});
+    }
+
+    function animateSprites(now){
+      if(now-state.spriteAt>120){state.spriteAt=now;safeUpdateSprites(now)}
+      nextFrame(animateSprites);
+    }
+
+    function safeUpdateSprites(now){
+      try{updateSprites(now)}catch(error){setStageError(error)}
+    }
+
+    function updateSprites(now){
+      const viewH=innerHeight;
+      document.querySelectorAll(".sprite").forEach((el)=>{const box=el.getBoundingClientRect();if(box.bottom<0||box.top>viewH)return;const size=Number(el.dataset.size||64);const frames=Number(el.dataset.frames||1);const frame=frames<=1?0:Math.floor(now/120)%frames;const start=Number(el.dataset.start||0);const row=Number(el.dataset.row||0);el.style.backgroundPosition=`-${(start+frame)*size}px -${row*size}px`;});
+    }
+
+    function animateCombat(now){
+      if(now-state.combatAt>50){state.combatAt=now;safeUpdateCombat(now)}
+      nextFrame(animateCombat);
+    }
+
+    function motionFallbackTick(){
+      safeUpdateSprites(Date.now());
+      safeUpdateCombat(Date.now());
+    }
+
+    function safeUpdateCombat(now){
+      try{updateCombat(now);$("combatStage").dataset.error=""}catch(error){setStageError(error)}
+    }
+
+    function setStageError(error){
+      $("combatStage").dataset.error=String(error?.message||error);
+    }
+
+    function updateCombat(now){
+      const row=skillById(state.selected);if(!row)return;
+      const p=(now%2200)/2200;const actor=actorPreview(row);const monster=state.data.preview;
+      placeCombatActors(row);
+      drawActor($("actorMotion"),actor.asset,frameAt(motionFrames(row.motion),p),136);
+      drawActor($("monsterMotion"),monster.monsterAsset,frameAt(hitFrames(),hitProgress(row,p)),136);
+      const anchors=combatAnchors(row);
+      drawTrail(row,anchors);
+      drawFxAt($("skillSheetFx"),row.skillSheet?.preview,p,.06,.3,58,.62,anchors.skill);
+      drawFxAt($("castFx"),attackFxPreview(row),p,.05,.28,58,attackFxAlpha(row),attackAnchor(row,anchors));
+      drawFxAt($("launchFx"),row.launchFx?.preview,p,.16,.3,58,.58,anchors.launch);
+      drawProjectile(row,p,anchors);
+      drawContact(row,p,anchors);
+    }
+
+    function drawProjectile(row,p,anchors){
+      const el=$("projectileShot");const item=row.projectile;
+      if(!item){el.style.opacity=0;return}
+      const tune=projectileTune(item);const t=clamp((p-.2)/travelDuration(tune),0,1);
+      const start=projectileStartPoint(anchors,tune);const end=projectileEndPoint(anchors,tune,start);
+      const point=lerpPoint(start,end,t);el.style.opacity=t<=0||t>=1?0:1;
+      placeLayer(el,point,64);drawPreview(el,item.preview,projectileFrame(item,t,tune),64);
+      el.dataset.tuning=tuneText(tune);
+      el.style.transform=`rotate(${projectileRotation(start,end,tune)}rad) scaleX(${tune.flipX?-1:1}) scale(${tune.scale||1})`;
+    }
+
+    function renderCombatLegend(){
+      const row=skillById(state.selected);if(!row)return;
+      $("previewTitle").textContent=`${row.ownerLabel} · ${row.name}`;
+      const items=[
+        ["모션",row.motion],
+        ["평타/시전 FX",attackFxKind(row)||"없음"],
+        ["발사체",row.projectile?`${row.projectile.kind}/${row.projectile.damageKind||row.projectile.kind}`:"없음"],
+      ];
+      $("previewLegend").innerHTML=items.map(([k,v])=>`<div><b>${esc(k)}</b><span>${esc(v)}</span></div>`).join("");
+      $("previewLoadout").innerHTML=loadoutItems(row).map(previewSlot).join("");
+      prepareSprites();
+    }
+
+    function actorPreview(row){
+      const fallback=state.data.preview;
+      return {asset:row.spriteAsset||fallback.fallbackActorAsset,key:row.spriteKey||fallback.fallbackActorKey};
+    }
+
+    function attackFxPreview(row){
+      if(row.skillSheet)return null;
+      return row.meleeFx?.preview||row.castFx?.preview||row.launchFx?.preview||null;
+    }
+
+    function attackFxKind(row){
+      if(row.skillSheet)return "전용 시트";
+      return row.meleeFx?.kind||row.castFx?.kind||row.launchFx?.kind||"";
+    }
+
+    function attackFxAlpha(row){
+      return row.id.startsWith("basic:") ? .5 : .62;
+    }
+
+    function loadoutItems(row){
+      return [
+        {label:"발사체",value:projectileLoadout(row),preview:row.projectile?.preview},
+        {label:"평타/시전 FX",value:attackFxKind(row)||"없음",preview:row.skillSheet?.preview||attackFxPreview(row)},
+      ];
+    }
+
+    function previewSlot(item){
+      const icon=item.preview?sprite(item.preview,"mini"):"";
+      return `<div class="slot">${icon}<div><b>${esc(item.label)}</b><span>${esc(item.value)}</span></div></div>`;
+    }
+
+    function drawActor(el,asset,frame,size){
+      el.style.backgroundImage=`url("${asset}")`;
+      el.style.backgroundSize=`${4*size}px ${8*size}px`;
+      el.style.backgroundPosition=`-${(frame%4)*size}px -${Math.floor(frame/4)*size}px`;
+      el.style.opacity=asset?1:0;
+    }
+
+    function drawFxAt(el,preview,p,start,end,size,alpha=.65,point={x:0,bottom:0}){
+      const active=p>=start&&p<=end&&preview;el.style.opacity=active?alpha:0;
+      if(!active)return;placeLayer(el,point,size);drawPreview(el,preview,Math.floor(((p-start)/(end-start))*Number(preview.frames||1)),size);
+      el.style.transform="none";
+    }
+
+    function drawContact(row,p,anchors){
+      const el=$("contactMark");const start=row.projectile?0.58:0.32;const t=clamp((p-start)/.18,0,1);
+      placeLayer(el,anchors.impact,12);
+      el.style.opacity=t>0&&t<1?String(.8*(1-t)):"0";el.style.transform=`scale(${.7+t*.9})`;
+    }
+
+    function drawPreview(el,preview,frame,size){
+      const cols=Number(preview.cols||1);const rows=Number(preview.rows||1);const start=Number(preview.start||0);const row=Number(preview.row||0);
+      el.style.backgroundImage=`url("${preview.asset}")`;
+      el.style.backgroundSize=`${cols*size}px ${rows*size}px`;
+      el.style.backgroundPosition=`-${(start+frame%Number(preview.frames||1))*size}px -${row*size}px`;
+    }
+
+    function projectileFrame(item,p,tune=projectileTune(item)){
+      if(item.source==="basic")return 0;
+      const frames=Number(item.preview.frames||1);
+      return tune.mode==="static"?0:Math.min(frames-1,Math.floor(clamp(p,0,.999)*frames));
+    }
+
+    function motionFrames(motion){
+      if(motion==="attack2")return [16,17,18,19];
+      if(motion==="skill"||motion==="spell")return [28,29,30,31];
+      if(motion==="hit")return hitFrames();
+      return [12,13,14,15];
+    }
+
+    function hitFrames(){return [20,21,22,23]}
+    function frameAt(frames,p){return frames[Math.min(frames.length-1,Math.floor(p*frames.length))]}
+    function hitProgress(row,p){return row.projectile?clamp((p-.58)/.35,0,1):clamp((p-.32)/.38,0,1)}
+    function placeCombatActors(row){
+      const stage=$("combatStage"),actor=$("actorMotion"),monster=$("monsterMotion");const w=stage.clientWidth||900;
+      const actorLeft=w<760?34:94;actor.style.left=`${actorLeft}px`;actor.style.bottom=`${w<760?78:86}px`;
+      const monsterLeft=row.projectile?Math.max(actorLeft+360,w-(w<760?166:222)):Math.min(w-170,actorLeft+268);
+      monster.style.left=`${monsterLeft}px`;monster.style.right="auto";monster.style.bottom=`${w<760?80:88}px`;
+    }
+
+    function combatAnchors(row){
+      const actor=layerBox($("actorMotion"));const monster=layerBox($("monsterMotion"));
+      const impact={x:monster.left+monster.width*.46,bottom:monster.bottom+monster.height*.52};
+      const start={x:actor.left+actor.width*.82,bottom:actor.bottom+actor.height*.56};
+      return {
+        skill:{x:actor.left+actor.width*.62,bottom:actor.bottom+actor.height*.63},
+        cast:{x:actor.left+actor.width*.7,bottom:actor.bottom+actor.height*.58},
+        melee:{x:Math.min(monster.left-18,actor.left+actor.width+62),bottom:actor.bottom+actor.height*.45},
+        launch:{x:actor.left+actor.width*.94,bottom:actor.bottom+actor.height*.57},
+        projectileStart:start,
+        impact,
+      };
+    }
+
+    function layerBox(el){
+      const stage=$("combatStage").getBoundingClientRect();const box=el.getBoundingClientRect();
+      return {left:box.left-stage.left,bottom:stage.bottom-box.bottom,width:box.width,height:box.height};
+    }
+
+    function attackAnchor(row,anchors){
+      if(row.projectile)return anchors.cast;
+      return row.meleeFx?anchors.melee:anchors.cast;
+    }
+
+    function drawTrail(row,anchors){
+      const el=document.querySelector(".trail");if(!row.projectile){el.style.opacity=0;return}
+      const tune=projectileTune(row.projectile);const start=projectileStartPoint(anchors,tune);const end=projectileEndPoint(anchors,tune,start);
+      const dx=end.x-start.x,dy=end.bottom-start.bottom,dist=Math.hypot(dx,dy);
+      el.style.opacity=.7;el.style.left=`${start.x}px`;el.style.bottom=`${start.bottom}px`;el.style.width=`${dist}px`;el.style.transform=`rotate(${-Math.atan2(dy,dx)}rad)`;
+    }
+
+    function projectileStartPoint(anchors,tune){
+      const offset=projectileBaseOffset(tune);return {x:anchors.projectileStart.x+offset.sx,bottom:anchors.projectileStart.bottom-offset.sy};
+    }
+
+    function projectileEndPoint(anchors,tune,start=projectileStartPoint(anchors,tune)){
+      const offset=projectileBaseOffset(tune);const end={x:anchors.impact.x+offset.ex,bottom:anchors.impact.bottom-offset.ey};
+      const dx=end.x-start.x,dy=end.bottom-start.bottom,dist=Math.hypot(dx,dy);
+      const base=Math.atan2(dy,dx);const angle=base-rad(tune.angleOffset||0);
+      return {x:start.x+Math.cos(angle)*dist,bottom:start.bottom+Math.sin(angle)*dist};
+    }
+
+    function projectileRotation(start,end,tune){
+      return -Math.atan2(end.bottom-start.bottom,end.x-start.x)+rad(tune.spriteRot||0);
+    }
+
+    function projectileTune(item){
+      const id=`${item.kind}-${item.source}`;
+      const base=state.tuning.projectiles[id]||{id,speed:1,scale:1,angleOffset:0,spriteRot:0,flipX:false,mode:item.source==="basic"?"static":"travel"};
+      const core=state.tuning.core[`projectile:${id}`];
+      return core?{...base,spriteRot:core.rot,flipX:core.flipX}:base;
+    }
+
+    function projectileBaseOffset(tune){
+      if(!tune.base)return {sx:0,sy:0,ex:0,ey:0};
+      const lane=104+Number(tune.index||0)*66,baseDist=Math.max(1,Math.abs(tune.base.ex-tune.base.sx));
+      const scale=Math.min(1.4,Math.max(.45,638/baseDist));
+      return {sx:(tune.base.sx-76)*scale,sy:(tune.base.sy-lane)*scale,ex:(tune.base.ex-714)*scale,ey:(tune.base.ey-lane)*scale};
+    }
+
+    function projectileLoadout(row){
+      if(!row.projectile)return "없음";
+      const tune=projectileTune(row.projectile);
+      return `${row.projectile.kind} · ${row.projectile.source} · ${tuneText(tune)}`;
+    }
+
+    function tuneText(tune){
+      return `path ${tune.angleOffset||0} / rot ${tune.spriteRot||0} / flip ${tune.flipX?"on":"off"} / speed ${tune.speed||1}`;
+    }
+
+    function travelDuration(tune){
+      return Math.max(.24,.45/(Number(tune.speed)||1));
+    }
+
+    function lerpPoint(a,b,t){
+      return {x:a.x+(b.x-a.x)*t,bottom:a.bottom+(b.bottom-a.bottom)*t};
+    }
+
+    function placeLayer(el,point,size){
+      el.style.width=`${size}px`;el.style.height=`${size}px`;el.style.left=`${point.x-size/2}px`;el.style.right="auto";el.style.bottom=`${point.bottom-size/2}px`;
+    }
+    function nextFrame(fn){
+      const raf=window.requestAnimationFrame?.bind(window);
+      return raf?raf(fn):window.setTimeout(()=>fn(Date.now()),16);
+    }
+    function rad(value){return value*Math.PI/180}
+    function clamp(v,min,max){return Math.max(min,Math.min(max,v))}
+
+    function modeTag(mode){return `<span class="tag mode-${esc(mode)}">${esc(mode)}</span>`}
+    function tag(value){return value?`<span class="tag">${esc(value)}</span>`:""}
+    function blob(row){return JSON.stringify(row).toLowerCase()}
+    function esc(value){return String(value??"").replace(/[&<>"']/g,(c)=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]))}
+  </script>
+</body>
+</html>
