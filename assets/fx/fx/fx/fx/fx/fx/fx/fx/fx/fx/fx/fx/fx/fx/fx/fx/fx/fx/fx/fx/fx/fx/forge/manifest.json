@@ -1,0 +1,209 @@
+{
+  "frame": 128,
+  "portalFrame": 256,
+  "projectileRows": [
+    "arrow",
+    "bolt",
+    "fire",
+    "ice",
+    "shadow"
+  ],
+  "combatRows": [
+    "slash",
+    "impact",
+    "magic",
+    "guard",
+    "pickup",
+    "playerHurt",
+    "mercHurt",
+    "monsterHurt",
+    "fireBurst",
+    "iceBurst",
+    "shadowBurst",
+    "holyBurst",
+    "poisonBurst",
+    "arrowPierce"
+  ],
+  "monsterRows": [
+    "claw",
+    "bite",
+    "casterBolt",
+    "wraithDissolve",
+    "stomp",
+    "roar",
+    "bossCleave"
+  ],
+  "portalRows": [
+    "town",
+    "field"
+  ],
+  "portalFrames": 8,
+  "sourceProvider": "openai-image2-codex-app",
+  "sourceStatus": "image2_runtime_ready",
+  "postprocess": "matte-black alpha cleanup, containment resize, 6-frame sheet assembly; no SVG source",
+  "image2Rows": {
+    "projectiles": {
+      "arrow": [
+        "public/assets/image2/fx/fx-archer-snipe-0.png",
+        "public/assets/image2/fx/fx-archer-snipe-2.png",
+        "public/assets/image2/fx/fx-archer-snipe-4.png",
+        "public/assets/image2/fx/fx-archer-snipe-5.png"
+      ],
+      "bolt": [
+        "public/assets/image2/fx/fx-sage-rune-0.png",
+        "public/assets/image2/fx/fx-sage-rune-2.png",
+        "public/assets/image2/fx/fx-sage-rune-4.png",
+        "public/assets/image2/fx/fx-sage-rune-5.png"
+      ],
+      "fire": [
+        "public/assets/image2/fx/fx-sage-fire-0.png",
+        "public/assets/image2/fx/fx-sage-fire-2.png",
+        "public/assets/image2/fx/fx-sage-fire-4.png",
+        "public/assets/image2/fx/fx-sage-fire-5.png"
+      ],
+      "ice": [
+        "public/assets/image2/fx/fx-lancer-shatter-0.png",
+        "public/assets/image2/fx/fx-lancer-shatter-2.png",
+        "public/assets/image2/fx/fx-lancer-shatter-4.png",
+        "public/assets/image2/fx/fx-lancer-shatter-5.png"
+      ],
+      "shadow": [
+        "public/assets/image2/fx/fx-warlock-abyss-0.png",
+        "public/assets/image2/fx/fx-warlock-abyss-2.png",
+        "public/assets/image2/fx/fx-warlock-abyss-4.png",
+        "public/assets/image2/fx/fx-warlock-abyss-5.png"
+      ]
+    },
+    "combat": {
+      "slash": [
+        "public/assets/image2/fx/fx-knight-sword-0.png",
+        "public/assets/image2/fx/fx-knight-sword-2.png",
+        "public/assets/image2/fx/fx-knight-sword-4.png",
+        "public/assets/image2/fx/fx-knight-sword-5.png"
+      ],
+      "impact": [
+        "public/assets/image2/fx/fx-lancer-charge-0.png",
+        "public/assets/image2/fx/fx-lancer-charge-2.png",
+        "public/assets/image2/fx/fx-lancer-charge-4.png",
+        "public/assets/image2/fx/fx-lancer-charge-5.png"
+      ],
+      "magic": [
+        "public/assets/image2/fx/fx-sage-dragonword-0.png",
+        "public/assets/image2/fx/fx-sage-dragonword-2.png",
+        "public/assets/image2/fx/fx-sage-dragonword-4.png",
+        "public/assets/image2/fx/fx-sage-dragonword-5.png"
+      ],
+      "guard": [
+        "public/assets/image2/fx/fx-guardian-shield-0.png",
+        "public/assets/image2/fx/fx-guardian-shield-2.png",
+        "public/assets/image2/fx/fx-guardian-shield-4.png",
+        "public/assets/image2/fx/fx-guardian-shield-5.png"
+      ],
+      "pickup": [
+        "public/assets/image2/fx/fx-oracle-heal-0.png",
+        "public/assets/image2/fx/fx-oracle-heal-2.png",
+        "public/assets/image2/fx/fx-oracle-heal-4.png",
+        "public/assets/image2/fx/fx-oracle-heal-5.png"
+      ],
+      "playerHurt": [
+        "public/assets/image2/fx/fx-greatsword-blood-0.png",
+        "public/assets/image2/fx/fx-greatsword-blood-2.png",
+        "public/assets/image2/fx/fx-greatsword-blood-4.png",
+        "public/assets/image2/fx/fx-greatsword-blood-5.png"
+      ],
+      "mercHurt": [
+        "public/assets/image2/fx/fx-knight-shield-0.png",
+        "public/assets/image2/fx/fx-knight-shield-2.png",
+        "public/assets/image2/fx/fx-knight-shield-4.png",
+        "public/assets/image2/fx/fx-knight-shield-5.png"
+      ],
+      "monsterHurt": [
+        "public/assets/image2/fx/fx-greatsword-hellfire-0.png",
+        "public/assets/image2/fx/fx-greatsword-hellfire-2.png",
+        "public/assets/image2/fx/fx-greatsword-hellfire-4.png",
+        "public/assets/image2/fx/fx-greatsword-hellfire-5.png"
+      ],
+      "fireBurst": [
+        "public/assets/image2/fx/fx-sage-fire-0.png",
+        "public/assets/image2/fx/fx-sage-fire-2.png",
+        "public/assets/image2/fx/fx-sage-fire-4.png",
+        "public/assets/image2/fx/fx-sage-fire-5.png"
+      ],
+      "iceBurst": [
+        "public/assets/image2/fx/fx-lancer-shatter-0.png",
+        "public/assets/image2/fx/fx-lancer-shatter-2.png",
+        "public/assets/image2/fx/fx-lancer-shatter-4.png",
+        "public/assets/image2/fx/fx-lancer-shatter-5.png"
+      ],
+      "shadowBurst": [
+        "public/assets/image2/fx/fx-warlock-blackflame-0.png",
+        "public/assets/image2/fx/fx-warlock-blackflame-2.png",
+        "public/assets/image2/fx/fx-warlock-blackflame-4.png",
+        "public/assets/image2/fx/fx-warlock-blackflame-5.png"
+      ],
+      "holyBurst": [
+        "public/assets/image2/fx/fx-guardian-holy-0.png",
+        "public/assets/image2/fx/fx-guardian-holy-2.png",
+        "public/assets/image2/fx/fx-guardian-holy-4.png",
+        "public/assets/image2/fx/fx-guardian-holy-5.png"
+      ],
+      "poisonBurst": [
+        "public/assets/image2/fx/fx-ranger-bind-0.png",
+        "public/assets/image2/fx/fx-ranger-bind-2.png",
+        "public/assets/image2/fx/fx-ranger-bind-4.png",
+        "public/assets/image2/fx/fx-ranger-bind-5.png"
+      ],
+      "arrowPierce": [
+        "public/assets/image2/fx/fx-archer-pierce-0.png",
+        "public/assets/image2/fx/fx-archer-pierce-2.png",
+        "public/assets/image2/fx/fx-archer-pierce-4.png",
+        "public/assets/image2/fx/fx-archer-pierce-5.png"
+      ]
+    },
+    "monster": {
+      "claw": [
+        "public/assets/image2/fx/fx-duelist-moonlight-0.png",
+        "public/assets/image2/fx/fx-duelist-moonlight-2.png",
+        "public/assets/image2/fx/fx-duelist-moonlight-4.png",
+        "public/assets/image2/fx/fx-duelist-moonlight-5.png"
+      ],
+      "bite": [
+        "public/assets/image2/fx/fx-greatsword-blood-0.png",
+        "public/assets/image2/fx/fx-greatsword-blood-2.png",
+        "public/assets/image2/fx/fx-greatsword-blood-4.png",
+        "public/assets/image2/fx/fx-greatsword-blood-5.png"
+      ],
+      "casterBolt": [
+        "public/assets/image2/fx/fx-warlock-curse-0.png",
+        "public/assets/image2/fx/fx-warlock-curse-2.png",
+        "public/assets/image2/fx/fx-warlock-curse-4.png",
+        "public/assets/image2/fx/fx-warlock-curse-5.png"
+      ],
+      "wraithDissolve": [
+        "public/assets/image2/fx/fx-warlock-abyss-0.png",
+        "public/assets/image2/fx/fx-warlock-abyss-2.png",
+        "public/assets/image2/fx/fx-warlock-abyss-4.png",
+        "public/assets/image2/fx/fx-warlock-abyss-5.png"
+      ],
+      "stomp": [
+        "public/assets/image2/fx/fx-lancer-charge-0.png",
+        "public/assets/image2/fx/fx-lancer-charge-2.png",
+        "public/assets/image2/fx/fx-lancer-charge-4.png",
+        "public/assets/image2/fx/fx-lancer-charge-5.png"
+      ],
+      "roar": [
+        "public/assets/image2/fx/fx-guardian-judgment-0.png",
+        "public/assets/image2/fx/fx-guardian-judgment-2.png",
+        "public/assets/image2/fx/fx-guardian-judgment-4.png",
+        "public/assets/image2/fx/fx-guardian-judgment-5.png"
+      ],
+      "bossCleave": [
+        "public/assets/image2/fx/fx-greatsword-greatsword-0.png",
+        "public/assets/image2/fx/fx-greatsword-greatsword-2.png",
+        "public/assets/image2/fx/fx-greatsword-greatsword-4.png",
+        "public/assets/image2/fx/fx-greatsword-greatsword-5.png"
+      ]
+    }
+  },
+  "portalSource": "reference-2x2-motion-grid-dimensional-flame-portal-sheet; transparent-rgba; lossless-png"
+}

@@ -1,0 +1,47 @@
+{
+  "generatedAt": "2026-06-05T09:34:49.832976+00:00",
+  "rows": [
+    {
+      "kind": "meleeGuardian",
+      "route": "guardian",
+      "label": "천족 수호자",
+      "source": "public/assets/image2/fx/melee-basic/meleeGuardian-source.png",
+      "opaque": 1342,
+      "greenResidue": 0
+    },
+    {
+      "kind": "meleeGreatsword",
+      "route": "greatsword",
+      "label": "마족 대검사",
+      "source": "public/assets/image2/fx/melee-basic/meleeGreatsword-source.png",
+      "opaque": 3778,
+      "greenResidue": 0
+    },
+    {
+      "kind": "meleeKnight",
+      "route": "knight",
+      "label": "인간 기사",
+      "source": "public/assets/image2/fx/melee-basic/meleeKnight-source.png",
+      "opaque": 734,
+      "greenResidue": 0
+    },
+    {
+      "kind": "meleeDuelist",
+      "route": "duelist",
+      "label": "엘프 쌍검사",
+      "source": "public/assets/image2/fx/melee-basic/meleeDuelist-source.png",
+      "opaque": 1792,
+      "greenResidue": 0
+    },
+    {
+      "kind": "meleeLancer",
+      "route": "lancer",
+      "label": "용인 창기사",
+      "source": "public/assets/image2/fx/melee-basic/meleeLancer-source.png",
+      "opaque": 408,
+      "greenResidue": 0
+    }
+  ],
+  "target": "public/assets/fx/forge/melee-basic-effects.png",
+  "webp": "public/assets/fx/forge/melee-basic-effects.webp"
+}
