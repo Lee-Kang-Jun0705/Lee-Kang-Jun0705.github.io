@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>몬스터 · 보스 목소리 청취실</title>
+  <style>
+    :root {
+      --bg: #14141a;
+      --panel: #1e1e27;
+      --panel-2: #262631;
+      --line: #33333f;
+      --text: #ececf1;
+      --muted: #9a9aab;
+      --accent: #c9a227;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background-color: var(--bg);
+      background-image: radial-gradient(1200px 600px at 50% -10%, #20202c, transparent);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard", "Segoe UI", system-ui, sans-serif;
+      min-height: 100vh;
+    }
+    header {
+      padding: 28px 20px 16px;
+      text-align: center;
+      border-bottom: 1px solid var(--line);
+      background-color: var(--bg);
+    }
+    header h1 { margin: 0 0 6px; font-size: 26px; font-weight: 900; letter-spacing: -0.5px; }
+    header p { margin: 0; color: var(--muted); font-size: 14px; }
+    .wrap { max-width: 1100px; width: 100%; margin: 0 auto; padding: 20px 18px 48px; }
+    .tabs { display: flex; gap: 8px; justify-content: center; margin: 18px 0 24px; }
+    .tab {
+      padding: 10px 22px; border-radius: 999px; border: 1px solid var(--line);
+      background: var(--panel); color: var(--muted); font-size: 15px; font-weight: 700;
+      cursor: pointer; transition: all .15s;
+    }
+    .tab.active { background: var(--accent); color: #1a1400; border-color: var(--accent); }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
+    .card {
+      background: var(--panel); border: 1px solid var(--line); border-radius: 14px;
+      padding: 16px; transition: border-color .15s, transform .12s;
+    }
+    .card:hover { border-color: #4a4a5a; transform: translateY(-2px); }
+    .card .name { font-size: 18px; font-weight: 800; margin: 0 0 2px; }
+    .card .sub { font-size: 12.5px; color: var(--muted); margin: 0 0 12px; display: flex; gap: 6px; align-items: center; }
+    .badge { font-size: 11px; padding: 2px 7px; border-radius: 6px; background: #3a2d12; color: var(--accent); font-weight: 700; }
+    .btns { display: grid; grid-template-columns: repeat(3, 1fr); gap: 7px; }
+    .vbtn {
+      display: flex; flex-direction: column; align-items: center; gap: 3px;
+      padding: 9px 4px; border-radius: 9px; border: 1px solid var(--line);
+      background: var(--panel-2); color: var(--text); cursor: pointer; font-size: 13px;
+      font-weight: 700; transition: all .12s;
+    }
+    .vbtn small { font-size: 16px; line-height: 1; }
+    .vbtn:hover { border-color: var(--c, #6a6a7a); background: #2f2f3c; }
+    .vbtn.playing { background: var(--c, #444); border-color: var(--c, #888); color: #fff; animation: pulse 1s ease-in-out infinite; }
+    @keyframes pulse { 50% { opacity: .6; } }
+    .player {
+      flex-shrink: 0; background: var(--panel);
+      border-top: 1px solid var(--line); padding: 12px 18px; display: flex;
+      align-items: center; gap: 14px; justify-content: center;
+    }
+    .player .now { font-size: 14px; color: var(--muted); }
+    .player .now b { color: var(--text); }
+    .stop {
+      padding: 9px 18px; border-radius: 9px; border: 1px solid #5a3030;
+      background: #3a2020; color: #ffb4b4; font-weight: 800; cursor: pointer; font-size: 14px;
+    }
+    .stop:hover { background: #4a2626; }
+    .hidden { display: none; }
+    @media (max-width: 560px) { .grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🎙️ 몬스터 · 보스 목소리 청취실</h1>
+    <p>버튼을 누르면 재생, 같은 버튼을 다시 누르면 정지 · 보스는 한국어 목소리, 몬스터는 특색 효과음</p>
+  </header>
+  <div class="wrap">
+    <div class="tabs">
+      <button class="tab active" data-tab="boss">🐲 보스 (10종)</button>
+      <button class="tab" data-tab="monster">👹 몬스터 (6종)</button>
+    </div>
+    <div id="boss" class="grid"></div>
+    <div id="monster" class="grid hidden"></div>
+  </div>
+
+  <script>
+    const BOSSES = [
+      { field: "ember_grove", name: "불씨군주", family: "잿불" },
+      { field: "moon_mine", name: "달광산 파수꾼", family: "월광" },
+      { field: "border_ruins", name: "국경 약탈왕", family: "가시" },
+      { field: "mist_fen", name: "늪의 포식자", family: "늪지" },
+      { field: "sunken_chapel", name: "침몰한 성자", family: "지하묘" },
+      { field: "thorn_pass", name: "가시장군", family: "가시" },
+      { field: "ash_market", name: "잿빛 대공", family: "잿불" },
+      { field: "frost_watch", name: "서리감시자", family: "서리" },
+      { field: "royal_bastion", name: "왕실 배반자", family: "왕실" },
+      { field: "crown_gate", name: "왕관 악마", family: "왕관", temp: "임시(왕실 목소리 공유)" },
+    ];
+    const BOSS_EVENTS = [
+      { key: "intro", n: 1, label: "등장", icon: "🚪", c: "#3b6fb0" },
+      { key: "phase", n: 2, label: "페이즈", icon: "⚡", c: "#c9a227" },
+      { key: "death", n: 3, label: "사망", icon: "💀", c: "#8a5cc0" },
+      { key: "idle", n: 4, label: "평상시", icon: "💬", c: "#5a5a6a" },
+      { key: "hurt", n: 5, label: "피격", icon: "🩸", c: "#c06a2a" },
+      { key: "attack", n: 6, label: "공격", icon: "⚔️", c: "#b03b3b" },
+    ];
+    const MONSTERS = [
+      { form: "imp", name: "임프", desc: "임프 발톱·고블린 울음" },
+      { form: "wolf", name: "늑대", desc: "야수 물어뜯기" },
+      { form: "crawler", name: "크롤러", desc: "벌레 기어다님·껍질" },
+      { form: "brute", name: "브루트", desc: "거대 강타·무게" },
+      { form: "shaman", name: "주술사", desc: "뼈 흔들림·암흑 영창" },
+      { form: "wraith", name: "망령", desc: "유령 위상·공허 숨결" },
+    ];
+    const MON_ACTIONS = [
+      { key: "attack", label: "공격", icon: "⚔️", c: "#b03b3b" },
+      { key: "hurt", label: "피격", icon: "🩸", c: "#c06a2a" },
+      { key: "death", label: "사망", icon: "💀", c: "#8a5cc0" },
+      { key: "idle", label: "평상시", icon: "💤", c: "#5a5a6a" },
+    ];
+
+    let current = null;
+    let currentBtn = null;
+
+    function stop() {
+      if (current) { current.pause(); current = null; }
+      if (currentBtn) { currentBtn.classList.remove("playing"); currentBtn = null; }
+    }
+    function play(src, label, btn) {
+      if (currentBtn === btn) { stop(); return; } // 같은 버튼 재클릭 = 정지
+      stop();
+      current = new Audio(src);
+      currentBtn = btn;
+      btn.classList.add("playing");
+      current.onended = stop;
+      current.onerror = stop;
+      current.play().catch(stop);
+    }
+
+    function vbtn(ev, src, label) {
+      const b = document.createElement("button");
+      b.className = "vbtn";
+      b.style.setProperty("--c", ev.c);
+      b.innerHTML = `<small>${ev.icon}</small>${ev.label}`;
+      b.onclick = () => play(src, label, b);
+      return b;
+    }
+
+    function renderBosses() {
+      const root = document.getElementById("boss");
+      BOSSES.forEach((b) => {
+        const card = document.createElement("div");
+        card.className = "card";
+        const sub = b.temp ? `${b.family} · <span class="badge">${b.temp}</span>` : `${b.family} 계열`;
+        card.innerHTML = `<p class="name">${b.name}</p><p class="sub">${sub}</p>`;
+        const btns = document.createElement("div");
+        btns.className = "btns";
+        BOSS_EVENTS.forEach((ev) => {
+          const src = `/assets/voice/ko/boss-${b.field}-${ev.key}-${ev.n}.mp3`;
+          btns.appendChild(vbtn(ev, src, `${b.name} · ${ev.label}`));
+        });
+        card.appendChild(btns);
+        root.appendChild(card);
+      });
+    }
+    function renderMonsters() {
+      const root = document.getElementById("monster");
+      MONSTERS.forEach((m) => {
+        const card = document.createElement("div");
+        card.className = "card";
+        card.innerHTML = `<p class="name">${m.name}</p><p class="sub">${m.desc}</p>`;
+        const btns = document.createElement("div");
+        btns.className = "btns";
+        btns.style.gridTemplateColumns = "repeat(4, 1fr)";
+        MON_ACTIONS.forEach((ev) => {
+          const src = `/assets/audio/sfx/sfx_monster_${m.form}_${ev.key}.mp3`;
+          btns.appendChild(vbtn(ev, src, `${m.name} · ${ev.label}`));
+        });
+        card.appendChild(btns);
+        root.appendChild(card);
+      });
+    }
+
+    document.querySelectorAll(".tab").forEach((t) => {
+      t.onclick = () => {
+        stop();
+        document.querySelectorAll(".tab").forEach((x) => x.classList.remove("active"));
+        t.classList.add("active");
+        document.getElementById("boss").classList.toggle("hidden", t.dataset.tab !== "boss");
+        document.getElementById("monster").classList.toggle("hidden", t.dataset.tab !== "monster");
+      };
+    });
+    renderBosses();
+    renderMonsters();
+  </script>
+</body>
+</html>
