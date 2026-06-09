@@ -1,0 +1,2516 @@
+{
+  "files": {
+    "archer-bark-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/archer-bark-1.882f0e8adf9c.mp3",
+      "output_sha256": "95338a86ede05bc7cd3e45b761d943747811f2e409fcc6e56970619eb6308f9e",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:05+00:00",
+      "source_sha256": "882f0e8adf9cd2a81d55da28212809a1ada1227dba0b0e8f76e29f5530c30f35",
+      "target_lufs": -14.0
+    },
+    "archer-bark-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/archer-bark-2.a143111c17b7.mp3",
+      "output_sha256": "c88bde423012fc420c71563a72833d6088d82b840d36d69a6adb38461640ace7",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:06+00:00",
+      "source_sha256": "a143111c17b7430be2ec565acb642ebc285931642b55d4f14177804eff07fa6f",
+      "target_lufs": -14.0
+    },
+    "archer-bark-3.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/archer-bark-3.e42bdbaa473e.mp3",
+      "output_sha256": "817d885f9386502805dcc41bfff43a7dc40d396f64cce73c991d9c510aaaa506",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:06+00:00",
+      "source_sha256": "e42bdbaa473e58aff820a215c8fe1696ce9afd8f311e76e48a46f9c762477104",
+      "target_lufs": -14.0
+    },
+    "archer-bark-4.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/archer-bark-4.e8cd7d688a4a.mp3",
+      "output_sha256": "64d58a002f49f5b969ca18122b6c998b69ef678e2740e615eef066ac65fd8b6d",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:06+00:00",
+      "source_sha256": "e8cd7d688a4a0f5e0627169ce5541c696af2f5208907bd0c8c1f0a35120baf6d",
+      "target_lufs": -14.0
+    },
+    "archer-death-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/archer-death-1.7fee84027416.mp3",
+      "output_sha256": "3fc5d900a55be93195a26824ce85f8115e098b56e7594d4e71507609618fb259",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:06+00:00",
+      "source_sha256": "7fee840274169d098f292e4311a67fc6460870ce1c192894cee5cfa4c230a3e3",
+      "target_lufs": -14.0
+    },
+    "archer-death-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/archer-death-2.2fc4738ad5c8.mp3",
+      "output_sha256": "9a583f78fba44d751e87b3d8dc5de1bccbbc58d31db66b7becae5fe89492b806",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:06+00:00",
+      "source_sha256": "2fc4738ad5c8afde3e2c3da2313855dd2fcad8ea30300cfa391cbb49b47f3546",
+      "target_lufs": -14.0
+    },
+    "archer-fieldEnter-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/archer-fieldEnter-1.1612d76c38e4.mp3",
+      "output_sha256": "830431144729396fcbd03efdff574f12fba086ef1b40bb46d12fdc94c15b9c74",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:06+00:00",
+      "source_sha256": "1612d76c38e46df3c2bdc29a62d16335f7bb2924e8e34a3c2e3d7375ab49fec9",
+      "target_lufs": -14.0
+    },
+    "archer-fieldEnter-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/archer-fieldEnter-2.314d143000c7.mp3",
+      "output_sha256": "4cb9d0f3e97fc6937e93cee4104a409a1c928706e4575fea9c8842d5107254e5",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:06+00:00",
+      "source_sha256": "314d143000c79891f8abb7abceaaf3ad1ad9909b71f3eccb538716c953326149",
+      "target_lufs": -14.0
+    },
+    "archer-levelUp-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/archer-levelUp-1.ec23b0e336a7.mp3",
+      "output_sha256": "50cc8c74400c26804ee177fb717ceedae4fe98e04251edba320fbdd36dbe55d1",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:06+00:00",
+      "source_sha256": "ec23b0e336a7e9f4eb0c603f1f94af4f51ecff55c6831038d27a97cab4613656",
+      "target_lufs": -14.0
+    },
+    "archer-levelUp-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/archer-levelUp-2.2f3492c3521f.mp3",
+      "output_sha256": "c588fced046278390aeb59b88eb57e26b41b9c28270cd808c996bf1440eb815e",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:06+00:00",
+      "source_sha256": "2f3492c3521fe73b7e00e2993563e498f17a693f02d765aa344645b1592f17e1",
+      "target_lufs": -14.0
+    },
+    "archer-pierce-piercing-shot.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/archer-pierce-piercing-shot.cb37a42a9425.mp3",
+      "output_sha256": "3bfa59547ecd3a76c0cee14e1e757fae8a53f757d9f9e3320c9155a23707b4a5",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:06+00:00",
+      "source_sha256": "cb37a42a9425467b3c6e3fdcb8d5d9168fa4dcf1e23fe5bed55b9d87a4093c29",
+      "target_lufs": -14.0
+    },
+    "archer-pierce-rail-shot.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/archer-pierce-rail-shot.46fefd370dd1.mp3",
+      "output_sha256": "b2e235ff77a76d208fa532893548c2d7ad2e8b48f9074b348a0fdfd1f7208165",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:06+00:00",
+      "source_sha256": "46fefd370dd15206d7d37a2481706faa4ad755b7283402ccef79c9a57fa1a7c2",
+      "target_lufs": -14.0
+    },
+    "archer-pierce-sky-piercer.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/archer-pierce-sky-piercer.f034b7711a72.mp3",
+      "output_sha256": "b51bc9498bee78bf7e1e3e52910144f20b948d7ebc6a500cd6c817320e62203b",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:06+00:00",
+      "source_sha256": "f034b7711a72cab33893f2a97dfc396c5b94f09b1b40ad92d17045dc67f20401",
+      "target_lufs": -14.0
+    },
+    "archer-pierce-split-bolt.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/archer-pierce-split-bolt.885341fb4758.mp3",
+      "output_sha256": "b7341ea8c868755daec9ea8529bbd8d5ea053646a71ec2d72463f9ba8bf170e8",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:06+00:00",
+      "source_sha256": "885341fb47589afca74253b777e44a05a5b170cb88fd76154b30967125bd770c",
+      "target_lufs": -14.0
+    },
+    "archer-portal-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/archer-portal-1.84791fca174e.mp3",
+      "output_sha256": "7a81c9b510b8ea3cf81f80e819733dba186ed2084aed56e5ae43c613ac7de6e3",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:06+00:00",
+      "source_sha256": "84791fca174e786335e1c895f60b1d052388dbae4704d3c7474ee0a0f54f3cfb",
+      "target_lufs": -14.0
+    },
+    "archer-snipe-death-mark.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/archer-snipe-death-mark.6a81c166cc51.mp3",
+      "output_sha256": "6bee0d0f4a77fa18a9c0ce6feafcc42feefb26ba5a2e7982f12724fc788efb81",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:06+00:00",
+      "source_sha256": "6a81c166cc513c40f424933fd74d3679a7e8a09bb1180aa5a1688d7e4e6b8560",
+      "target_lufs": -14.0
+    },
+    "archer-snipe-eagle-shot.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/archer-snipe-eagle-shot.244c93d74752.mp3",
+      "output_sha256": "66670f3dcae7f6efbb9c171d1e391c2620ecb1f281ccafe1f3d55821ade60e58",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:06+00:00",
+      "source_sha256": "244c93d74752e73f0f57d8f87971e976a0714670d18930bc0162cf593c5a4a33",
+      "target_lufs": -14.0
+    },
+    "archer-snipe-sure-arrow.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/archer-snipe-sure-arrow.39a3d1fc5e05.mp3",
+      "output_sha256": "80dab97f97fe9fa5b5f6c6397d171cb80c48a32e263df0d160ded0898fa2dcea",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:06+00:00",
+      "source_sha256": "39a3d1fc5e053f0bf74d3bc1f7e2fa773b1c8cd3bf21de70420fe8dff1c1951b",
+      "target_lufs": -14.0
+    },
+    "archer-snipe-vital-shot.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/archer-snipe-vital-shot.a7eba4271b2a.mp3",
+      "output_sha256": "6f226e58431873e148ad11bf66e3fc8c0518b26659f949b5edb3eb6967cc77d7",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:06+00:00",
+      "source_sha256": "a7eba4271b2ab1cd2d3df2ce31a2de2bd3bb5dc50dab7ee0b7048c46dc527442",
+      "target_lufs": -14.0
+    },
+    "archer-tactic-hunt-call.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/archer-tactic-hunt-call.0b83dea1fa7b.mp3",
+      "output_sha256": "76736f75a74d4f60ab2dee2d610de18d798ed8ac98cbf8505185883b6c77a56d",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:06+00:00",
+      "source_sha256": "0b83dea1fa7b4b25ef28d43481e98dd43bb6fb7379213d4c00023e209d175435",
+      "target_lufs": -14.0
+    },
+    "archer-tactic-kill-zone.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/archer-tactic-kill-zone.1ddba95c47ec.mp3",
+      "output_sha256": "0a3555999ae4d05d900079d3052bdaad006d8f6ce10bf39e2f74b7fced881e13",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:06+00:00",
+      "source_sha256": "1ddba95c47ec99ed30063bb30c9f01062e072ab15f3671c7b7af415363e93fa6",
+      "target_lufs": -14.0
+    },
+    "archer-tactic-mark-shot.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/archer-tactic-mark-shot.08f9c10cc4ec.mp3",
+      "output_sha256": "25a628532da06c8e46e30d871a79d517f4a1b18189ba4b709202ec33e5dd4801",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:06+00:00",
+      "source_sha256": "08f9c10cc4ec22dff34d35c493694b401ca328a19c8a6f3d49addda9a45d7cbd",
+      "target_lufs": -14.0
+    },
+    "archer-tactic-trap-volley.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/archer-tactic-trap-volley.28d5d377aed4.mp3",
+      "output_sha256": "ccb238f01ebfb1cd4b941e3f886556a36542475bd20757b7fc7bd5ac9880d033",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:06+00:00",
+      "source_sha256": "28d5d377aed40f95306050d684c22ee0bc38a3496074c72c8fc118072a1e9881",
+      "target_lufs": -14.0
+    },
+    "cleric-bark-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/cleric-bark-1.f207ba26cf5e.mp3",
+      "output_sha256": "d32219af65a8ced99807a0acffd805f4e7426f58318fbe53b1c2c07991141b3b",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "f207ba26cf5ec475cf92ad91faaf04791730e40942080e0be9cb165bd4a273ab",
+      "target_lufs": -14.0
+    },
+    "cleric-bark-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/cleric-bark-2.ff03154de47f.mp3",
+      "output_sha256": "325092f01a3f2b4de803493d10f22029637db9a88018be83525c8a502ab785e5",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "ff03154de47f47c5cc314a6a5864e32c1b188b3213fd8db91985180083bc5856",
+      "target_lufs": -14.0
+    },
+    "cleric-death-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/cleric-death-1.16131dc480ae.mp3",
+      "output_sha256": "dbff3a20aa3833cdd1bf2a43126d3b19e33e0cffd8bc6b376dc7adafaf608b3e",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "16131dc480ae7dc22cc0dad2b43c8f252ca0869d974009f7c069ec82547b4146",
+      "target_lufs": -14.0
+    },
+    "crystal-bark-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/crystal-bark-1.2790ee82ba0b.mp3",
+      "output_sha256": "17a00263d24853101ac1f2172a73665dec7bf5377283ae8b9069f2e3829213a1",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "2790ee82ba0bcddf6b2e69432678b3e7b0e3742ef0868d73c9cbb96449b3c453",
+      "target_lufs": -14.0
+    },
+    "crystal-bark-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/crystal-bark-2.304d1b8c8aab.mp3",
+      "output_sha256": "e8a9524968d69fb8e80467daac8b0114ce8b31781153582213300760342098af",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "304d1b8c8aab1285c96ae7b418d2958efe69f4f1219b4b4a411062585ecb3991",
+      "target_lufs": -14.0
+    },
+    "crystal-death-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/crystal-death-1.4671b2be485e.mp3",
+      "output_sha256": "5dbb11035baad965a3c757b3c6f2e33e09398281aa8800907a989fa544512cb5",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "4671b2be485e8a93a6e7a79754765a66a47025dda8b1f2ce47f179d0e9ce384a",
+      "target_lufs": -14.0
+    },
+    "duelist-bark-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/duelist-bark-1.b5343079e7ba.mp3",
+      "output_sha256": "8c1c1ff4b19c244111c78dd3dbf03740d05ace148c2e94621ee7a08671c83f79",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:06+00:00",
+      "source_sha256": "b5343079e7ba3ecb408e425807f93e3259ebaa03125d53c70433cb5a7bbdffcc",
+      "target_lufs": -14.0
+    },
+    "duelist-bark-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/duelist-bark-2.1ff1adecc79f.mp3",
+      "output_sha256": "1dfb95dacea18cdd260e269ad160a9cd31b2629b8ffbaa5ccaebfa3f7a82e155",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:06+00:00",
+      "source_sha256": "1ff1adecc79fff5accea2c3dc89393e7b2b127954c437702c7805c0ae5e0c640",
+      "target_lufs": -14.0
+    },
+    "duelist-bark-3.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/duelist-bark-3.9fc8d43e69e8.mp3",
+      "output_sha256": "4b9de2f77cfd3ffab78897009618f923d8c7dc7e36bd6177b4bf395559e628b4",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:06+00:00",
+      "source_sha256": "9fc8d43e69e85a42fa7c97da31b605de6aee5fed3001ecb5b951534aed974893",
+      "target_lufs": -14.0
+    },
+    "duelist-bark-4.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/duelist-bark-4.44b6ff3defde.mp3",
+      "output_sha256": "41ce07978da3a4da9b4aa7c89bdd76c79cd9953c6763a72091b7d48db149ccc3",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:06+00:00",
+      "source_sha256": "44b6ff3defde0b9ffbb9c2ae566a2b2bdea271798bcf7b51719066b5b7f6624e",
+      "target_lufs": -14.0
+    },
+    "duelist-death-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/duelist-death-1.722a7d6c4a6b.mp3",
+      "output_sha256": "29aacc4cdd83371e91774a95a0284c831b0726551f716013cc61eafe1349f55d",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:06+00:00",
+      "source_sha256": "722a7d6c4a6b246f82c61e4efe83f99783e21e032503cdac0277c97b94d395f4",
+      "target_lufs": -14.0
+    },
+    "duelist-death-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/duelist-death-2.e6ce14e719ec.mp3",
+      "output_sha256": "afa1063b997ae166540451f4376966c69a83f3b4028439e79f192b04782bff5c",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:06+00:00",
+      "source_sha256": "e6ce14e719ec0a8299085bc5f9a019996085842aa386328764230ad2ca23de45",
+      "target_lufs": -14.0
+    },
+    "duelist-duelist-execution-dance.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/duelist-duelist-execution-dance.7ec03ae232b3.mp3",
+      "output_sha256": "44ef0e28b2ff8874792e69ef95e55cc2942b5a62f1081e2339a3c42cbd7e3f01",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:06+00:00",
+      "source_sha256": "7ec03ae232b3d718c9f440c22124d5bcbf5a76c6100b4f85909a919819343dba",
+      "target_lufs": -14.0
+    },
+    "duelist-duelist-red-finale.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/duelist-duelist-red-finale.863f64247016.mp3",
+      "output_sha256": "9244142b8d31105f9570c0acad30312c1183bf0e51ec2cb9f42059044a068c88",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:06+00:00",
+      "source_sha256": "863f64247016f958bcf35f8b8be129df768d22aabfc42116bc2ffdc12378e377",
+      "target_lufs": -14.0
+    },
+    "duelist-duelist-ripper.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/duelist-duelist-ripper.facd3bd5f829.mp3",
+      "output_sha256": "13ec64a380f762c76e47cd06cae47163134e29fe4ed6aae6de8ceb80d8d8167c",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:06+00:00",
+      "source_sha256": "facd3bd5f82998150e71cd039caf72a503eb752ad7e1023a5a19894aa002bfda",
+      "target_lufs": -14.0
+    },
+    "duelist-duelist-twin-lash.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/duelist-duelist-twin-lash.a0e1963e68f1.mp3",
+      "output_sha256": "a9ace712c749620971d92ffc41aa7957b15c6cb2e6618359d2541921f03fea87",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:06+00:00",
+      "source_sha256": "a0e1963e68f1e1e242c578516322bcf5fa357f0198ef92cc135912450a3865fe",
+      "target_lufs": -14.0
+    },
+    "duelist-evasion-afterimage.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/duelist-evasion-afterimage.cb4e43e6dbe2.mp3",
+      "output_sha256": "7c2517fd1733dc771f3d3a934bbc093e0cfbfee4a180d7013d7e43b91551cda1",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:06+00:00",
+      "source_sha256": "cb4e43e6dbe24037e7dcfdab1370f9cab84ba4a5a7cd03b029a57d24d0ea2dae",
+      "target_lufs": -14.0
+    },
+    "duelist-evasion-mirror-dance.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/duelist-evasion-mirror-dance.ed9976307b62.mp3",
+      "output_sha256": "694e3bf7e3e061e0bc95d056eebbcb41d30f3c6526dc4d8c8996f8f7f438c244",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:06+00:00",
+      "source_sha256": "ed9976307b627421e0e3025cd951506bb30ae2473d3abf2ed01c4080329500c0",
+      "target_lufs": -14.0
+    },
+    "duelist-evasion-phantom-cut.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/duelist-evasion-phantom-cut.54c335a31822.mp3",
+      "output_sha256": "ffce2c359cbd0f70af9663f3e773caa4c56ab7547c163504b66dd10416580afe",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:06+00:00",
+      "source_sha256": "54c335a318223137668e64b09e108d1ddcace3f8e499a58b8ecd13c438af4c6c",
+      "target_lufs": -14.0
+    },
+    "duelist-evasion-riposte.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/duelist-evasion-riposte.fd12ce6ad3ba.mp3",
+      "output_sha256": "24d81c2cd95cb49fa39df2b19284af9945eebca91c7ad25d37498b5f402d8f90",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:07+00:00",
+      "source_sha256": "fd12ce6ad3ba98788472773f320f5fd6df57ed4e011bad529f17d0584343f5c7",
+      "target_lufs": -14.0
+    },
+    "duelist-fieldEnter-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/duelist-fieldEnter-1.b88c5293b723.mp3",
+      "output_sha256": "2abf7c56b348f5e8d737c15cd15a575c194ddf3db23768522cb39ec462dafbfc",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:07+00:00",
+      "source_sha256": "b88c5293b72308e4479b83fb690cad6153eb82aaf834165e71f071751427c0b2",
+      "target_lufs": -14.0
+    },
+    "duelist-fieldEnter-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/duelist-fieldEnter-2.7b035c6af1e3.mp3",
+      "output_sha256": "a1ed5268d39598f129a31e214d8317753c2519b99bf1e0976cdc81394579799a",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:07+00:00",
+      "source_sha256": "7b035c6af1e3098b7406d43ceb2ff6af0c74896482133208c115101ac330f88f",
+      "target_lufs": -14.0
+    },
+    "duelist-levelUp-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/duelist-levelUp-1.ed58085be528.mp3",
+      "output_sha256": "83ed3fbb7286b7ad20566f7a11a483791dd17bb9ae7963799f1081ad8aab098d",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:07+00:00",
+      "source_sha256": "ed58085be528c14251ef8243fe8c411528a813da6999e4885dd4df99aaa7e7fb",
+      "target_lufs": -14.0
+    },
+    "duelist-levelUp-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/duelist-levelUp-2.729a5fc4d93f.mp3",
+      "output_sha256": "9f8824f76fce2b038b65bc5215311de5389daee6128ebf6a602ffd3a949d2049",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:07+00:00",
+      "source_sha256": "729a5fc4d93f0738bde0e905609bc784d9a7ff1f5a3ad1669ae4c046820326e4",
+      "target_lufs": -14.0
+    },
+    "duelist-moonlight-crescent.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/duelist-moonlight-crescent.416ef28e1e34.mp3",
+      "output_sha256": "0143ec1c89c2078c45e939df735a929ce1bda5a2d41e81a53ef20d9192655b00",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:07+00:00",
+      "source_sha256": "416ef28e1e34999644a5463478f9a7e6f90ee6fdff110efb97a4417c56e83cad",
+      "target_lufs": -14.0
+    },
+    "duelist-moonlight-fullmoon.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/duelist-moonlight-fullmoon.13724d6fe8eb.mp3",
+      "output_sha256": "1b1c8aef194f9297c46aae84adb0e2dfc3368b6c100a8aeea09c13d231158c51",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:07+00:00",
+      "source_sha256": "13724d6fe8eb269f5645195fb0957754fc587247038c78a5e3a4e1bf6f84bf0e",
+      "target_lufs": -14.0
+    },
+    "duelist-moonlight-moon-cut.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/duelist-moonlight-moon-cut.7fd9e24d8a70.mp3",
+      "output_sha256": "f1d04d3b6583bf3258fedbb6a808c4c3b428080bd7b6df20bb77e857d949e2c6",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:07+00:00",
+      "source_sha256": "7fd9e24d8a70f695060445ef8698e05a651e65a8d883e14b468e1aee1780db85",
+      "target_lufs": -14.0
+    },
+    "duelist-moonlight-silver-rush.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/duelist-moonlight-silver-rush.c784334f963f.mp3",
+      "output_sha256": "57701623a2b93c316880773559bb821f045ce71e5cfc452628a7a02220a31826",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:07+00:00",
+      "source_sha256": "c784334f963f6c9d40b3a0d2cf5ed6c6d567a7885a29ddd5d82787e0b9b2f9c0",
+      "target_lufs": -14.0
+    },
+    "duelist-portal-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/duelist-portal-1.44ca8474f380.mp3",
+      "output_sha256": "0dd0402a777b3bad3172faa35a099f29972afcbbe3ad8946568168f9d42b83b8",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:07+00:00",
+      "source_sha256": "44ca8474f380830a2bd99366891886ef1c2b24e73364fceb5b3fdaa849118def",
+      "target_lufs": -14.0
+    },
+    "emberknight-bark-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/emberknight-bark-1.f4fb716296a1.mp3",
+      "output_sha256": "87a423451bd354de2cd0121ad182368eb322d776816adf38a352f9be4cb1a1c6",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "f4fb716296a13b17eb0281cf909ea2bb10e6217d9934f17a117ad0529686ddc0",
+      "target_lufs": -14.0
+    },
+    "emberknight-bark-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/emberknight-bark-2.9b73c5a41be7.mp3",
+      "output_sha256": "906772607426e80f6d91ffac4475e51b96140aabe7e5ade0d299ab70def34f47",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "9b73c5a41be7d1f406d5e2fea686e13f9aeea56cb05c8aa687e474a97be59e89",
+      "target_lufs": -14.0
+    },
+    "emberknight-death-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/emberknight-death-1.350d2d2cd1d1.mp3",
+      "output_sha256": "d55cb471f2ecae809cab5fd8c35469b6d16b923d08ae06b6f41141b3f0abd561",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "350d2d2cd1d1739fe88c3a5758dc2e064573169d023de509ddc9fb26eeaab9ac",
+      "target_lufs": -14.0
+    },
+    "forestarcher-bark-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/forestarcher-bark-1.91593d59b091.mp3",
+      "output_sha256": "976ff8d486070c5831d8ae3aacd99437c4619d53b34457c7b9ddbef05afcb692",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "91593d59b091f29bcd57e2c8f7512ae299a9c10e418775c035283b560699f8e6",
+      "target_lufs": -14.0
+    },
+    "forestarcher-bark-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/forestarcher-bark-2.aeb73f4ced55.mp3",
+      "output_sha256": "7ba68508dc209b27255b2f8b62b1315e0736e27d53716a05b40600ba92317176",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "aeb73f4ced55b65ada8515a687aa0d4c94dc741443dbb6c0039b1495e4e297a0",
+      "target_lufs": -14.0
+    },
+    "forestarcher-death-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/forestarcher-death-1.0727d3dc80fa.mp3",
+      "output_sha256": "b969c5d95d1c8b1d99f96480eb8887963a21e1683079c7c0b92ca90d4d81e018",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "0727d3dc80fa320796a0c9bce41f57b225acdcf7dc858aed1efd094438b5be65",
+      "target_lufs": -14.0
+    },
+    "forestdruid-bark-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/forestdruid-bark-1.9c0f73121bb3.mp3",
+      "output_sha256": "ca726b042a84e8ce6d4a38ab0155701b6e9d293e5c9cb56e1bf537455389779d",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "9c0f73121bb33115576959f275ca0d279ddc85f737e43d5c0bf4b8abf171b348",
+      "target_lufs": -14.0
+    },
+    "forestdruid-bark-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/forestdruid-bark-2.641d6eba6a3d.mp3",
+      "output_sha256": "06e2cc9bcbf525fadae44e972b9b1bf5c959d608b5a30d1d9d6bf4fe0b099ede",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "641d6eba6a3d7473b47fbf7cbc330568eed7ede80e36c30b32a6592be1a12288",
+      "target_lufs": -14.0
+    },
+    "forestdruid-death-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/forestdruid-death-1.66ba09a730e4.mp3",
+      "output_sha256": "82bd40d3c40f4c60b5f6ed582f96b6731a81cc1d43949f89bfc87422d3a82999",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "66ba09a730e4b992c0781fbfdd8add15f6ad375d233c97b8734d83e017b8776f",
+      "target_lufs": -14.0
+    },
+    "greatsword-bark-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/greatsword-bark-1.c4500b722bf0.mp3",
+      "output_sha256": "8e8abc7e1298c0017c4623f0974422738f1fe4f2f8d854f4bb19991b031fbdbe",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:07+00:00",
+      "source_sha256": "c4500b722bf031d5b14a075192dd1d3e2d2d9b15a3168af9f23a59b1c088f824",
+      "target_lufs": -14.0
+    },
+    "greatsword-bark-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/greatsword-bark-2.64c8c3390108.mp3",
+      "output_sha256": "a70dea7b2742134454b8efb28f4da06d426c555f6be197aa7949f0852d55e56f",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:07+00:00",
+      "source_sha256": "64c8c33901085b2b97da7b46577602fe71f7e4403170be20d0a1b4edf9a5736e",
+      "target_lufs": -14.0
+    },
+    "greatsword-bark-3.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/greatsword-bark-3.d9a3735204cf.mp3",
+      "output_sha256": "48e7aa540f13ab9081d92ad748d6752a0c5904201b6f752c232f0c7307b53775",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:07+00:00",
+      "source_sha256": "d9a3735204cf4c5f11ff056dcf81c8022c32d61b310badb6dc8dd4dd476f22dd",
+      "target_lufs": -14.0
+    },
+    "greatsword-bark-4.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/greatsword-bark-4.e45bed139bef.mp3",
+      "output_sha256": "235b3d600062ab46e93ce1f7d50dd8718f628515262ee7d25b2ba71536269d20",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:07+00:00",
+      "source_sha256": "e45bed139befe580f59696f1be08a498d8ba085f39b2c184e70ea6888496f3f2",
+      "target_lufs": -14.0
+    },
+    "greatsword-blood-blood-revel.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/greatsword-blood-blood-revel.500b67799beb.mp3",
+      "output_sha256": "979b3763165e5279343d294951465dddc5684f3a70d438ffc64450fc2d302ba4",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:07+00:00",
+      "source_sha256": "500b67799beba18cf2e29d68a1dbebedda6d837bef07e4222177d4b871567df7",
+      "target_lufs": -14.0
+    },
+    "greatsword-blood-blood-thirst.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/greatsword-blood-blood-thirst.a70e4a158487.mp3",
+      "output_sha256": "e80728175920405aefc5e0c4421c13e9aeabc33e9961801487c8999f3a5f86a2",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:07+00:00",
+      "source_sha256": "a70e4a15848797b3c95a24437c7bd433f57735f323328cb739b8575cf88cc194",
+      "target_lufs": -14.0
+    },
+    "greatsword-blood-crimson-harvest.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/greatsword-blood-crimson-harvest.1b5224a57311.mp3",
+      "output_sha256": "940e958dadab2a589d83f69b7b65c327de88f671fb9a30b42fef52e0650df707",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:07+00:00",
+      "source_sha256": "1b5224a57311a0c777b02133f3b94c876b4fed5ac46cf936a4ed137ca6960b6b",
+      "target_lufs": -14.0
+    },
+    "greatsword-blood-vampiric-cut.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/greatsword-blood-vampiric-cut.6fc8406f0cf1.mp3",
+      "output_sha256": "cb3735fa14da981c1c7c61bd218a1420de2dc0e8155ab9679a73e13a576ec5a1",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:07+00:00",
+      "source_sha256": "6fc8406f0cf1b16fbeb6dabae6e56c02f303da617468e2cea57f3d4565fce1d8",
+      "target_lufs": -14.0
+    },
+    "greatsword-death-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/greatsword-death-1.3f91e1861c6b.mp3",
+      "output_sha256": "151ab694ebd448bbec3e4213afb4ba1d297b13d838b8a4e4cde968e34a31118f",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:07+00:00",
+      "source_sha256": "3f91e1861c6b60a67dc1ad13845c954aff7e0d8c19649d6f07968846f3ee3aa6",
+      "target_lufs": -14.0
+    },
+    "greatsword-death-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/greatsword-death-2.1f76354fdc2d.mp3",
+      "output_sha256": "4bebbaecb35b398f8336954f83607ac2a20308e5940a8b222944da472fa3fa2d",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:07+00:00",
+      "source_sha256": "1f76354fdc2dc82e892d6311334ee0650c26e302ca26def0792f719842eca687",
+      "target_lufs": -14.0
+    },
+    "greatsword-fieldEnter-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/greatsword-fieldEnter-1.4f4ab128e628.mp3",
+      "output_sha256": "0cad7a01937ef1b1cf1718099c8218f0d35e8aabe777d3cc43c9656a22ead51b",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:07+00:00",
+      "source_sha256": "4f4ab128e628ef259ab13edfc962823f3d97efbb15821c615f1208ab0e91210b",
+      "target_lufs": -14.0
+    },
+    "greatsword-fieldEnter-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/greatsword-fieldEnter-2.c2203edd1743.mp3",
+      "output_sha256": "febecd1139c12ac5d537fa8f9cbf6221060a893ef61403b83a5a1b0a6b47d90e",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:07+00:00",
+      "source_sha256": "c2203edd17433571f088afcc6db960b43744c62dc522be56a8772cacd269c3ec",
+      "target_lufs": -14.0
+    },
+    "greatsword-greatsword-execution-cut.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/greatsword-greatsword-execution-cut.2a36bba45e08.mp3",
+      "output_sha256": "d3eb1b39cd484c7cda815d8b78511b93a9ba64900d1f353a6e0d449ddcdd2440",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:07+00:00",
+      "source_sha256": "2a36bba45e0805763c0441fcdfee6a69086a64f4abf01e80e261c79cfd586370",
+      "target_lufs": -14.0
+    },
+    "greatsword-greatsword-guillotine.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/greatsword-greatsword-guillotine.56bb2e825261.mp3",
+      "output_sha256": "979070cdd6ad0f80b3403b8195d2d0c0a86c6400af1e072b4797030ec3768d83",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:07+00:00",
+      "source_sha256": "56bb2e825261ea5a1d36ab8acf1f467d53b47fb6dbd7f7aa71b3da559a01850f",
+      "target_lufs": -14.0
+    },
+    "greatsword-greatsword-skull-split.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/greatsword-greatsword-skull-split.5e62ce27c9b6.mp3",
+      "output_sha256": "ec0688833800624e0566b357f49dc018f4b4d0a9b2c30847c83416bc52aa11b5",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:07+00:00",
+      "source_sha256": "5e62ce27c9b6540207b8b37df7d6bbf86d68df9372d48a800b2bfeb00d973d2a",
+      "target_lufs": -14.0
+    },
+    "greatsword-greatsword-sky-cleave.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/greatsword-greatsword-sky-cleave.14a6115ed21a.mp3",
+      "output_sha256": "6b3736a45ff7a10cf1403851bec4231c1faa34bd5982affb1efafa033c31aabb",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:07+00:00",
+      "source_sha256": "14a6115ed21a8a3f3be846440649df1bd6cd193e90d810666f86761581a7faa4",
+      "target_lufs": -14.0
+    },
+    "greatsword-hellfire-flame-burst.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/greatsword-hellfire-flame-burst.28e17d6d86e2.mp3",
+      "output_sha256": "ff88437c480314b3d7fd06d9f1e6616e2b23c3ad8b2c7e5fa8c5c106b0ff1313",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:07+00:00",
+      "source_sha256": "28e17d6d86e2be0fe1146df2af16adc64f1ee8d0e3e16323d7cc041825498b68",
+      "target_lufs": -14.0
+    },
+    "greatsword-hellfire-hellforge.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/greatsword-hellfire-hellforge.8cea9f3f8a1c.mp3",
+      "output_sha256": "eb812c1727c85e93ccbcbf1762539c80a4c00ebe462a0258cd832102c6c6d7d2",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:07+00:00",
+      "source_sha256": "8cea9f3f8a1c719785ae0c916b7a8fb1c2caf47d89c46724a95b520704f5ff56",
+      "target_lufs": -14.0
+    },
+    "greatsword-hellfire-hellslash.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/greatsword-hellfire-hellslash.fd46be5fff41.mp3",
+      "output_sha256": "7ef58f906f3c21e90f1f0b4e8070b14d7191909200a2bde1c6069b737ada133b",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:07+00:00",
+      "source_sha256": "fd46be5fff41960e2a9b711964fc3717d7cf72580f2b5026c9a76627d98ce70d",
+      "target_lufs": -14.0
+    },
+    "greatsword-hellfire-inferno-edge.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/greatsword-hellfire-inferno-edge.4c81934a806b.mp3",
+      "output_sha256": "f643ac1c09a3932f4d5bb91c3da187be6393c2afd9a5a7a2bc8d4766d18c1d92",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:07+00:00",
+      "source_sha256": "4c81934a806bd7c79eded7d1940e43034948233ace15e31c9b1f3fd8b567c52d",
+      "target_lufs": -14.0
+    },
+    "greatsword-levelUp-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/greatsword-levelUp-1.3c9646147c2f.mp3",
+      "output_sha256": "d02c33bdf8ba5e2a517f15fc94b83823bc437d6c6c51ef46dd7d4b675069338a",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:07+00:00",
+      "source_sha256": "3c9646147c2fc1d50f5af5b32b3c8bb64b115188630a71cb0892d7cf4f781457",
+      "target_lufs": -14.0
+    },
+    "greatsword-levelUp-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/greatsword-levelUp-2.c51023f435ce.mp3",
+      "output_sha256": "93cf91a24c2bb67db5d53501778be051c045c81bac54925e2bb97d1d1eeb3d07",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:07+00:00",
+      "source_sha256": "c51023f435ce0070ec17c62352f801940dcb8e404ec019a51886f818d8e8e111",
+      "target_lufs": -14.0
+    },
+    "greatsword-portal-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/greatsword-portal-1.e61b183a4313.mp3",
+      "output_sha256": "34c7d1039a38e75aca898beff0ce15ac71c665b0870888c35402c5da590a94a5",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:07+00:00",
+      "source_sha256": "e61b183a4313012715b04b529d35c8a931ae889fd6742453df534618be95f5ae",
+      "target_lufs": -14.0
+    },
+    "guardian-bark-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/guardian-bark-1.4b0e6426f7f4.mp3",
+      "output_sha256": "610363222a5217f176bc1d5ab9cfefdf233bcfdbb5d7f1a7bb435ad35628af4b",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:07+00:00",
+      "source_sha256": "4b0e6426f7f4576064dc5b50afb870ef2127e35cda30eb169289347d7e8b104e",
+      "target_lufs": -14.0
+    },
+    "guardian-bark-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/guardian-bark-2.9a61f84ed998.mp3",
+      "output_sha256": "e11ff1d28dbceafcae3a45194cdccd04b0d112e158c03a635e5e1ff944e4d471",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:07+00:00",
+      "source_sha256": "9a61f84ed99823ff940398ec710ceed206d4efcbd9447849b098e1cefb983d6f",
+      "target_lufs": -14.0
+    },
+    "guardian-bark-3.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/guardian-bark-3.9c08d358b890.mp3",
+      "output_sha256": "1e215b62f28399ae51140a3f9cc3370ad2a0bc2f3597a85fd145b058f7506b02",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:07+00:00",
+      "source_sha256": "9c08d358b890c0e36463e47e92f17af5e20cf6e5f79bdb46589eabd4857f6286",
+      "target_lufs": -14.0
+    },
+    "guardian-bark-4.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/guardian-bark-4.36e05cd16652.mp3",
+      "output_sha256": "4b6b2f4b6c746c0dd27655a9273bc41973e0f6acce1f401feec470cabf17ecb7",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:08+00:00",
+      "source_sha256": "36e05cd166522330c725ab9da89f2a23e35bcacd6996a7fdf49b4bb2f7885e2c",
+      "target_lufs": -14.0
+    },
+    "guardian-death-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/guardian-death-1.5e88f47dd2dd.mp3",
+      "output_sha256": "5c61ef29fac7607f2581a620195dadf9b0ae60fa6643d9af400dd246421d3dd0",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:08+00:00",
+      "source_sha256": "5e88f47dd2ddebefdd00a0ef06ceb16ff52eb4870db2b6c866faef3ed7009092",
+      "target_lufs": -14.0
+    },
+    "guardian-death-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/guardian-death-2.f8480e007b6f.mp3",
+      "output_sha256": "4594f18513fc66ff53c6327fb15f300242bdcc70672966c7af07aacafe71e044",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:08+00:00",
+      "source_sha256": "f8480e007b6f20dbe63532818cc8a16bcb137237f92a6bf5424efaeb2b4be6b0",
+      "target_lufs": -14.0
+    },
+    "guardian-fieldEnter-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/guardian-fieldEnter-1.90d582cd10f6.mp3",
+      "output_sha256": "e111a2bfa5d6423ba74277d160421eaefa54988cb4b78ab86562d7f735f9e121",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:08+00:00",
+      "source_sha256": "90d582cd10f6c4b5bef8b4db4b1df48ea301d3618f5b1605b50514a98be90985",
+      "target_lufs": -14.0
+    },
+    "guardian-fieldEnter-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/guardian-fieldEnter-2.4070e14b8344.mp3",
+      "output_sha256": "35cb3a409e0e4c88af6966dec44a3b788a7709ff18c1123038d7cb0b82777edf",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:08+00:00",
+      "source_sha256": "4070e14b834478d6af99a7d78852df8f5e9041930214c5198fdc009a7f92f30b",
+      "target_lufs": -14.0
+    },
+    "guardian-holy-barrier.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/guardian-holy-barrier.78c9fcebb1be.mp3",
+      "output_sha256": "f47dabcad0167f2832533b189b3678afe472089c20f92af3d0cc6ca27900c6ea",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:08+00:00",
+      "source_sha256": "78c9fcebb1be072b9f44210cdd69c092f33a560c32339adce13db3237bee7c49",
+      "target_lufs": -14.0
+    },
+    "guardian-holy-prayer.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/guardian-holy-prayer.051ce6afafca.mp3",
+      "output_sha256": "ffde286da0f2c3478e6f409a082c4676fda012ac88e30521c2b865aafc95437d",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:08+00:00",
+      "source_sha256": "051ce6afafca563783241007a60f925671be15f507b6908f1fb114d262f81b4c",
+      "target_lufs": -14.0
+    },
+    "guardian-holy-sanctify.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/guardian-holy-sanctify.0dd2755b70a3.mp3",
+      "output_sha256": "ed65090d9cf97008626b02b0ebda1b5e7bcf14210b7ed80dae9b3809be3e9421",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:08+00:00",
+      "source_sha256": "0dd2755b70a3ed6b0164b6b6772f777b41315442d81410a8ded669b96cffb97a",
+      "target_lufs": -14.0
+    },
+    "guardian-holy-tribunal.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/guardian-holy-tribunal.df8e21f7dcd6.mp3",
+      "output_sha256": "a5c90474253e89554e26fbe13cdb7105cb617e49def7bdce3ab64d81f5759783",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:08+00:00",
+      "source_sha256": "df8e21f7dcd6a1bfc8695a3daf9051e6f8c5ce6ccccd9f6df3b9a6cb67f0d484",
+      "target_lufs": -14.0
+    },
+    "guardian-judgment-atonement.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/guardian-judgment-atonement.0586655544c4.mp3",
+      "output_sha256": "ba22d544ca6f7c96ff286940453bfa0df3a3ba2635e1e55f25c90b9017b8ba52",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:08+00:00",
+      "source_sha256": "0586655544c49f1a8c8847ccbba2239a65891ab934dd6114dd6a553b4930ad0b",
+      "target_lufs": -14.0
+    },
+    "guardian-judgment-final.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/guardian-judgment-final.8470f1c99612.mp3",
+      "output_sha256": "f312e51c29e6e8b55edfbee6185d44f21ffed713367c2ca08f4a5710531f03cd",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:08+00:00",
+      "source_sha256": "8470f1c99612dd5fb43f0b11939f5547adc4f6be99a2995be977cb5edb896311",
+      "target_lufs": -14.0
+    },
+    "guardian-judgment-punish.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/guardian-judgment-punish.889e8774a6e8.mp3",
+      "output_sha256": "59f5c7a9ee7b5c3a9e58018edf193b2cd9959e52fafa578a2b655217c411b580",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:08+00:00",
+      "source_sha256": "889e8774a6e88f07d6c8b6d6c236c756cd5ba84b36bac61f7be72656b5779f09",
+      "target_lufs": -14.0
+    },
+    "guardian-judgment-riposte.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/guardian-judgment-riposte.98ec7fddfb4e.mp3",
+      "output_sha256": "0747ebf5e2eceb343d33ca2d945eecc0c2c93bed92c36e73e35b339415bb6949",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:08+00:00",
+      "source_sha256": "98ec7fddfb4e45040b58cdbd13130b6191daf07ab104f78df2f9188fff59b7fe",
+      "target_lufs": -14.0
+    },
+    "guardian-levelUp-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/guardian-levelUp-1.6f5d707ad8f1.mp3",
+      "output_sha256": "0a45ff6212f4bb111208ebb9b95aa62671031d02b017136086e95f0bb5ae7044",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:08+00:00",
+      "source_sha256": "6f5d707ad8f1d3c914c2e210f0aa7c91bd00b579697a47ac4b99714d01aa2238",
+      "target_lufs": -14.0
+    },
+    "guardian-levelUp-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/guardian-levelUp-2.0c133df28598.mp3",
+      "output_sha256": "1a90f4d6da8de2e6cb93ef0f73e647df8eccf3a95fa9eede703c23d8201d46d7",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:08+00:00",
+      "source_sha256": "0c133df28598e73a3ab80c961af29e0152afeb53ed5abc7c039c65bdfdb6aaa1",
+      "target_lufs": -14.0
+    },
+    "guardian-portal-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/guardian-portal-1.a56a5c3f6a85.mp3",
+      "output_sha256": "fea23b98b48f2af7fad0220c85763a274817ed38f93fb956d8776bbaa088df33",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:08+00:00",
+      "source_sha256": "a56a5c3f6a85a37e53ef159461e5d8a7d483962dac93a2242da13692e44dcbc8",
+      "target_lufs": -14.0
+    },
+    "guardian-shield-bash.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/guardian-shield-bash.ff5094b2177a.mp3",
+      "output_sha256": "5867dc72155ec7e487233f2c8ea77402e29051953e72c74cbcde4b33a574dd21",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:08+00:00",
+      "source_sha256": "ff5094b2177acf1cc6bd5ca838141debce4fb8322560bd96ee558fcc37608306",
+      "target_lufs": -14.0
+    },
+    "guardian-shield-bulwark.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/guardian-shield-bulwark.d5f4ffd0ec5a.mp3",
+      "output_sha256": "d69e0aa8eea4f0738a36516ce64ebc15d112068c34b6709dd124fcb27dfdf559",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:08+00:00",
+      "source_sha256": "d5f4ffd0ec5a9441124c173ef11d46ebd5bdf68369865e8dd2ad2f492c3e1021",
+      "target_lufs": -14.0
+    },
+    "guardian-shield-fortress.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/guardian-shield-fortress.4ec372112496.mp3",
+      "output_sha256": "ff15a4b062fc8ac207e0cc44c6804185d108b742228dc982737efd6e9eccf150",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:08+00:00",
+      "source_sha256": "4ec3721124961cc71f513d1c26e064614761cf62e7f1ba38f0ebc0ce42fcbf24",
+      "target_lufs": -14.0
+    },
+    "guardian-shield-taunt.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/guardian-shield-taunt.4de63c7e4f56.mp3",
+      "output_sha256": "38d54d0a567de05355d99afcc6c7f686bae88961ffcf3699462b30cdf15774eb",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:08+00:00",
+      "source_sha256": "4de63c7e4f56fb5a8d59493c6684ee1103237f6bf8d6959d5df64c348a7b2e55",
+      "target_lufs": -14.0
+    },
+    "ironwall-bark-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/ironwall-bark-1.9a8093404578.mp3",
+      "output_sha256": "bc02f3ef87cdaccae63d64398318616d5af6a24eb83399a6e3b62f979fc29c77",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "9a80934045786683ed15959b8e7936c9799d0b728dc9b03c13570a7cc5339597",
+      "target_lufs": -14.0
+    },
+    "ironwall-bark-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/ironwall-bark-2.f375de7fa7e8.mp3",
+      "output_sha256": "fce0195b03d69ebd0cbf2661a734a8ae42e595e2e5dd1596f97d2bf755892c29",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "f375de7fa7e86146064a01854a41cf16b8d266d0267b37de9d527fad97b0fc3a",
+      "target_lufs": -14.0
+    },
+    "ironwall-death-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/ironwall-death-1.3535062b55a1.mp3",
+      "output_sha256": "d2eb9829234af0ad2e6c1ad2dbb1cd8d30e7b172012ffdacb834548de99469fc",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "3535062b55a1769f24c4c63c16e78bcf468556a613546c2c800ee8eac491743d",
+      "target_lufs": -14.0
+    },
+    "knight-bark-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/knight-bark-1.5a540e7bd4f3.mp3",
+      "output_sha256": "ce5d1cbc6b8b8aaa2f1180afff5a847283a118878b557665312a246a0095ed45",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:08+00:00",
+      "source_sha256": "5a540e7bd4f30ed83da474bb6d13f7e1f3760c73eda92f865e178a2149d7e446",
+      "target_lufs": -14.0
+    },
+    "knight-bark-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/knight-bark-2.bbcb268f03e9.mp3",
+      "output_sha256": "26bf575a47681ba8912ba9d63120b1447691d281fc37e70c22db66059533cb57",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:08+00:00",
+      "source_sha256": "bbcb268f03e997db053625612faba6923df703336516b2d1910fbbdfc274c312",
+      "target_lufs": -14.0
+    },
+    "knight-bark-3.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/knight-bark-3.2e455a92107f.mp3",
+      "output_sha256": "356fc671340133a12c6af38223447754ef0834c7a2ebad7507fa9b5db62467f6",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:08+00:00",
+      "source_sha256": "2e455a92107f3d609aecbaac002cb4b90bf359bcf7c7f38325ff96873116edd3",
+      "target_lufs": -14.0
+    },
+    "knight-bark-4.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/knight-bark-4.86961739e701.mp3",
+      "output_sha256": "c2c14dfb5948067661262214837a83570ffaf8426894241b3ad89281dd66c9db",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:08+00:00",
+      "source_sha256": "86961739e7013d5dd8cf960c1c4d2c5ebb51f18e423161e96341e6001074c507",
+      "target_lufs": -14.0
+    },
+    "knight-command-all-out.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/knight-command-all-out.0f5cb474acbf.mp3",
+      "output_sha256": "96456402d4c8d3b5e3b6f8d3239f768dad766d339cef8dba39719dbae35187cb",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:08+00:00",
+      "source_sha256": "0f5cb474acbfb7e649e0c8c251d401bcd17a2dccb1174b53e8206bcc1371908f",
+      "target_lufs": -14.0
+    },
+    "knight-command-charge-order.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/knight-command-charge-order.0b6a683c1945.mp3",
+      "output_sha256": "ce552956658c6268468c3761e3601ea638cc7003e067f1b0ba4ebc91e7b29af5",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:08+00:00",
+      "source_sha256": "0b6a683c19453323be7e2d5bb83994fe38747868caf6ccaee17bf00cef026e41",
+      "target_lufs": -14.0
+    },
+    "knight-command-rally.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/knight-command-rally.50f5d9652cef.mp3",
+      "output_sha256": "ee3d5404a3ef1e36891cba80466215fc3d9efbef02f7fb690db269723dafd8aa",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:08+00:00",
+      "source_sha256": "50f5d9652cef1693f5f30e65189ee8f8c50b84c7be309bffa96ad68505678478",
+      "target_lufs": -14.0
+    },
+    "knight-command-war-cry.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/knight-command-war-cry.c1656db14bfa.mp3",
+      "output_sha256": "e84ddb8f92d78bb78483d93f7f36051a5ef7fcc870de6af4410c0e024e00783e",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:08+00:00",
+      "source_sha256": "c1656db14bfad9d32b52c5499bb185c112374e847f10825ac0e2b151a15dcf2b",
+      "target_lufs": -14.0
+    },
+    "knight-death-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/knight-death-1.9c243b61a9e8.mp3",
+      "output_sha256": "0955cb3e015ea352110651b6998aa6d55ce1ff5c67f23ee96c116509e298de0a",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:08+00:00",
+      "source_sha256": "9c243b61a9e89f20fa6a0b4230ec41b868f6b15ee4aa13074d5c3527cb7a6118",
+      "target_lufs": -14.0
+    },
+    "knight-death-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/knight-death-2.01a01d0a7e14.mp3",
+      "output_sha256": "861691971bb661627b8aa86e0e8a272e38ddb626b116f850bbbd55e437eb9648",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:08+00:00",
+      "source_sha256": "01a01d0a7e1400754278afcd9995c9ad9f77453507d83bc96bcb12291d0e8d47",
+      "target_lufs": -14.0
+    },
+    "knight-fieldEnter-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/knight-fieldEnter-1.061abe3fd1a8.mp3",
+      "output_sha256": "ed74bfa967a453ff41943e337dc7cd74836b1ea43aa97d058da9f0b1be151d70",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:08+00:00",
+      "source_sha256": "061abe3fd1a854183374f62b1beeecdcad9f37c359875ea4ad1c2f87c27a307c",
+      "target_lufs": -14.0
+    },
+    "knight-fieldEnter-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/knight-fieldEnter-2.0c0715b648ee.mp3",
+      "output_sha256": "bac38f52b02459dcfa40da1f2282a55b878b14a3e31f4245da40eb344d4691b9",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:08+00:00",
+      "source_sha256": "0c0715b648ee1d89316cb185c7093b5d3b9f0be1559c0eada2ae47fab758cd6e",
+      "target_lufs": -14.0
+    },
+    "knight-levelUp-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/knight-levelUp-1.f39f550374e5.mp3",
+      "output_sha256": "bdf9d2497b02e3e7aabc19f8de59ae4ef4e68355a37448036a644a55c80b12d7",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:08+00:00",
+      "source_sha256": "f39f550374e5eba974444d0b934ee40e695ed3a4ceaba5c355ebb049a953a5b2",
+      "target_lufs": -14.0
+    },
+    "knight-levelUp-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/knight-levelUp-2.94f992ffe67d.mp3",
+      "output_sha256": "9620c6b7529fc654ee425c591728fa155479649f3e6c8ea9c577f02bcf98c770",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:08+00:00",
+      "source_sha256": "94f992ffe67db0b0fcde8366aa88417ad22c2c82d4855c5339f9a047c6cee173",
+      "target_lufs": -14.0
+    },
+    "knight-portal-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/knight-portal-1.f68bea27b8ca.mp3",
+      "output_sha256": "4470dd753ecb69da50b6c3b074a88fd5e5ef9ed87a50cce05892a57a05d63bb4",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:08+00:00",
+      "source_sha256": "f68bea27b8ca9ba41e07a3d6477cac9179227b50c11009eab7a0272dcc53f7c4",
+      "target_lufs": -14.0
+    },
+    "knight-shield-bash.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/knight-shield-bash.5b712d4aa947.mp3",
+      "output_sha256": "1e404eb81edbe7df03a53282119d54de09dfc57533f2f05bc7648b4483c396ca",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:08+00:00",
+      "source_sha256": "5b712d4aa947ebcf3060bf95c29ebf1617eef4522713af4096b5793e816b78ee",
+      "target_lufs": -14.0
+    },
+    "knight-shield-counterwall.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/knight-shield-counterwall.eab4ee7f8096.mp3",
+      "output_sha256": "90a3bf4c6a2ec815a57a761eeaf5a88177ffb05efec2863acfdd2a9022cb3bee",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:08+00:00",
+      "source_sha256": "eab4ee7f809672fa1593dd88237e70302683290d9a7a50e63aa6ff5b04d5125c",
+      "target_lufs": -14.0
+    },
+    "knight-shield-royal-wall.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/knight-shield-royal-wall.b390bce15e1c.mp3",
+      "output_sha256": "ec868fffd3f75d1c59ff402545017e7cccf5e5dcbf8ec5334e00fd4a173c62d9",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:08+00:00",
+      "source_sha256": "b390bce15e1c13f3f64942d70178e035d8788d4ad8ec037a472a68270c1d3971",
+      "target_lufs": -14.0
+    },
+    "knight-shield-shield-crash.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/knight-shield-shield-crash.df028a5c483b.mp3",
+      "output_sha256": "1eeb5ae0af1d22d34115a2bc1571734f7ada0251a380384d5965b51ee8281ddc",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:08+00:00",
+      "source_sha256": "df028a5c483bdb145fd77cb44f402180e357d9a12803c50beace730c65333ff4",
+      "target_lufs": -14.0
+    },
+    "knight-sword-combo.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/knight-sword-combo.75631e79258b.mp3",
+      "output_sha256": "1e2e42bcc3eb3e8adc167f38e742948184b05628c39d3091ceed8ae1bff01039",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:08+00:00",
+      "source_sha256": "75631e79258b7367cf2c1581e59ca065360df817f25b4359267dde7bd083cd4a",
+      "target_lufs": -14.0
+    },
+    "knight-sword-cross-cut.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/knight-sword-cross-cut.1df4a72b4be1.mp3",
+      "output_sha256": "069e7101151d9dd19eca2dcf750811f9467cec4d99ff6fc3faa4b69f0424c4d3",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:09+00:00",
+      "source_sha256": "1df4a72b4be13ffea68654bc4908bd07ce810e4f5a37f1b5cdccf464b2c5731f",
+      "target_lufs": -14.0
+    },
+    "knight-sword-king-blow.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/knight-sword-king-blow.dc3cc067184d.mp3",
+      "output_sha256": "24a1c6badc28ad8314201d9b33e2989642c2f82b9200ddb5d20873b81790778a",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:09+00:00",
+      "source_sha256": "dc3cc067184d1daa1df76a511881d00fb9a774d2b2ea3502b39ef5424d5d887a",
+      "target_lufs": -14.0
+    },
+    "knight-sword-lion-strike.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/knight-sword-lion-strike.8691b6e7e6ca.mp3",
+      "output_sha256": "4deb2cfe9f8c1ac2420c5778de69e53bcb034e69beaa9ce1d77b17eb79946dad",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:09+00:00",
+      "source_sha256": "8691b6e7e6cacb47a9acf1cd80304d0d60ab47ee68535525621ea24a7e456e98",
+      "target_lufs": -14.0
+    },
+    "lancer-bark-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/lancer-bark-1.2713790fb262.mp3",
+      "output_sha256": "edaa47749a003f07ccf20e48844b6941dd9438fcd97ef8738baf5ff5e3b353ef",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:09+00:00",
+      "source_sha256": "2713790fb262f23cb75ad8088842f919ab5c6e8fb0988a2b32d1c4d386b81f67",
+      "target_lufs": -14.0
+    },
+    "lancer-bark-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/lancer-bark-2.31ca5f202cdb.mp3",
+      "output_sha256": "20976d93c1be3d7e38ad00ffde518de506b5d4581ad53f5720fdcb26339dbe7f",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:09+00:00",
+      "source_sha256": "31ca5f202cdb68fd1dd01d2abc8b34aa98c282bbd2e61901a8174b14709f0e2d",
+      "target_lufs": -14.0
+    },
+    "lancer-bark-3.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/lancer-bark-3.76096341c9c6.mp3",
+      "output_sha256": "89b9f81916b4e0c0d5df2d1a3637f33dd51bfcea6a5d0de95ba708196a6e887c",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:09+00:00",
+      "source_sha256": "76096341c9c643bd66ac576ba9acce1c21bd2dfa8c4ecb5ddcaeadb50a8d73b7",
+      "target_lufs": -14.0
+    },
+    "lancer-bark-4.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/lancer-bark-4.9b15857b3aed.mp3",
+      "output_sha256": "3194f575358beff277e08bc1a7788228b44d32d301bcdc65acf6e49c5030cb91",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:09+00:00",
+      "source_sha256": "9b15857b3aed0af9221924411fa3f577ad1a70a5d0d25a356c408ea7604bf9c9",
+      "target_lufs": -14.0
+    },
+    "lancer-charge-gale-charge.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/lancer-charge-gale-charge.065000905a45.mp3",
+      "output_sha256": "39041875a3bfa09e06d5f28316bd41bbc7fa7aa7df38d9ff251f88757c7e2a11",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:09+00:00",
+      "source_sha256": "065000905a454ac5c2c3b0731d3856047d87908bc0225c594a77086f81c7280b",
+      "target_lufs": -14.0
+    },
+    "lancer-charge-line-break.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/lancer-charge-line-break.5a1f38d6a534.mp3",
+      "output_sha256": "d8a48827034d4fc5522602e369cbd1cd400147579d187e0847095599ec8374df",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:09+00:00",
+      "source_sha256": "5a1f38d6a534d45f50ad508a30a5fa5b46a6e603c92b742c20a8ebd89a79d341",
+      "target_lufs": -14.0
+    },
+    "lancer-charge-sky-charge.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/lancer-charge-sky-charge.dcb819cea77e.mp3",
+      "output_sha256": "ddc9361729120b5e4b6f5e03181ab1dab471489226e1efc754bd6524bca33c67",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:09+00:00",
+      "source_sha256": "dcb819cea77e7136de323271f6938de5015cc3fdda7b910e928cd50d852a98b0",
+      "target_lufs": -14.0
+    },
+    "lancer-charge-skyfall.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/lancer-charge-skyfall.c8fe5e11fe19.mp3",
+      "output_sha256": "1c2c4821a556c718c61abc818f8b4084a924f91df20815c10e542c6bc8550986",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:09+00:00",
+      "source_sha256": "c8fe5e11fe196decddd64da4ab937a342087f55443d96ec404302d46e08f48ef",
+      "target_lufs": -14.0
+    },
+    "lancer-death-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/lancer-death-1.1f03be53a0a1.mp3",
+      "output_sha256": "84ebcd782369b7bf6e94f22e552c3d667bbad4a2882d5abae20294cebe28face",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:09+00:00",
+      "source_sha256": "1f03be53a0a173a4d574d4c0b9afe7379c5858950c44e91b012e1cfc2f0cb03f",
+      "target_lufs": -14.0
+    },
+    "lancer-death-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/lancer-death-2.3e7e0036a3e2.mp3",
+      "output_sha256": "a892cfc7182e53d2ad2c7343a4e8d474a5433581d8a4619fbeb694e9295f024c",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:09+00:00",
+      "source_sha256": "3e7e0036a3e29efd77143f174f2559fdef98bc2a5b4204b52ac526dbfa640487",
+      "target_lufs": -14.0
+    },
+    "lancer-dragonblood-awakening.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/lancer-dragonblood-awakening.2a5beda857c1.mp3",
+      "output_sha256": "06c313246bfcaec7a7923f02b9dbfab302fb45888a123f8fd72625cf496f4663",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:09+00:00",
+      "source_sha256": "2a5beda857c1706701d794c16d30c3ff4d69478c93f9d8be059e78d6939eca38",
+      "target_lufs": -14.0
+    },
+    "lancer-dragonblood-blood-lance.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/lancer-dragonblood-blood-lance.9d78b07bbd75.mp3",
+      "output_sha256": "1417bbe395e4663a1519eb256ec34be59da99c315a7170cb3d398db3f1e9bd4b",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:09+00:00",
+      "source_sha256": "9d78b07bbd7577176f1d6f80229b4139eb90abe244eff385c4a6b161e8fe7d56",
+      "target_lufs": -14.0
+    },
+    "lancer-dragonblood-dragon-rage.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/lancer-dragonblood-dragon-rage.63ad5c59cbb8.mp3",
+      "output_sha256": "34c1dd4cf826e349374ea461123fc692f71ff1bc351382bd6f43669a16162c8a",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:09+00:00",
+      "source_sha256": "63ad5c59cbb8b54694c9e65d02fcf233deb47f2a7b6fe45984d798736397d572",
+      "target_lufs": -14.0
+    },
+    "lancer-dragonblood-dragon-roar.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/lancer-dragonblood-dragon-roar.354733d8a21d.mp3",
+      "output_sha256": "fb7be96e4ec72e11f04f6cafd0b85cd9b1c1b0c570b7e06123663ff714ef5e52",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:09+00:00",
+      "source_sha256": "354733d8a21d871ef30f2159db0faeb114d0db56106ac6ca9da47e123476e636",
+      "target_lufs": -14.0
+    },
+    "lancer-fieldEnter-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/lancer-fieldEnter-1.1751b8fddcc6.mp3",
+      "output_sha256": "e9bc1b0bc6f21e65f83b78bdf84d7a20fc6720ac8944d3c9197f593c6f1e5f0b",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:09+00:00",
+      "source_sha256": "1751b8fddcc6aa13b6f858a97fb26a56a9457bc124ac696e8930244a5e3efc9b",
+      "target_lufs": -14.0
+    },
+    "lancer-fieldEnter-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/lancer-fieldEnter-2.939c2c8309b8.mp3",
+      "output_sha256": "870b7342cda32935c5c17473750a313328e7f91f59732de2555fd22f7cd251e4",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:09+00:00",
+      "source_sha256": "939c2c8309b82e23cb561cfcd8964cb0cdb81fca1dc1d1d04b7cc51d1832f3f8",
+      "target_lufs": -14.0
+    },
+    "lancer-levelUp-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/lancer-levelUp-1.b78b734253d9.mp3",
+      "output_sha256": "14ef4e3f7dbd6292e5454965dde196dd5ad28ebcfff53cb59ccc858a08d0b7fa",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:09+00:00",
+      "source_sha256": "b78b734253d9574b0d62f63776d9719cf86eed9ac9a4f308159672a548874608",
+      "target_lufs": -14.0
+    },
+    "lancer-levelUp-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/lancer-levelUp-2.718c4acf7c29.mp3",
+      "output_sha256": "201bf9ecd4ac5cc0d3fdb160970de6a7accea7d5eeaadba580181b26ee4bb3c1",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:09+00:00",
+      "source_sha256": "718c4acf7c29e8f3e6a7b116d4302ad592738ddaeaba5307c56d4b46f0c613cd",
+      "target_lufs": -14.0
+    },
+    "lancer-portal-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/lancer-portal-1.aa1117433e0a.mp3",
+      "output_sha256": "3ca0e7e52c2974a7b444148f23f87d69f1dbca86ea2e54834cce0756bb9573e9",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:09+00:00",
+      "source_sha256": "aa1117433e0a90e869cc3a4a76b6b2f83a910d7f998230492d19ade6edb7c8bc",
+      "target_lufs": -14.0
+    },
+    "lancer-shatter-breaker.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/lancer-shatter-breaker.db50433e328d.mp3",
+      "output_sha256": "f1ffc925faff8a1caf46bd0dc4f11e80b05f8090eaf05025615f8a78ba5cc756",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:09+00:00",
+      "source_sha256": "db50433e328d62cb58ebaba9cc3b84a26fcc0b15f1c4fd9a6d08e8b6f5fe6340",
+      "target_lufs": -14.0
+    },
+    "lancer-shatter-crush.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/lancer-shatter-crush.8f64d79a0aa0.mp3",
+      "output_sha256": "25b5930c4b50b8bbc78bd92eb986304af3a734e21f634a933dc00fb45160941e",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:09+00:00",
+      "source_sha256": "8f64d79a0aa0b5be0c67b28fd05323915c1c9c10e36bbcb27dbfaaa4804f0654",
+      "target_lufs": -14.0
+    },
+    "lancer-shatter-earth-shatter.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/lancer-shatter-earth-shatter.303518770185.mp3",
+      "output_sha256": "896a3edf40b8b6f71cec34678e6dba530d06c3b55e8e2278fe3cc976094c4bb1",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:09+00:00",
+      "source_sha256": "303518770185478f62a696a51896b1020a45ae46305b6af70a5f796a1a4d37dd",
+      "target_lufs": -14.0
+    },
+    "lancer-shatter-earth-split.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/lancer-shatter-earth-split.6921f1be3949.mp3",
+      "output_sha256": "cd7ac924ed9a24d1470f5f20caa7d05a15a94baa2ffa63e438847fbc2fd6a405",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:09+00:00",
+      "source_sha256": "6921f1be3949bbe46168667854dfbb173182687fa022f2add08ee1cafcb1ff01",
+      "target_lufs": -14.0
+    },
+    "mage-bark-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/mage-bark-1.e235f0f70785.mp3",
+      "output_sha256": "084346a487eaf2a998d1f6547139e80e178e299d1c57e17a0d9f7d6073c37cda",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "e235f0f70785281b71fd76a28ec4faf5abb4a1c514b7e36f7e0956b98efba4b5",
+      "target_lufs": -14.0
+    },
+    "mage-bark-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/mage-bark-2.0c83e49e6001.mp3",
+      "output_sha256": "48ceea31e013a1e626c84267dd2cd9f2a9b5ca81d601458e5caa6e6850077fd8",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "0c83e49e6001223d30339cf4bc594140bfccfe7b61fb86828eb0543370340eb2",
+      "target_lufs": -14.0
+    },
+    "mage-death-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/mage-death-1.368e62e8dad3.mp3",
+      "output_sha256": "842ae1a0810113d5f78ccf9e296a9aced273b312fdb5b7e31bbd7b4a68751421",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "368e62e8dad35dec6b21c9562bdf9c740e17904da57d5777899b667500fb73fe",
+      "target_lufs": -14.0
+    },
+    "mercSig-cleric-endless-prayer.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/mercSig-cleric-endless-prayer.7e6cde5a10ff.mp3",
+      "output_sha256": "bf83b803a831296f35005440deaacf921c164ffc45b6417baef2cd5e6ac33c0a",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "7e6cde5a10fffd14d80401a92735ae34f679250011ef475f6e8158c39883af70",
+      "target_lufs": -14.0
+    },
+    "mercSig-crystal-crystal-thrust.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/mercSig-crystal-crystal-thrust.16b26e1ea542.mp3",
+      "output_sha256": "5da7a9aab70c2a246991486384927ae9b081ff28c34bb07a75f7235036b79e99",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "16b26e1ea54206533880ff7e55aedade76ba2cbef5ac08b871f090fd4026fa7a",
+      "target_lufs": -14.0
+    },
+    "mercSig-emberknight-dragonblood-formation.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/mercSig-emberknight-dragonblood-formation.441cc0f2a05d.mp3",
+      "output_sha256": "b26ca0b5fbfc9b3694c202fcaac539ae6737cebe31a522ee0bfaaa2263be2616",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "441cc0f2a05dda0eeb46923168481c870cbf0f5bbdcfe7c14f99c2f60e774653",
+      "target_lufs": -14.0
+    },
+    "mercSig-forestarcher-forest-glance.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/mercSig-forestarcher-forest-glance.445b6b9d7c2d.mp3",
+      "output_sha256": "e989bd62b6d230d9820c6fb4fa1c0f384435f260052023eab433e7339e10b61f",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "445b6b9d7c2d62e670cf9c6d77f3a43525422d25ee07291f97f30d72dd38b16f",
+      "target_lufs": -14.0
+    },
+    "mercSig-forestdruid-forest-ember.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/mercSig-forestdruid-forest-ember.1ef6744e63a2.mp3",
+      "output_sha256": "65e37a64b65dec2bc98008d074c66d5f055de6d72cb9ba15f9b15f3582223c77",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "1ef6744e63a2a2b2601697603ec7aedc448ac740c829d449a885aeac73af8309",
+      "target_lufs": -14.0
+    },
+    "mercSig-ironwall-ironwall-formation.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/mercSig-ironwall-ironwall-formation.b20c17b1619f.mp3",
+      "output_sha256": "3ff252b290a5e65c5539d2cf03ef683cf7247cb65db5d4e56a59679e03d727f0",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "b20c17b1619f5e99dd31f09e7a363562a54895d88bf5f23b586478ef4780aba3",
+      "target_lufs": -14.0
+    },
+    "mercSig-mage-wandering-circle.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/mercSig-mage-wandering-circle.b55aa2adb156.mp3",
+      "output_sha256": "0b2dc8224cd7774f14dda2a4e12acdc8e05d6ad4a4c20ae2374e178195291c7c",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "b55aa2adb1568900ecb1f4ce77c450c53eb6212dbdf32d41a066dc16f97d4823",
+      "target_lufs": -14.0
+    },
+    "mercSig-paladin-oath-strike.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/mercSig-paladin-oath-strike.a21012979886.mp3",
+      "output_sha256": "78ac33c90023fa4f357e301d46f6b37abba524817e8a32c37ab51fe8ef192647",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "a21012979886d9f5544517016ea4f8a8fd285682c8b7bed74c1c500faf0540f8",
+      "target_lufs": -14.0
+    },
+    "mercSig-pathwarden-not-late-arrow.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/mercSig-pathwarden-not-late-arrow.c8f691ff60bc.mp3",
+      "output_sha256": "5345ceba4bdfdcb0745d53f96dbc8d827b8ee4e81121dfd7931d153fafcb66c2",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "c8f691ff60bc6db62c4bd92b2798a1a2b1982747edd68af241a2f5aa5672f180",
+      "target_lufs": -14.0
+    },
+    "mercSig-rogue-plunderer-shadow.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/mercSig-rogue-plunderer-shadow.c1b37cf039e3.mp3",
+      "output_sha256": "82c16f5008441258c47978717d674effc1e083a3860832cab91b8fccf09345da",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "c1b37cf039e340d978c3e3ac8b8c69cd604c514bb4c743339b1b5d52b637f1de",
+      "target_lufs": -14.0
+    },
+    "mercSig-runepriest-ward-bind.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/mercSig-runepriest-ward-bind.4eb0288d8340.mp3",
+      "output_sha256": "b46179b3bb0598d6a6822946f518af38e28276142cc4e622744be09bccc35253",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "4eb0288d83408911a8f4add696bcc88370ee93d3cc36215e0d1a238a3f2785a9",
+      "target_lufs": -14.0
+    },
+    "mercSig-shadowblade-nameless-blade.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/mercSig-shadowblade-nameless-blade.fcfe391ac641.mp3",
+      "output_sha256": "57cb32a5e829961f9ebdf55e9790e0d205ac202e2dde3d432ec40c837175af65",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "fcfe391ac641d23b05d5c64a6aeea061e7ea451bcac7203532db27670d654ddf",
+      "target_lufs": -14.0
+    },
+    "mercSig-spellblade-arcblade-flow.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/mercSig-spellblade-arcblade-flow.aff7337ac492.mp3",
+      "output_sha256": "d7cdc9d852b53edb98afb82ad02b7fcbc08f90683d12ed70cd66cf65160f77c6",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "aff7337ac4921511748ee18d942d8a9e72309751227410810b917bd7dec50b68",
+      "target_lufs": -14.0
+    },
+    "mercSig-starlit-starlight-guard.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/mercSig-starlit-starlight-guard.d73b1733e895.mp3",
+      "output_sha256": "560ebac34b46b20464131e5197629c36f3851fbf3adfa7ebf75d9c3b71a66bb2",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "d73b1733e89568648885a1c1a42b59a6ca60b6fde80813875c2cbf2852d6b5cc",
+      "target_lufs": -14.0
+    },
+    "mercSig-swordsman-comrade-blade.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/mercSig-swordsman-comrade-blade.2a0241539b87.mp3",
+      "output_sha256": "cfabbff3d429f4681862ab7c71803ede91bc461060745a07e9e895b779043807",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "2a0241539b8781eca6b397e6cebff6ebce85b17af6b4579a3d53f70742117eec",
+      "target_lufs": -14.0
+    },
+    "mercSig-totem-totem-call.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/mercSig-totem-totem-call.519d5c436d0d.mp3",
+      "output_sha256": "c57343fba7e2004aaef702cd82658bb0191bb22c10a692097e210d9b536391a8",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "519d5c436d0d2b8f95c9ee5a3f215e0d29689e5515b8d0e65b10969b0d14dd17",
+      "target_lufs": -14.0
+    },
+    "mercSig-violet-violet-bind.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/mercSig-violet-violet-bind.dcbca95ec06b.mp3",
+      "output_sha256": "6669a9dd61ac017f52e5fd98faba1ad4e009651a8ed14dd71fd586bff696fb1f",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "dcbca95ec06b32c9737193e1a9b62935acf9da6e69fd9ab2ddf7f069c94502cf",
+      "target_lufs": -14.0
+    },
+    "mercSig-warden-bastion-shadow.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/mercSig-warden-bastion-shadow.0ae5855165ec.mp3",
+      "output_sha256": "ad5ccf16dd2842cd3d8b4f36031fdf97bfb6e8c789dc40c352041a39c2793997",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "0ae5855165eca75a35aecba6013abea0f56d2d8e5ae371830b08c4b5d372011f",
+      "target_lufs": -14.0
+    },
+    "mercSig-warlockpupil-fringe-flame.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/mercSig-warlockpupil-fringe-flame.8a15cd0196cf.mp3",
+      "output_sha256": "70ad9a6e8b20e546a597d9923e6b26722d74a2375d2abbda39e4db02b5e89e98",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "8a15cd0196cf3b96fdbcda11f0257f58615bd0d0cf106d67ad6c6bc98c89b9a5",
+      "target_lufs": -14.0
+    },
+    "mercSig-watchman-citizen-stance.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/mercSig-watchman-citizen-stance.cb106d62e594.mp3",
+      "output_sha256": "d07394c4b8f0772ee81a13e1637766b58b562e7a2665adeabe1a752a29795dc7",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "cb106d62e594ca45fac8c306b0b4370113dde80d9d8ee1df71e549797b0617eb",
+      "target_lufs": -14.0
+    },
+    "mercSig-winged-wing-shield.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/mercSig-winged-wing-shield.9279819df2a0.mp3",
+      "output_sha256": "d389e8bb3bf426289fddd0fd651cd6074c1612e29c80b3381433bd47d59f556f",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "9279819df2a01ee6b2357ffc63b8a91fd87d2c82f15fd192f8bba12c17623e70",
+      "target_lufs": -14.0
+    },
+    "oracle-bark-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/oracle-bark-1.a7db2e6482ca.mp3",
+      "output_sha256": "86f26498bfeb193e5337ce41ba4ac635342a8af7825d3db7f2abe002725e47bf",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:09+00:00",
+      "source_sha256": "a7db2e6482ca7a28e56fea4b882954fd0adcc3028203220c19da4f764bce3fb7",
+      "target_lufs": -14.0
+    },
+    "oracle-bark-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/oracle-bark-2.f5fc35989d80.mp3",
+      "output_sha256": "f2e790e41b1f3519cb22662ba9e22c079b1f2b8f1a0e94c22786af66988272c9",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:09+00:00",
+      "source_sha256": "f5fc35989d804c347f35a9ac76d03e20c95e13c567ba04290077b826df7dbb21",
+      "target_lufs": -14.0
+    },
+    "oracle-bark-3.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/oracle-bark-3.ee3e068c3d64.mp3",
+      "output_sha256": "c413c6d8185999dc81877f3df7be8ba0d245a45d8267889631d81e8036ece206",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:09+00:00",
+      "source_sha256": "ee3e068c3d649878f7f2e1e181fa55644b7e569f6a21ad77e7190d5768e17423",
+      "target_lufs": -14.0
+    },
+    "oracle-bark-4.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/oracle-bark-4.a48d82487af1.mp3",
+      "output_sha256": "357531bd6e20d4203ff8e14754a9ee459d5cf3361af624feedbdec9b2e8a771a",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:09+00:00",
+      "source_sha256": "a48d82487af1d25ed32da28caa1012281db332266784257dc8b62561e8ae9146",
+      "target_lufs": -14.0
+    },
+    "oracle-death-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/oracle-death-1.58d2be5e9e75.mp3",
+      "output_sha256": "b62a2b4fcf25cd3585aca50c1510b9bf8d6fa538519d324f8f92ab015f9033bf",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:09+00:00",
+      "source_sha256": "58d2be5e9e75d1935530c8ca25923d6fb33812a624027017d759778e5f41790b",
+      "target_lufs": -14.0
+    },
+    "oracle-death-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/oracle-death-2.6c41082fce74.mp3",
+      "output_sha256": "369743643e18f429b52b99c8e5ef826df57cdcdf8c20871b51342f3f146cbd2b",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:09+00:00",
+      "source_sha256": "6c41082fce741bf82576764b44243940859b1d69b6824aff2696fbd4c2a8e4b7",
+      "target_lufs": -14.0
+    },
+    "oracle-fieldEnter-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/oracle-fieldEnter-1.2fc6b35558b4.mp3",
+      "output_sha256": "e72ae4ce069e75cac3c38414fee3750ca463da5fc833d0363999ff0a056bc8c4",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:09+00:00",
+      "source_sha256": "2fc6b35558b48da9cfc51b9cf23702a23edbe78ceef1ca9fae0aaf88df3eb450",
+      "target_lufs": -14.0
+    },
+    "oracle-fieldEnter-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/oracle-fieldEnter-2.771fbe1d16e4.mp3",
+      "output_sha256": "d5c00f957ebefaacbb30cfbba47dddb7c7600373587ca68e135a7c0a035f4849",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:09+00:00",
+      "source_sha256": "771fbe1d16e4cac42f97239e97a5256603762addbae6c66e8ab82bd26840bb93",
+      "target_lufs": -14.0
+    },
+    "oracle-heal-aegis.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/oracle-heal-aegis.f5c822a1923a.mp3",
+      "output_sha256": "91c553f2d6a6235b2dd4e4b01c137a97fcba4285a493f05a563bb6de9adfba5e",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:09+00:00",
+      "source_sha256": "f5c822a1923afb8489c0d925e86434f2b43c412ff07ec1728678272b57ff6c6c",
+      "target_lufs": -14.0
+    },
+    "oracle-heal-healing-choir.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/oracle-heal-healing-choir.62c9296b2e47.mp3",
+      "output_sha256": "7406b860deb793ea573fb5b24ba9873cfb304a9d41af7ea84382274fc82c113f",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:09+00:00",
+      "source_sha256": "62c9296b2e47167f8edc6913856a50cca1dc0d1427172fc319bed206af5d66e4",
+      "target_lufs": -14.0
+    },
+    "oracle-heal-resurrection.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/oracle-heal-resurrection.a91da4ae4240.mp3",
+      "output_sha256": "5d52a6ecce01fe79e4fd82fcb6eed61608118f7f4c2c3b49a29310dfe38629b9",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:09+00:00",
+      "source_sha256": "a91da4ae4240714bf384e35417344112895252c2a37145224b706f1f68133b07",
+      "target_lufs": -14.0
+    },
+    "oracle-heal-saving-hand.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/oracle-heal-saving-hand.968628daac83.mp3",
+      "output_sha256": "d09c2e377d3949e2458ed24260a8697dc504d59c380eb8102f1bc6705e1ee6ae",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:10+00:00",
+      "source_sha256": "968628daac83c74646b2c693de9f377727c0f267b58384a85ce93fb55d27f2a6",
+      "target_lufs": -14.0
+    },
+    "oracle-levelUp-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/oracle-levelUp-1.e200062970a2.mp3",
+      "output_sha256": "c31a5b0b4d286a081e6c5997e40e3d4e2ab45fd78d09210e0fddb1ab38b6727e",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:10+00:00",
+      "source_sha256": "e200062970a2b3f13b83654e588f1c512eb9727bce9a1044e3d53429d218086e",
+      "target_lufs": -14.0
+    },
+    "oracle-levelUp-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/oracle-levelUp-2.45698af6ef4e.mp3",
+      "output_sha256": "95acf468636aecbf60c57f12da90ebbffc3b35402cb6a69c29bc623ebee7a213",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:10+00:00",
+      "source_sha256": "45698af6ef4e4d7a3a3bd46e29bc1ecc8a08b1d7e4552f83a041bc245f2917e3",
+      "target_lufs": -14.0
+    },
+    "oracle-portal-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/oracle-portal-1.edea298dc445.mp3",
+      "output_sha256": "2d3c2d4c4c2e4edf904ef0f342bf8a068ef5ffac4126f0e20581f784fd6aa0d6",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:10+00:00",
+      "source_sha256": "edea298dc445601658c220f62e76797bcf52b830e4b1db257b1fbfeb30d52e08",
+      "target_lufs": -14.0
+    },
+    "oracle-radiance-dawn-judgment.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/oracle-radiance-dawn-judgment.9244b6439186.mp3",
+      "output_sha256": "6d49368e89577f4d06ac904f802e6ae0ce00d717c85567a414cbb98b2299a140",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:10+00:00",
+      "source_sha256": "9244b64391863230e1c2fa3e79906023968e445550a2b3f3d6417fd239f5da23",
+      "target_lufs": -14.0
+    },
+    "oracle-radiance-dawn-ray.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/oracle-radiance-dawn-ray.5806ceb1f4ed.mp3",
+      "output_sha256": "65a49253dc28b93ae3ed2c696888c72f533807775e312c5e0e7392d53870d54e",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:10+00:00",
+      "source_sha256": "5806ceb1f4ed055ff9c4b63c6e5ec141a90e96b19e6d75e797e73e053bac8067",
+      "target_lufs": -14.0
+    },
+    "oracle-radiance-flash.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/oracle-radiance-flash.f10274d945b1.mp3",
+      "output_sha256": "f6eefbca4b9513853cc1b1f2b2cb68654104bd753b19ab5a5eacb7c2b77ed235",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:10+00:00",
+      "source_sha256": "f10274d945b1f793b3b0bac0a3cf429d4c5f7c96824f3b152dafec6d8017975f",
+      "target_lufs": -14.0
+    },
+    "oracle-radiance-nova.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/oracle-radiance-nova.218d0b0ba78c.mp3",
+      "output_sha256": "de8442e28952b9c86714cad20d402e394063a4f0fece8cf9348476e2137c6ee4",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:10+00:00",
+      "source_sha256": "218d0b0ba78ccb220aecc3d2667221294aa104cb83df72aab7dad923824dcb60",
+      "target_lufs": -14.0
+    },
+    "oracle-sentence-edict.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/oracle-sentence-edict.a557df807573.mp3",
+      "output_sha256": "730140d700bc7b502b53550e74eb5493deced7ba5537e1dd6cd7e1e58c17b4c6",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:10+00:00",
+      "source_sha256": "a557df807573139c39f497aa87e29232e68a749f7e016cb7df5d3cd00295898a",
+      "target_lufs": -14.0
+    },
+    "oracle-sentence-execution.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/oracle-sentence-execution.68d4cf227d19.mp3",
+      "output_sha256": "a5adb2cb965cdb0cbc2d4da0b7517b306d5bebc09640ca7d3ba9d046f7fcaf99",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:10+00:00",
+      "source_sha256": "68d4cf227d194cc2eafd7a8f5a9b8d448bddb28ce246cb512561ae52484ba43d",
+      "target_lufs": -14.0
+    },
+    "oracle-sentence-final-sentence.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/oracle-sentence-final-sentence.fdfe5540a98b.mp3",
+      "output_sha256": "aee7f69fff63d582db30cdb06a2602d055b5e754c4550130ceee60a3bdf2b7f3",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:10+00:00",
+      "source_sha256": "fdfe5540a98b1507f005600537a6ee70da4a46083d0aef2be4cbfc8dc55fae98",
+      "target_lufs": -14.0
+    },
+    "oracle-sentence-verdict.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/oracle-sentence-verdict.ef00df010c1c.mp3",
+      "output_sha256": "a85037abe5c2ae11e7f992806805164d92a3907ef19dac5bd426a405cb18b48d",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:10+00:00",
+      "source_sha256": "ef00df010c1cd7b57f6093df27e4c6333c75a2fd59948be82cff796864c61019",
+      "target_lufs": -14.0
+    },
+    "paladin-bark-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/paladin-bark-1.1add71263e73.mp3",
+      "output_sha256": "4c42a391cc6913e0367e3a57f92d2887e4818d24c41408811b5d26d969fb53a8",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "1add71263e73184cd5325e90494d53e131b35f74891e7aed547b7caf23573097",
+      "target_lufs": -14.0
+    },
+    "paladin-bark-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/paladin-bark-2.42e38c224aed.mp3",
+      "output_sha256": "c7a01b6b88955d167b91e411e2b354213edc7ee47e7b75df0ae3252ca83dff41",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "42e38c224aed47cc020795d40e4b22f2f18b2237c6781a3fe10bf8758dd1af05",
+      "target_lufs": -14.0
+    },
+    "paladin-death-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/paladin-death-1.54186c58a6b0.mp3",
+      "output_sha256": "289aa3e668680ac748a4ddc526717fb57d7e6ed8efac83b09118f2aeeac0df13",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "54186c58a6b045e3389eede0121fefbb120e058043ad8216507e4bd1cd638a9c",
+      "target_lufs": -14.0
+    },
+    "pathwarden-bark-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/pathwarden-bark-1.a1368ab6227c.mp3",
+      "output_sha256": "6b02038ca0817a1736657f7282ba4011c59b73e535d301f2cfc51b8078acb40b",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "a1368ab6227c917041ef08a4fd36d15315976cbbb3c7e08aa8d0d3c9127be53c",
+      "target_lufs": -14.0
+    },
+    "pathwarden-bark-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/pathwarden-bark-2.3eb56647803e.mp3",
+      "output_sha256": "d91f8f0e754e8d24874fb96ab5accff41de52bc3b2d269e5e49faf4e371cf1e9",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "3eb56647803e22023d2de2d5675c18577b0409aa55591adff1d34e2ee5c99918",
+      "target_lufs": -14.0
+    },
+    "pathwarden-death-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/pathwarden-death-1.efc34dcf39f2.mp3",
+      "output_sha256": "a1343b07cd0303af7d21b8ecc9d5b0ff2f9fd49fa5ab024df1c7d3bf9f4e8803",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "efc34dcf39f29f32b19e9752699e3a4473d326501ade46e234755f6404c636c6",
+      "target_lufs": -14.0
+    },
+    "ranger-bark-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/ranger-bark-1.8a5065b8126e.mp3",
+      "output_sha256": "ab936230306678be3a479ae2fd3ab331e053080eed915426d1b143fd9244fc25",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:10+00:00",
+      "source_sha256": "8a5065b8126e46e1d729135e08314df1e4c3b5dc450f792f115497b6e8907aeb",
+      "target_lufs": -14.0
+    },
+    "ranger-bark-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/ranger-bark-2.a2c41f610c5a.mp3",
+      "output_sha256": "5f16ffc86988e7a870a95af1fae04fbcc0d0515c42ff350e35cbe93947fe3b61",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:10+00:00",
+      "source_sha256": "a2c41f610c5a5ff001ab1a06febff5ab5fee9538559ed147abe10ddfcbabe56c",
+      "target_lufs": -14.0
+    },
+    "ranger-bark-3.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/ranger-bark-3.1b8d97c06b8c.mp3",
+      "output_sha256": "c16d622105e0eebb511700d32cd72104fe0c0ff0598259a3dc01d7b313e986bb",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:10+00:00",
+      "source_sha256": "1b8d97c06b8c21ef2e37c62d62ddf97044752f391e7c9ae96a1ccd036e67db53",
+      "target_lufs": -14.0
+    },
+    "ranger-bark-4.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/ranger-bark-4.ced2ce6328a1.mp3",
+      "output_sha256": "8a059566e13575dedb3efe10f75675eb23cad4bd50116b9f917510e6b580b044",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:10+00:00",
+      "source_sha256": "ced2ce6328a1f8d1d3827c11ba5b7b856c7045116e02e877a71a961cc17c2c0b",
+      "target_lufs": -14.0
+    },
+    "ranger-bind-bramble-field.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/ranger-bind-bramble-field.799dad708c36.mp3",
+      "output_sha256": "53bb7f4b0eb168f0358e7ad45a407c3ba08456031dd3c583bcc3e69b95e51feb",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:10+00:00",
+      "source_sha256": "799dad708c3653c89b757628be1724ceac845b004276130634690b880a5dd7cf",
+      "target_lufs": -14.0
+    },
+    "ranger-bind-root-cage.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/ranger-bind-root-cage.4233003501b0.mp3",
+      "output_sha256": "4f19540336b56e70472a39091e9478d3789765041410ec83b7500e71094fcc69",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:10+00:00",
+      "source_sha256": "4233003501b0b850ba25d74192ef7a24178b3c4543ddc9701a861e949256be4a",
+      "target_lufs": -14.0
+    },
+    "ranger-bind-thorn-snare.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/ranger-bind-thorn-snare.3d6019bbd2b3.mp3",
+      "output_sha256": "445a01c075ca64e34d9e1fad8bb95ba876db1cee931a28dd0fa0d21b8f4ab147",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:10+00:00",
+      "source_sha256": "3d6019bbd2b383a0873bb295e46f77932392b8b2383b5214bf104499258995e5",
+      "target_lufs": -14.0
+    },
+    "ranger-bind-worldroot.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/ranger-bind-worldroot.323dcec92048.mp3",
+      "output_sha256": "4c5819ce57b960eebcfb0a8c431f9774a857f2844d29a69d985c3111ff89ceb2",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:10+00:00",
+      "source_sha256": "323dcec92048af31374280b706f3bacc2fb9799ebb960e0c6d5d00f3101bdc0b",
+      "target_lufs": -14.0
+    },
+    "ranger-death-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/ranger-death-1.19d78c3b3daf.mp3",
+      "output_sha256": "d5e21c3fbbb1ce1a38229059f99e5d3d9ccd2df34769ee9ed94cba4b0532182c",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:10+00:00",
+      "source_sha256": "19d78c3b3daf4514e8eaa7fe75f9c8e3b76dd7185f66d34edcf53e58e2f4a10a",
+      "target_lufs": -14.0
+    },
+    "ranger-death-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/ranger-death-2.01022bd7cbf3.mp3",
+      "output_sha256": "121b813c80d889d4d8a3ef673f315b0a29b96bd4cee678aa66108c9125727c6a",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:10+00:00",
+      "source_sha256": "01022bd7cbf3ca2856d099cfaa6f5cc245b463d4907f885688464224814a12ef",
+      "target_lufs": -14.0
+    },
+    "ranger-fieldEnter-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/ranger-fieldEnter-1.6de27d8a6d96.mp3",
+      "output_sha256": "ede367a09437d4c98c4e9cb0f304406386e35ff67dbd474d71442f81b1ee515c",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:10+00:00",
+      "source_sha256": "6de27d8a6d9662a18bab69ef206b3975bb96758645e53fc7bd44d4a2f6659804",
+      "target_lufs": -14.0
+    },
+    "ranger-fieldEnter-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/ranger-fieldEnter-2.2e829727e9c4.mp3",
+      "output_sha256": "df8bdb2acd0190e12b4e5c184853d8e6386de57961344a23e5d12d51dc743fe8",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:10+00:00",
+      "source_sha256": "2e829727e9c47b814312b49ae20118293b8cd6d4a215a5ab4a63a3135dff85a0",
+      "target_lufs": -14.0
+    },
+    "ranger-levelUp-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/ranger-levelUp-1.9432a1a9a9ca.mp3",
+      "output_sha256": "89a9276d7fc2236c02e9ffda730541c960a8677c9ecf855a01dd80bd44acf234",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:10+00:00",
+      "source_sha256": "9432a1a9a9caa4ceec6dfaf487c790dc8beb7caf5aa2012299049acec812ed43",
+      "target_lufs": -14.0
+    },
+    "ranger-levelUp-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/ranger-levelUp-2.afc384c7373f.mp3",
+      "output_sha256": "7f6ba65b1075a293a893a209f6da353a87cefe89970dc6b2cdabf910c92a214d",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:10+00:00",
+      "source_sha256": "afc384c7373f6ce2bf6b5e6bf1686aa941be6e028e8e526717daba38e9d615b8",
+      "target_lufs": -14.0
+    },
+    "ranger-portal-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/ranger-portal-1.2b6a7df11122.mp3",
+      "output_sha256": "6f8e7c574dbb4a35c86b6e9e2bdaff21ee94c3239cb154a38ed5dfe1cc5bada6",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:10+00:00",
+      "source_sha256": "2b6a7df11122cc606b11dbc4ede72435bf10a9a15864e80a91f379629f91b90c",
+      "target_lufs": -14.0
+    },
+    "ranger-spiritbow-king-rain.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/ranger-spiritbow-king-rain.a8c6384bede1.mp3",
+      "output_sha256": "07b7ad4d91d630f22d291d76bc793f52ffee32a050dc6388818b55681cbc7718",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:10+00:00",
+      "source_sha256": "a8c6384bede19c40b91c25f03bef758ccfdd3848716dc372930feebdf15e19e7",
+      "target_lufs": -14.0
+    },
+    "ranger-spiritbow-rain-shot.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/ranger-spiritbow-rain-shot.c978e738d6ad.mp3",
+      "output_sha256": "424adc6a4e41adca7551116adeed0eac46eadf5722cc1bf6c3bc4f8ce41455e2",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:10+00:00",
+      "source_sha256": "c978e738d6ad64dde443b5a2d47c43cd1da9f55d6b2102d98f6b5411a5e8902b",
+      "target_lufs": -14.0
+    },
+    "ranger-spiritbow-spirit-shot.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/ranger-spiritbow-spirit-shot.fb63c3aba011.mp3",
+      "output_sha256": "9caf5933ed2b9380a0e9700fa2e9941e5705a7f0e892faed56a5497ec93a844a",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:11+00:00",
+      "source_sha256": "fb63c3aba011d5407cd4b81f37b2ba85508b78d4bcaa9facc4abf487dcf5d8da",
+      "target_lufs": -14.0
+    },
+    "ranger-spiritbow-storm-arrow.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/ranger-spiritbow-storm-arrow.61eb7512a0fa.mp3",
+      "output_sha256": "8fe7b5b19d033729f771b2d463a0da65c2d306b2cd8c92014da0ae1bdfd18d2e",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:11+00:00",
+      "source_sha256": "61eb7512a0fa845896f3b8f1da4872efc51005a002db72fcd0b00f3f1cc2daec",
+      "target_lufs": -14.0
+    },
+    "ranger-wild-beast-call.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/ranger-wild-beast-call.3d3dc607f039.mp3",
+      "output_sha256": "66f4efeaae0bf7486580ee8c4587ca37c65e0214ca8ed85d22a4ebc5c544750a",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:11+00:00",
+      "source_sha256": "3d3dc607f039f8da652b053eedb9b399b13e9c9da6dc1f3ff9a0c6d8a64dd404",
+      "target_lufs": -14.0
+    },
+    "ranger-wild-fang-rush.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/ranger-wild-fang-rush.d3192431b6a0.mp3",
+      "output_sha256": "d51e7dd3c9c2a31975dba95c98f6f34b2b677de2d6c8fa9c9cc40a7c7a99f4ac",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:11+00:00",
+      "source_sha256": "d3192431b6a048461d61145dafd671b6e1d73c1a2cfbaaf23092b2609ed49113",
+      "target_lufs": -14.0
+    },
+    "ranger-wild-nature-wrath.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/ranger-wild-nature-wrath.3ec26d72d07c.mp3",
+      "output_sha256": "86a1952f3db3839513c1e31efe960bbee9b9c7caa7608fc5991eb6b777b2fc97",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:11+00:00",
+      "source_sha256": "3ec26d72d07c5bcf7574e8844cda68615fed80fe22caffffc4b5b782997299cf",
+      "target_lufs": -14.0
+    },
+    "ranger-wild-wild-host.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/ranger-wild-wild-host.5d0d355e162e.mp3",
+      "output_sha256": "47e5e9cc9bc9187dd436555bf3d44f013f0b58d2aef340421c46431238bda7ca",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:11+00:00",
+      "source_sha256": "5d0d355e162ed671fd18a5afbd71f168c9e93bd795191c65f2c4e240ad7d4e32",
+      "target_lufs": -14.0
+    },
+    "rogue-bark-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/rogue-bark-1.1445bd153b5c.mp3",
+      "output_sha256": "0e965b98543734151bf782e88fff2cc51ffda5b5711d063c4d2a301b2fa0400d",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "1445bd153b5ce4ee79513b43eca2322c4b8b48db6b6d889a2d1646bc7023b8e5",
+      "target_lufs": -14.0
+    },
+    "rogue-bark-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/rogue-bark-2.d335a12e6d91.mp3",
+      "output_sha256": "af66a71ca505777f6c6120f6ec4ca7fa5aa6e7dad29c783e893ac9444df2badd",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "d335a12e6d91d5aa760f98bf13ddf83e3892d0e1ed3345f87c1443c0c1659a21",
+      "target_lufs": -14.0
+    },
+    "rogue-death-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/rogue-death-1.204a7382e02b.mp3",
+      "output_sha256": "7e0b8560636dd7d9a7765cdc2a33ba751a41957d33b58ca848b3ca97b83cbb4b",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "204a7382e02b4c56e5744a11c6bf8bebbbef33b79d8143c54ea82a09f3dd59fa",
+      "target_lufs": -14.0
+    },
+    "runepriest-bark-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/runepriest-bark-1.34910dfe1444.mp3",
+      "output_sha256": "10fdb7548afa23170e0c7368383f9423d087102f7c5edffaad587c246a95999f",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "34910dfe1444a7ae36bee99b54a1b966a9d281b0310154a6ab7d52fe9027a9a2",
+      "target_lufs": -14.0
+    },
+    "runepriest-bark-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/runepriest-bark-2.3741d0608cc1.mp3",
+      "output_sha256": "cb6c8bc6305fcaf7b11eaeeacce22111c4499411ae8bf43d4b33b501fc286976",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "3741d0608cc11cbf030fcc24a34603b2786e6030ec95e88fe80f3353ff431463",
+      "target_lufs": -14.0
+    },
+    "runepriest-death-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/runepriest-death-1.612aa5b1db59.mp3",
+      "output_sha256": "da55626e459a5f5d4f929373188faebd9cc097fcf87750b8fc510547bde14db1",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "612aa5b1db59a3ce1b174ee09345a5b36a1826d4e89b16253857b3e916e7fde9",
+      "target_lufs": -14.0
+    },
+    "sage-bark-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/sage-bark-1.9a55f353514a.mp3",
+      "output_sha256": "b80920738bfe01c2289c0fed499ec7f98b3ab728902c739e4bd3805102e9c606",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:11+00:00",
+      "source_sha256": "9a55f353514a945f8a319e64137b02094a7a30f4bc56bb54e1a183a6e8223fd7",
+      "target_lufs": -14.0
+    },
+    "sage-bark-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/sage-bark-2.d3a901f158e1.mp3",
+      "output_sha256": "4f49dd1ff7c3d1970eb1bfebd881823deddaa1678d73af540fc2dd745535bead",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:11+00:00",
+      "source_sha256": "d3a901f158e1b8b9f290ed08feaf8010d306d460b8ac9a8924156f43ae142c0a",
+      "target_lufs": -14.0
+    },
+    "sage-bark-3.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/sage-bark-3.42fce70c7454.mp3",
+      "output_sha256": "b92ac10c4c8d921a674f4b0be2b8114b86b9df9e5a7a3a97149f878d89af5e40",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:11+00:00",
+      "source_sha256": "42fce70c7454a50d0c266546eb756b13277788dac0e55aadd0aee7556ed35d77",
+      "target_lufs": -14.0
+    },
+    "sage-bark-4.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/sage-bark-4.aad858fdbae7.mp3",
+      "output_sha256": "3bcd480addc6044241b095049bc20b477880a133683a64d1e31cd152f55de3ba",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:11+00:00",
+      "source_sha256": "aad858fdbae7dc1e14f0ab4fed376fb4b5aca70813afc968d619b0866054d6fa",
+      "target_lufs": -14.0
+    },
+    "sage-death-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/sage-death-1.4159c19092a7.mp3",
+      "output_sha256": "9cd08663aae4781fb16f464a86d333a882cf3970af95cdea7ac7110189e90fc0",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:11+00:00",
+      "source_sha256": "4159c19092a73df3d35989eab714b7f90990b1b3f800ab2b3349e1ba8ced5ce8",
+      "target_lufs": -14.0
+    },
+    "sage-death-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/sage-death-2.130d5fbef525.mp3",
+      "output_sha256": "4826e9e2eec8871844ab41a5b7cbd83f9a6b0090f9f0c27481fde8beebdf9c66",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:11+00:00",
+      "source_sha256": "130d5fbef52516af2da7683753f9787ac9c05d74b2afaff3690f54b5eb277d58",
+      "target_lufs": -14.0
+    },
+    "sage-dragonword-bind-word.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/sage-dragonword-bind-word.1835eab5cb87.mp3",
+      "output_sha256": "ae930dfb3e41af8483b0c293e8c82aaa16410aca304614dbefca29c3a7dad57e",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:11+00:00",
+      "source_sha256": "1835eab5cb877f01fbf299e8cc05f2001616c86d9917be31a230a9e71f7d349d",
+      "target_lufs": -14.0
+    },
+    "sage-dragonword-break-word.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/sage-dragonword-break-word.280785adb257.mp3",
+      "output_sha256": "3ca401047b817950e6e130448a69524b38292a03fa78cf14734f6cba07c5beb2",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:11+00:00",
+      "source_sha256": "280785adb257a9c758848662a98c91eb05de999ed95ef23595c2cdf95a0c63fe",
+      "target_lufs": -14.0
+    },
+    "sage-dragonword-elder-roar.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/sage-dragonword-elder-roar.b19d85175e43.mp3",
+      "output_sha256": "e2492e0839debe57cd01e872a8b9924ef004c60bf1ed7d601d35be633472ba1b",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:11+00:00",
+      "source_sha256": "b19d85175e43fd3aadd8aba8b3109a461f53e13da54386b9355b46a0457a523f",
+      "target_lufs": -14.0
+    },
+    "sage-dragonword-sear.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/sage-dragonword-sear.0e20747ff443.mp3",
+      "output_sha256": "5383232c021e67a589ea205ca8c4bdd3ace199f1b9eec2cd18bacfb7a246bb0b",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:11+00:00",
+      "source_sha256": "0e20747ff44303bd83dcb5376594d04070088723f5d56cb09fc10577ee326f8a",
+      "target_lufs": -14.0
+    },
+    "sage-fieldEnter-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/sage-fieldEnter-1.3a285d83a60a.mp3",
+      "output_sha256": "1c9808da3596a1b38080a3023c177b90f3e4d37f960c885cfac1663d5e0e11c8",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:11+00:00",
+      "source_sha256": "3a285d83a60a9573bfdc24b4a08060fefa48585e5fcaf223e5e655b476af5d2e",
+      "target_lufs": -14.0
+    },
+    "sage-fieldEnter-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/sage-fieldEnter-2.205e2d343f9d.mp3",
+      "output_sha256": "d08ae6b8ebbd5ce22f8d4b02d8f0ee01554cbf50df92740997cf3814b0d34360",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:11+00:00",
+      "source_sha256": "205e2d343f9db944e0a0c301ec00d1db23c7ae20bb0971d89a396f6c96e3e49e",
+      "target_lufs": -14.0
+    },
+    "sage-fire-blaze-ring.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/sage-fire-blaze-ring.ab621b3147c4.mp3",
+      "output_sha256": "710bceff84e7e41b0d1da765d261e3d05f3b931c58516c79df0bd6abd46135fe",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:11+00:00",
+      "source_sha256": "ab621b3147c43d1fa40ea4a9dbc5271ecdf701db3cee9d9765ab5a425f607666",
+      "target_lufs": -14.0
+    },
+    "sage-fire-flame-storm.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/sage-fire-flame-storm.f047e42b7119.mp3",
+      "output_sha256": "018955979607bde6691632938322ffcb12dbb5d96fc70ee398880d057c2f45fc",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:11+00:00",
+      "source_sha256": "f047e42b7119654955e05c29a463d742e9644bf13c6f4d673f55b6805ecbba65",
+      "target_lufs": -14.0
+    },
+    "sage-fire-inferno.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/sage-fire-inferno.bc6882e158dd.mp3",
+      "output_sha256": "12662883d25adfa9e6b25c1ac2c81a4df621f2eaac980e76d0e5bda7a228db07",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:11+00:00",
+      "source_sha256": "bc6882e158dd16648c4a779c6d7608894c29ac543feb3f35f16170d146de8d46",
+      "target_lufs": -14.0
+    },
+    "sage-fire-meteor.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/sage-fire-meteor.a954e11d295a.mp3",
+      "output_sha256": "ac17b0147d0968f92f5ff45bfd336a1c7d78f0f41d95905a81f40b137602a635",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:11+00:00",
+      "source_sha256": "a954e11d295a42a940904c7d255464f4f44f79e528d635a488bd3215373db853",
+      "target_lufs": -14.0
+    },
+    "sage-levelUp-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/sage-levelUp-1.2dad5a0da54d.mp3",
+      "output_sha256": "049338ad49266a41312c1cb2925cfee6ca41802db4e3ccdac40601a0d0804da1",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:11+00:00",
+      "source_sha256": "2dad5a0da54d0f79b36b47e8ddb6aaaaea8b4516998efe0dc34e76f39b627562",
+      "target_lufs": -14.0
+    },
+    "sage-levelUp-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/sage-levelUp-2.bce283326c27.mp3",
+      "output_sha256": "b1bb41071626cc041cfca964e4bfeec6564f5c91c7041b18beab1e6cc111be1e",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:11+00:00",
+      "source_sha256": "bce283326c27a552538a7951ad082d5dde2c84b100bf80c3b23a454932a7bbc3",
+      "target_lufs": -14.0
+    },
+    "sage-portal-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/sage-portal-1.a34f1a4b9087.mp3",
+      "output_sha256": "3126fdfa8618df0ed0c3fd954ff566fee7cb596ebcd58b5f231859450d409a09",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:11+00:00",
+      "source_sha256": "a34f1a4b90873e6b04c024406861b61dbb9adabfc239b7bf5a27f9a5bc2eed8d",
+      "target_lufs": -14.0
+    },
+    "sage-rune-ancient-stasis.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/sage-rune-ancient-stasis.00221ca6678f.mp3",
+      "output_sha256": "262402581f02a795e7abb5de71b1a8ebdcd69e8ad6b8eb5fc95ef111bc4de299",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:11+00:00",
+      "source_sha256": "00221ca6678f580f51581c796aca70d6b63ffa23e9a8428b85559f2ca77d5903",
+      "target_lufs": -14.0
+    },
+    "sage-rune-rune-prison.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/sage-rune-rune-prison.d02d5419679a.mp3",
+      "output_sha256": "aab85399c882100274ddb064c4ba849243ef52527deae7a4d1ddd86226afe32a",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:11+00:00",
+      "source_sha256": "d02d5419679a46862915760dbfa2e29b82b1f9b2842c26cfbe29ad24618dd3f5",
+      "target_lufs": -14.0
+    },
+    "sage-rune-time-sigil.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/sage-rune-time-sigil.ba6545bb539c.mp3",
+      "output_sha256": "729984791ce40a9c3ac4865146668fc4f5cbed913615d668d0bc5403fdd67034",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:11+00:00",
+      "source_sha256": "ba6545bb539cdaf33ed4c2a61662fcbbfdf6a7c87ebf615c9b76c8089c0ca888",
+      "target_lufs": -14.0
+    },
+    "sage-rune-ward.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/sage-rune-ward.12a9e6b140a5.mp3",
+      "output_sha256": "829219f3eb931e208997f6a072760a2410bf0a6044c08f96eda124575b190287",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:11+00:00",
+      "source_sha256": "12a9e6b140a5d2e1a90fa64e748a9135c8e0fcd55cc0c9df9cd5b8562922626f",
+      "target_lufs": -14.0
+    },
+    "shadowblade-bark-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/shadowblade-bark-1.c1927e9877cf.mp3",
+      "output_sha256": "c2f9259cc2c9d976cc67c03255264f6f1d20510899d39290b135cf6d09c9fab4",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "c1927e9877cfeae883efac8781f7da223871cd809f227f37e2a9414f7515961b",
+      "target_lufs": -14.0
+    },
+    "shadowblade-bark-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/shadowblade-bark-2.472e05addc58.mp3",
+      "output_sha256": "4c7d23097187ec47fd4b6c089387bbeda037fff133302204979331cf5ca369fd",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "472e05addc5891c41e68c38fd3ec4f94feffe92815d3b98c371493b4c02c1133",
+      "target_lufs": -14.0
+    },
+    "shadowblade-death-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/shadowblade-death-1.eb277f9b84ff.mp3",
+      "output_sha256": "66e47ab33ef101fda58622f02398048fd0672ff3dc9e37f8604dc4bba2d0d2c5",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "eb277f9b84ff246fe9a2ce6431d2a2e7e26c0d65a49f7204cf76c5a20f1fcf66",
+      "target_lufs": -14.0
+    },
+    "spellblade-bark-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/spellblade-bark-1.ee9d2b5a7f69.mp3",
+      "output_sha256": "36b9587eb23d327330e7bbb475b71f36b2a66f40a8f93283a83eee7b78cc76e6",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "ee9d2b5a7f6902e921957467183c03a17f843460de55a15f7be60a09d69e2014",
+      "target_lufs": -14.0
+    },
+    "spellblade-bark-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/spellblade-bark-2.352152739df6.mp3",
+      "output_sha256": "c68a1c8b76e6a38e42bd8e276e588462db8fa7ff611ade19515e0f1b4eba15f9",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "352152739df6bdb81c69f3c52fabf12424e3efd98b81e00417b989ce493310f6",
+      "target_lufs": -14.0
+    },
+    "spellblade-death-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/spellblade-death-1.efb3f5400fe9.mp3",
+      "output_sha256": "41df856baeaa39e820de4dd0a2b3835714f269f5f674b39317fdd378826b10ea",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "efb3f5400fe9f297faa19c7fc8a245adaf32f4b35814fccdc0892c0bd7af2520",
+      "target_lufs": -14.0
+    },
+    "starlit-bark-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/starlit-bark-1.a82f419e1343.mp3",
+      "output_sha256": "bc626d919468eac79f5096e0d2e4d88a76279509dbb96e74568fb775a2be70d2",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "a82f419e134313a86f221205a7a4c0d82c63ce901a6162add537b1cacc747623",
+      "target_lufs": -14.0
+    },
+    "starlit-bark-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/starlit-bark-2.d0fb708afc2f.mp3",
+      "output_sha256": "62d458acaed11fbc834ba0138e277117ad4f8e668a0c3abc86f8269f958e8bcd",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "d0fb708afc2f79ff7d948dfcd90bde2d1395c177f534acb867d29d96f3020965",
+      "target_lufs": -14.0
+    },
+    "starlit-death-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/starlit-death-1.345f1699e93a.mp3",
+      "output_sha256": "df87b3c403735b45e47129ea585423a65e3a00212b6efc4b83a0a797fb3d20b3",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "345f1699e93a85782d8b62a16fcce927ed64a91aade96dd5148e975c96e35796",
+      "target_lufs": -14.0
+    },
+    "swordsman-bark-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/swordsman-bark-1.8b0a7eb53906.mp3",
+      "output_sha256": "0bdce2e99f1d5529161c9c27d23a4a79904ea4742f8e25aaa5fae7a56b76ad47",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "8b0a7eb5390666cb5893dee0c282b354f2a096a89d81207285aff9b2001be7f3",
+      "target_lufs": -14.0
+    },
+    "swordsman-bark-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/swordsman-bark-2.15cbf3f0b251.mp3",
+      "output_sha256": "9bf187627fe66070b619421822e4549aa17a24bc4460f60652c4677239459de9",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "15cbf3f0b2510600c84d2e2596dae5b2a1f96c7d62283a192ad00af700c00c92",
+      "target_lufs": -14.0
+    },
+    "swordsman-death-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/swordsman-death-1.e03ad047786a.mp3",
+      "output_sha256": "320e8e45e823288656b76fe3cf242fc5cacd0fff71f6c59b4f6d67b8214655ce",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "e03ad047786aac1f71123a373dd7388a2cbbf359c9943ab4f62870387368e86d",
+      "target_lufs": -14.0
+    },
+    "totem-bark-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/totem-bark-1.37b683b06634.mp3",
+      "output_sha256": "3922ba2fc209ebacfad5cd33283bf32a750022436d44e77b94c56af710d028fe",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "37b683b06634a2ba4918a6af90ffd5a09a60587c47ad53b3cd31005795b79273",
+      "target_lufs": -14.0
+    },
+    "totem-bark-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/totem-bark-2.8d2c31a984c0.mp3",
+      "output_sha256": "828633a1503658ef8d120638d386ba6a2932e91dbc817dd4779f7bc0c12d46f6",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "8d2c31a984c00afc4ba60bcb1024ffecdf0819b803eba333619e28164a75cd73",
+      "target_lufs": -14.0
+    },
+    "totem-death-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/totem-death-1.41a16970ae16.mp3",
+      "output_sha256": "78feff2eb87a477755308416a93b4ea276c89a758693d2d0cac71c791c540d18",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "41a16970ae16a33eed14c4d6e4f6f9343874c52d6d386e41e3dac1e0a2aa9a1e",
+      "target_lufs": -14.0
+    },
+    "violet-bark-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/violet-bark-1.4a7b0809d1a9.mp3",
+      "output_sha256": "c2bd264e31379d482e02115e1af9a928387401a6c20e58d5e829e943b42f6f82",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "4a7b0809d1a9eed23310a70f8fe77802be8a4ba3525d4a58263d0297d653f9a8",
+      "target_lufs": -14.0
+    },
+    "violet-bark-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/violet-bark-2.8f98ef290446.mp3",
+      "output_sha256": "1b48bc53ab7844719fd276632e0c7027b0d00da8a42dab60992679a3c89d1eab",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "8f98ef2904460dc73c84fb63a8d22ac9a880e894b3bfabb421e6eb59a7096fd7",
+      "target_lufs": -14.0
+    },
+    "violet-death-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/violet-death-1.3f01aa2be6c1.mp3",
+      "output_sha256": "a3df1e2c1cc72fb2e1198c9a7640c88bdbf29e705f1e9ecd52852287a16cdbd2",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "3f01aa2be6c17170c9b86c64e74bcd01cf506761c6144a7a484f4050fc5c4e8d",
+      "target_lufs": -14.0
+    },
+    "warden-bark-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/warden-bark-1.2e50a37c03e0.mp3",
+      "output_sha256": "e3d66f63fdecf58aebd51c34f19bee46b3d67ca8f7f2d571d33a841ed4e7fd7d",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "2e50a37c03e0cbf78154be3884399c8731a22345e8e0679191d11f5f2ee7b201",
+      "target_lufs": -14.0
+    },
+    "warden-bark-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/warden-bark-2.003a15dcb61c.mp3",
+      "output_sha256": "aaa08f9eaddb4864f6a8a46984f77374bb3fb3f29f3ba1d3818323beb74a86a2",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "003a15dcb61ca96b39c4a49f7535bc70395757e6ac448e40a7db2706c22cfe10",
+      "target_lufs": -14.0
+    },
+    "warden-death-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/warden-death-1.f553abb94ea3.mp3",
+      "output_sha256": "cc9bf8621ee8a774c26781d7c9fce26d492b9a5152bad62278d0addfce753f26",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "f553abb94ea3ef19177682c1fca69e7ca160bd80b7d33ce88820411d526348a0",
+      "target_lufs": -14.0
+    },
+    "warlock-abyss-grasp.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/warlock-abyss-grasp.8831bd62eea6.mp3",
+      "output_sha256": "da030780f9877b2543c9307aa0182e5878f8a8ff1b405b11cbf1639ff15856aa",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:11+00:00",
+      "source_sha256": "8831bd62eea6a973d049231ef87a54c4278145761ddc6b63f75d9f99c8d670df",
+      "target_lufs": -14.0
+    },
+    "warlock-abyss-rift.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/warlock-abyss-rift.3ec94ae4850a.mp3",
+      "output_sha256": "f36e8cee63a859f4da836f90c03dc26899d313184f79d626309264032dfffc5b",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:11+00:00",
+      "source_sha256": "3ec94ae4850ae6dccb088bccb8229761f7ac9b775590a0f7565ee68292b4ceca",
+      "target_lufs": -14.0
+    },
+    "warlock-abyss-terror.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/warlock-abyss-terror.0bd02cd55960.mp3",
+      "output_sha256": "28280c393d1b6c3eba1c59bdfb989b10eb392c64384625d82b440aea3ad02aab",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:12+00:00",
+      "source_sha256": "0bd02cd55960ced586e4179fe117a7e7438c042719525cecf632b5d64998fb21",
+      "target_lufs": -14.0
+    },
+    "warlock-abyss-voidfall.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/warlock-abyss-voidfall.141aecbe884d.mp3",
+      "output_sha256": "320d5e8709a45ca1f72cc96ff9f959d9790a4a969062a30ba342200cd77fda9c",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:12+00:00",
+      "source_sha256": "141aecbe884daf51d4308c9860015db9298a3495cce0d8eea11900af5c8abcba",
+      "target_lufs": -14.0
+    },
+    "warlock-bark-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/warlock-bark-1.b34bba233d99.mp3",
+      "output_sha256": "24fedd5d2e2aad9a8b8d9786a11e4e4aa7d64465b87d6c5e0304a826c320a87d",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:12+00:00",
+      "source_sha256": "b34bba233d99c66a18d13ea17fe1ccac76b7d1e8c3a251d622bcd6a553dbdb7b",
+      "target_lufs": -14.0
+    },
+    "warlock-bark-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/warlock-bark-2.896ab9dd2f31.mp3",
+      "output_sha256": "172767ae2355fe1a49b2d089cde2c4c94c50f58e7332c6a59f28724dd3886603",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:12+00:00",
+      "source_sha256": "896ab9dd2f31fa5d5b67d04b44b98593a733c3dd79581c7479ff5bc0a245b0f4",
+      "target_lufs": -14.0
+    },
+    "warlock-bark-3.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/warlock-bark-3.8fe62de9e340.mp3",
+      "output_sha256": "6ad88b05a3c59871332768c61b3309378dbb71114f3820394a89d560058d50c6",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:12+00:00",
+      "source_sha256": "8fe62de9e34043a7577729b9f9063efd2a614a23fa7ea7d9927fa95ffe5f1065",
+      "target_lufs": -14.0
+    },
+    "warlock-bark-4.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/warlock-bark-4.83d1633d6166.mp3",
+      "output_sha256": "0ebd854e8261f850b72c676dfac26d088af7c20852ac28e2d6a8ed860c5c7a9e",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:12+00:00",
+      "source_sha256": "83d1633d616695b8e57297e240ac85a92be1f037e6ea266e5d0f794dcec325c0",
+      "target_lufs": -14.0
+    },
+    "warlock-blackflame-black-sun.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/warlock-blackflame-black-sun.e2b2a3c3610c.mp3",
+      "output_sha256": "00a18d2739b8dabe7363a7cfa4dbd3c888b57f1d11625697bda378bd028b7da7",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:12+00:00",
+      "source_sha256": "e2b2a3c3610c552acc3cf0c1de1aa89ccea42aeb94289c74f5fde09a93f1ca03",
+      "target_lufs": -14.0
+    },
+    "warlock-blackflame-eruption.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/warlock-blackflame-eruption.dbf64baa4379.mp3",
+      "output_sha256": "d4ca95349a31b978774fea450295ddc20a1b886c6e13e521049634921732bfb3",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:12+00:00",
+      "source_sha256": "dbf64baa4379bf6abc00614082e2a121dabad82f5d701dc3e6d736cd3594d765",
+      "target_lufs": -14.0
+    },
+    "warlock-blackflame-spark.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/warlock-blackflame-spark.cc00e64f73ae.mp3",
+      "output_sha256": "0f71dd076bb99eb0e858e96bb3d3e872ed2dbeec1f4e2aec8e691ece0861baa0",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:12+00:00",
+      "source_sha256": "cc00e64f73ae9a5c073be6278a3e63f53200866e9712574641814e4c59443aac",
+      "target_lufs": -14.0
+    },
+    "warlock-blackflame-wildfire.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/warlock-blackflame-wildfire.21c32bf61fb6.mp3",
+      "output_sha256": "e6ed0b9194e74861d7ae1416ceefa6f299c09f229d272399fbb74f2e0c609c5e",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:12+00:00",
+      "source_sha256": "21c32bf61fb60b6bbedc014b585af787b3728baf6d3fcb2ebd708fa6a72dc91f",
+      "target_lufs": -14.0
+    },
+    "warlock-curse-decay.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/warlock-curse-decay.c5251c130466.mp3",
+      "output_sha256": "9b6d6cd98585fca37cc6a3186c0d747b469962041bf3ed8809df494e925f40b2",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:12+00:00",
+      "source_sha256": "c5251c130466f9ba9e46f3e94cce085a81db001219ec8d44f634a5d2866e91f8",
+      "target_lufs": -14.0
+    },
+    "warlock-curse-doom-sentence.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/warlock-curse-doom-sentence.b86cfe8dd8e3.mp3",
+      "output_sha256": "0286b287167e7594f2442970c071030a7cf470f3294c79fa3440cbf9beda1632",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:12+00:00",
+      "source_sha256": "b86cfe8dd8e34ddcbc1e9396fce7d90bed2975c18bdacb2d86d33adc4c6d42b2",
+      "target_lufs": -14.0
+    },
+    "warlock-curse-doom-word.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/warlock-curse-doom-word.644ac2b5d558.mp3",
+      "output_sha256": "190e721fec722012fe6c2db78a500d6a9a1aed86b54ce280a1257e1261f8f081",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:12+00:00",
+      "source_sha256": "644ac2b5d558afbc580dd2f97931453c6f78a7857730b3f5b240949ba88e4cd5",
+      "target_lufs": -14.0
+    },
+    "warlock-curse-frailty.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/warlock-curse-frailty.173d00042aa1.mp3",
+      "output_sha256": "c52840895e4dc0ed4aeb487464ad631a2ebd584d0ac8727deb2d4fa6188d7fa5",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:12+00:00",
+      "source_sha256": "173d00042aa121b812f2254ba52a3e6b242c15c933afd52681eea18f7d29e810",
+      "target_lufs": -14.0
+    },
+    "warlock-death-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/warlock-death-1.9c0136c75b95.mp3",
+      "output_sha256": "aecfc590890168c041d701daf0fdef1be20475049eae9b463c4b7676eaebfb05",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:12+00:00",
+      "source_sha256": "9c0136c75b95f49495994fe4df61313c672edf374140175ab5a5f90ad6a1d816",
+      "target_lufs": -14.0
+    },
+    "warlock-death-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/warlock-death-2.ab6415fca0bd.mp3",
+      "output_sha256": "8e25d41c6f708b76e9c445346c1b791651d1d5d499588335bec68fc4abd67246",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:12+00:00",
+      "source_sha256": "ab6415fca0bd16ca3d6b6be9c9d92c7a797760d0d91c10a002ea41ab42568ec9",
+      "target_lufs": -14.0
+    },
+    "warlock-fieldEnter-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/warlock-fieldEnter-1.efef58fef32e.mp3",
+      "output_sha256": "fefe9bfc97d10a007a45be5d1e50b4e369aa7a6da115a93490efa5425e1e018a",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:12+00:00",
+      "source_sha256": "efef58fef32eeb363a251871f88a0cbcc072ee9618ac12ab8eb2e111886517e5",
+      "target_lufs": -14.0
+    },
+    "warlock-fieldEnter-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/warlock-fieldEnter-2.8cd6c4f81e59.mp3",
+      "output_sha256": "d7a920fe6957731dc70f05452fc2d24cc043324e94e0f62d0b2002f9e2e6d7ad",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:12+00:00",
+      "source_sha256": "8cd6c4f81e59b3809708bc12225c39014f8d7ead3ee78130e6fe7e47d4335f62",
+      "target_lufs": -14.0
+    },
+    "warlock-levelUp-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/warlock-levelUp-1.b98d01c15f5a.mp3",
+      "output_sha256": "c6e38b5ff1e589d16b83aeb3648275f2b6f89d4bc0bb61b722d9a21260639bab",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:12+00:00",
+      "source_sha256": "b98d01c15f5a307215b9a9cfa02daa2f03f685fd9cc70be52690a1feca0aca09",
+      "target_lufs": -14.0
+    },
+    "warlock-levelUp-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/warlock-levelUp-2.870eac48635a.mp3",
+      "output_sha256": "16dae510f483584d5c739104d24732dad9e717796893d70a5900e4cc21b432f4",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:12+00:00",
+      "source_sha256": "870eac48635a82cbb16aff558aadb4342fe326ded12c695c95a5d271e3d9ad53",
+      "target_lufs": -14.0
+    },
+    "warlock-portal-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/warlock-portal-1.a715e60ae3e6.mp3",
+      "output_sha256": "473726e8d47421aa5b2bcd716d7a68f3d028c3ea7cf8be2a76f7f62b72817db9",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-18T09:07:12+00:00",
+      "source_sha256": "a715e60ae3e677db68a7f99b3d3d139c5e707434f810d9fb031f2969161ddc78",
+      "target_lufs": -14.0
+    },
+    "warlockpupil-bark-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/warlockpupil-bark-1.b01a2fed50c5.mp3",
+      "output_sha256": "47e878db639a6d186d1c405ede75d3a9eaedf7b2220206660e56cbcf2c6aba93",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "b01a2fed50c55ec8f62964dacca11440786c143206c9663b0a529311d2a46210",
+      "target_lufs": -14.0
+    },
+    "warlockpupil-bark-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/warlockpupil-bark-2.f75b8f9f438b.mp3",
+      "output_sha256": "c4bfe4d11fb93c5e5cef3e1e27084bbb4d3259ce485638afdd5d4cf5941da88f",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "f75b8f9f438b6b2004a9142e9a969991077790d444fd2c938f5017068cfe9266",
+      "target_lufs": -14.0
+    },
+    "warlockpupil-death-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/warlockpupil-death-1.17482dd8e9af.mp3",
+      "output_sha256": "023d0d1d3cc7624e43f3391a8d466270c4a812c51ca3005b89f6652d081c287f",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "17482dd8e9af7aa1c42a65e906a1cee36f8d4b7ad7939037a55e14abcf386c39",
+      "target_lufs": -14.0
+    },
+    "watchman-bark-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/watchman-bark-1.58fdb0d90f02.mp3",
+      "output_sha256": "c00cd3201d8e8f6e57ac1457967f6adf9392e970b211aad2a62bfa0bf9fa14e2",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "58fdb0d90f02d0e7b7c212f89f384f36ba8132290ff6466407b51df4c09c32ee",
+      "target_lufs": -14.0
+    },
+    "watchman-bark-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/watchman-bark-2.bf7463ab1c24.mp3",
+      "output_sha256": "b8d0e8bc19dc3968847bfbec5cd5465631a4752fc29d3247efc4664d05a37c9c",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "bf7463ab1c245b5a7a4f2ca9e3ebc241063ca9ee246acd5adf655e9ebc5011bb",
+      "target_lufs": -14.0
+    },
+    "watchman-death-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/watchman-death-1.28f1107c9311.mp3",
+      "output_sha256": "6f68999557677ffaf873da2a6e142f1d0503d654d01d1920d7599dd8105d420a",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "28f1107c93116110fb90c4d2afda6aad46f721176739e7e480043cafcf1f4f29",
+      "target_lufs": -14.0
+    },
+    "winged-bark-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/winged-bark-1.0e5b429d882f.mp3",
+      "output_sha256": "76959dff0ce088cd52ca4bf434619331b156344caba893d8df853657add7f2c6",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "0e5b429d882fde9a1413d3e51f183799b3e4ecacaf21cae5c6be18cf3da77a91",
+      "target_lufs": -14.0
+    },
+    "winged-bark-2.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/winged-bark-2.2c62162dcef8.mp3",
+      "output_sha256": "f3be9ac93523c17ef6961797f8c1befd118c06d2db0ac1dad01f4f42accf078b",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "2c62162dcef8341422dd166dc00611e8e44d75ddf9feb2b0e8593e772589d33c",
+      "target_lufs": -14.0
+    },
+    "winged-death-1.mp3": {
+      "backup": "public/assets/voice/ko/.voice_postprocess_raw/winged-death-1.55ef2b4f3f2b.mp3",
+      "output_sha256": "371ca899a4d36c195236a21863bea0e9636a2a33a6d1d4885640b8fd4aaed905",
+      "peak_ceiling": 0.9,
+      "processed_at": "2026-05-26T20:44:36+00:00",
+      "source_sha256": "55ef2b4f3f2bbd96ee95891d460ae53bc4990b379640dade5179acafcac5f797",
+      "target_lufs": -14.0
+    }
+  }
+}
