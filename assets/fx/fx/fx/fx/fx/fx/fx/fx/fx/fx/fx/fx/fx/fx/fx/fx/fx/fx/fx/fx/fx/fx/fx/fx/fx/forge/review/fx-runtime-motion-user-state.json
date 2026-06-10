@@ -1,0 +1,97 @@
+{
+  "coreFxTuning": [
+    {
+      "flip": true,
+      "id": "projectile:fire-basic",
+      "line": "projectile:fire-basic rot=0 flip=on",
+      "rot": 0
+    },
+    {
+      "flip": false,
+      "id": "projectile:arrow-skill",
+      "line": "projectile:arrow-skill rot=24 flip=off",
+      "rot": 24
+    },
+    {
+      "flip": true,
+      "id": "projectile:bolt-skill",
+      "line": "projectile:bolt-skill rot=0 flip=on",
+      "rot": 0
+    },
+    {
+      "flip": true,
+      "id": "monster:casterBolt",
+      "line": "monster:casterBolt rot=0 flip=on",
+      "rot": 0
+    },
+    {
+      "flip": true,
+      "id": "monster:bossCleave",
+      "line": "monster:bossCleave rot=0 flip=on",
+      "rot": 0
+    }
+  ],
+  "counts": {
+    "coreCards": 40,
+    "globalIssues": 0,
+    "markedFx": 0,
+    "skillCards": 156
+  },
+  "globalIssues": [],
+  "markedFx": [],
+  "note": "",
+  "pageTitle": "RPG FX Runtime Motion QC",
+  "projectileTuning": [
+    "0:arrow-basic view=0 mode=static speed=1.5 path=0 rot=0 flip=off scale=1 base 76,104>714,104",
+    "1:arrow-skill view=0 mode=travel speed=1.5 path=0 rot=23 flip=off scale=1 base 76,170>714,170",
+    "2:bolt-basic view=0 mode=static speed=1.45 path=0 rot=0 flip=off scale=1 base 76,236>714,236",
+    "3:bolt-skill view=0 mode=travel speed=1.5 path=0 rot=0 flip=on scale=1 base 76,302>714,302",
+    "4:fire-basic view=0 mode=static speed=1.45 path=0 rot=-3 flip=on scale=1 base 76,368>714,368",
+    "5:fire-skill view=0 mode=travel speed=1 path=0 rot=0 flip=off scale=1 base 76,434>714,434",
+    "6:ice-basic view=0 mode=static speed=1 path=0 rot=0 flip=off scale=1 base 76,500>714,500",
+    "7:ice-skill view=0 mode=travel speed=1 path=0 rot=0 flip=off scale=1 base 76,566>714,566",
+    "8:shadow-basic view=0 mode=static speed=1.45 path=0 rot=0 flip=off scale=1 base 76,632>714,632",
+    "9:shadow-skill view=0 mode=travel speed=1.4 path=0 rot=0 flip=off scale=1 base 76,698>714,698"
+  ],
+  "report": "tier=2\ncoreFx=40\nskillFxCount=156\n0:arrow-basic view=0 mode=static speed=1.5 path=0 rot=0 flip=off scale=1 base 76,104>714,104\n1:arrow-skill view=0 mode=travel speed=1.5 path=0 rot=23 flip=off scale=1 base 76,170>714,170\n2:bolt-basic view=0 mode=static speed=1.45 path=0 rot=0 flip=off scale=1 base 76,236>714,236\n3:bolt-skill view=0 mode=travel speed=1.5 path=0 rot=0 flip=on scale=1 base 76,302>714,302\n4:fire-basic view=0 mode=static speed=1.45 path=0 rot=-3 flip=on scale=1 base 76,368>714,368\n5:fire-skill view=0 mode=travel speed=1 path=0 rot=0 flip=off scale=1 base 76,434>714,434\n6:ice-basic view=0 mode=static speed=1 path=0 rot=0 flip=off scale=1 base 76,500>714,500\n7:ice-skill view=0 mode=travel speed=1 path=0 rot=0 flip=off scale=1 base 76,566>714,566\n8:shadow-basic view=0 mode=static speed=1.45 path=0 rot=0 flip=off scale=1 base 76,632>714,632\n9:shadow-skill view=0 mode=travel speed=1.4 path=0 rot=0 flip=off scale=1 base 76,698>714,698\nskillFx=guardian-shield-fortress rot=0 flip=off\nguardian-holy-tribunal rot=0 flip=off\nguardian-judgment-final rot=0 flip=off\noracle-radiance-dawn-judgment rot=0 flip=off\noracle-sentence-final-sentence rot=0 flip=off\noracle-heal-healing-choir rot=0 flip=off\ngreatsword-greatsword-guillotine rot=0 flip=off\ngreatsword-hellfire-hellforge rot=0 flip=off\ngreatsword-blood-blood-revel rot=0 flip=off\nwarlock-curse-doom-sentence rot=0 flip=off\nwarlock-blackflame-black-sun rot=0 flip=off\nwarlock-abyss-voidfall rot=0 flip=off\nknight-sword-king-blow rot=0 flip=off\nknight-shield-royal-wall rot=0 flip=off\nknight-command-all-out rot=0 flip=off\narcher-snipe-sure-arrow rot=0 flip=off\narcher-pierce-sky-piercer rot=31 flip=off\narcher-tactic-kill-zone rot=0 flip=off\nduelist-duelist-execution-dance rot=0 flip=on\nduelist-evasion-mirror-dance rot=0 flip=off\nduelist-moonlight-fullmoon rot=0 flip=off\nranger-spiritbow-king-rain rot=0 flip=off\nranger-bind-worldroot rot=0 flip=off\nranger-wild-wild-host rot=0 flip=off\nlancer-charge-skyfall rot=0 flip=off\nlancer-dragonblood-dragon-rage rot=0 flip=off\nlancer-shatter-earth-shatter rot=0 flip=off\nsage-fire-meteor rot=0 flip=off\nsage-dragonword-elder-roar rot=0 flip=off\nsage-rune-ancient-stasis rot=0 flip=off\nmercSig-swordsman-comrade-blade rot=0 flip=off\nmercSig-pathwarden-not-late-arrow rot=0 flip=off\nmercSig-warden-bastion-shadow rot=0 flip=off\nmercSig-warlockpupil-fringe-flame rot=0 flip=off\nmercSig-starlit-starlight-guard rot=0 flip=off\nmercSig-forestdruid-forest-ember rot=0 flip=off\nmercSig-cleric-endless-prayer rot=0 flip=off\nmercSig-winged-wing-shield rot=0 flip=off\nmercSig-crystal-crystal-thrust rot=0 flip=off\nmercSig-runepriest-ward-bind rot=0 flip=off\nmercSig-totem-totem-call rot=0 flip=off\nmercSig-shadowblade-nameless-blade rot=0 flip=off\nmercSig-violet-violet-bind rot=0 flip=off\nmercSig-ironwall-ironwall-formation rot=0 flip=off\nmercSig-paladin-oath-strike rot=0 flip=off\nmercSig-forestarcher-forest-glance rot=0 flip=off\nmercSig-emberknight-dragonblood-formation rot=0 flip=off\nmercSig-spellblade-arcblade-flow rot=0 flip=off\nmercSig-watchman-citizen-stance rot=0 flip=off\nmercSig-mage-wandering-circle rot=0 flip=off\nmercSig-rogue-plunderer-shadow rot=0 flip=off\nguardian-shield-taunt rot=0 flip=off\nguardian-shield-bulwark rot=0 flip=off\nguardian-holy-prayer rot=0 flip=off\nguardian-holy-barrier rot=0 flip=off\nguardian-judgment-punish rot=0 flip=off\nguardian-judgment-atonement rot=0 flip=off\noracle-radiance-nova rot=0 flip=off\noracle-radiance-dawn-ray rot=0 flip=off\noracle-sentence-edict rot=0 flip=off\noracle-sentence-execution rot=0 flip=off\noracle-heal-aegis rot=0 flip=off\noracle-heal-resurrection rot=0 flip=off\ngreatsword-greatsword-execution-cut rot=0 flip=off\ngreatsword-greatsword-skull-split rot=0 flip=off\ngreatsword-hellfire-flame-burst rot=0 flip=off\ngreatsword-hellfire-inferno-edge rot=0 flip=off\ngreatsword-blood-vampiric-cut rot=0 flip=off\ngreatsword-blood-crimson-harvest rot=0 flip=off\nwarlock-curse-decay rot=0 flip=off\nwarlock-curse-doom-word rot=0 flip=off\nwarlock-blackflame-eruption rot=0 flip=off\nwarlock-blackflame-wildfire rot=0 flip=off\nwarlock-abyss-terror rot=0 flip=off\nwarlock-abyss-rift rot=0 flip=off\nknight-sword-cross-cut rot=0 flip=off\nknight-sword-lion-strike rot=0 flip=off\nknight-shield-counterwall rot=0 flip=off\nknight-shield-shield-crash rot=0 flip=off\nknight-command-rally rot=0 flip=off\nknight-command-war-cry rot=0 flip=off\narcher-snipe-eagle-shot rot=0 flip=off\narcher-snipe-death-mark rot=0 flip=off\narcher-pierce-split-bolt rot=0 flip=off\narcher-pierce-rail-shot rot=0 flip=off\narcher-tactic-trap-volley rot=0 flip=off\narcher-tactic-hunt-call rot=0 flip=off\nduelist-duelist-ripper rot=0 flip=off\nduelist-duelist-red-finale rot=0 flip=off\nduelist-evasion-riposte rot=0 flip=off\nduelist-evasion-phantom-cut rot=0 flip=off\nduelist-moonlight-crescent rot=0 flip=off\nduelist-moonlight-silver-rush rot=0 flip=off\nranger-spiritbow-storm-arrow rot=0 flip=off\nranger-spiritbow-rain-shot rot=0 flip=off\nranger-bind-root-cage rot=0 flip=off\nranger-bind-bramble-field rot=0 flip=off\nranger-wild-fang-rush rot=0 flip=off\nranger-wild-nature-wrath rot=0 flip=off\nlancer-charge-line-break rot=0 flip=off\nlancer-charge-sky-charge rot=0 flip=off\nlancer-dragonblood-dragon-roar rot=0 flip=off\nlancer-dragonblood-blood-lance rot=0 flip=off\nlancer-shatter-breaker rot=0 flip=off\nlancer-shatter-earth-split rot=0 flip=off\nsage-fire-blaze-ring rot=0 flip=off\nsage-fire-inferno rot=0 flip=off\nsage-dragonword-bind-word rot=0 flip=off\nsage-dragonword-break-word rot=0 flip=off\nsage-rune-time-sigil rot=0 flip=off\nsage-rune-rune-prison rot=0 flip=off\nmercSkill-watchman-taunt rot=0 flip=off\nmercSkill-watchman-block-counter rot=0 flip=off\nmercSkill-runearcher-rune-arrow rot=0 flip=off\nmercSkill-runearcher-mark-trap rot=0 flip=off\nmercSkill-shadowrogue-blink rot=0 flip=off\nmercSkill-shadowrogue-bleeding-cut rot=0 flip=off\nmercSkill-emberpriest-burn-field rot=0 flip=off\nmercSkill-emberpriest-ignite-mark rot=0 flip=off\nmercSkill-cleric-aura-mend rot=0 flip=off\nmercSkill-cleric-light-strike rot=0 flip=off\nguardian-shield-bash rot=0 flip=on\nguardian-holy-sanctify rot=0 flip=off\nguardian-judgment-riposte rot=0 flip=off\noracle-radiance-flash rot=0 flip=off\noracle-sentence-verdict rot=0 flip=off\noracle-heal-saving-hand rot=0 flip=on\ngreatsword-greatsword-sky-cleave rot=0 flip=off\ngreatsword-hellfire-hellslash rot=0 flip=off\ngreatsword-blood-blood-thirst rot=0 flip=off\nwarlock-curse-frailty rot=0 flip=off\nwarlock-blackflame-spark rot=0 flip=off\nwarlock-abyss-grasp rot=0 flip=off\nknight-sword-combo rot=0 flip=off\nknight-shield-bash rot=0 flip=off\nknight-command-charge-order rot=0 flip=off\narcher-snipe-vital-shot rot=0 flip=on\narcher-pierce-piercing-shot rot=0 flip=off\narcher-tactic-mark-shot rot=0 flip=off\nduelist-duelist-twin-lash rot=0 flip=off\nduelist-evasion-afterimage rot=0 flip=off\nduelist-moonlight-moon-cut rot=-7 flip=on\nranger-spiritbow-spirit-shot rot=0 flip=off\nranger-bind-thorn-snare rot=0 flip=off\nranger-wild-beast-call rot=0 flip=off\nlancer-charge-gale-charge rot=0 flip=off\nlancer-dragonblood-awakening rot=0 flip=off\nlancer-shatter-crush rot=0 flip=off\nsage-fire-flame-storm rot=0 flip=off\nsage-dragonword-sear rot=0 flip=off\nsage-rune-ward rot=0 flip=off\nmercSkill-watchman-guard-sweep rot=0 flip=off\nmercSkill-runearcher-snipe rot=0 flip=off\nmercSkill-shadowrogue-twin-strike rot=0 flip=off\nmercSkill-emberpriest-spark rot=0 flip=off\nmercSkill-cleric-heal-touch rot=0 flip=off\nfxTuned=projectile:fire-basic rot=0 flip=on\nprojectile:arrow-skill rot=24 flip=off\nprojectile:bolt-skill rot=0 flip=on\nmonster:casterBolt rot=0 flip=on\nmonster:bossCleave rot=0 flip=on\nmarked=none\nissues=none\nnote=-",
+  "savedAt": "2026-06-05T07:07:36.799Z",
+  "skillTuning": [
+    {
+      "flip": false,
+      "id": "archer-pierce-sky-piercer",
+      "line": "archer-pierce-sky-piercer rot=31 flip=off",
+      "rot": 31
+    },
+    {
+      "flip": true,
+      "id": "duelist-duelist-execution-dance",
+      "line": "duelist-duelist-execution-dance rot=0 flip=on",
+      "rot": 0
+    },
+    {
+      "flip": true,
+      "id": "guardian-shield-bash",
+      "line": "guardian-shield-bash rot=0 flip=on",
+      "rot": 0
+    },
+    {
+      "flip": true,
+      "id": "oracle-heal-saving-hand",
+      "line": "oracle-heal-saving-hand rot=0 flip=on",
+      "rot": 0
+    },
+    {
+      "flip": true,
+      "id": "archer-snipe-vital-shot",
+      "line": "archer-snipe-vital-shot rot=0 flip=on",
+      "rot": 0
+    },
+    {
+      "flip": true,
+      "id": "duelist-moonlight-moon-cut",
+      "line": "duelist-moonlight-moon-cut rot=-7 flip=on",
+      "rot": -7
+    }
+  ],
+  "sourceUrl": "http://127.0.0.1:3000/assets/fx/forge/review/fx-runtime-motion-qc.html?refresh=1780642909954"
+}
