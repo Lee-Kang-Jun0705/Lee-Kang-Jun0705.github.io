@@ -1,87 +1,87 @@
 {
-  "generatedAt": "2026-06-05T06:46:21.495423+00:00",
-  "repair": "arrow-skill runtime row recentered from existing Image2-cleaned atlas; no Image2 regeneration",
+  "generatedAt": "2026-06-11T15:26:47.509528+00:00",
+  "repair": "2026-06-12 painterly recomposite (opengameart CC0/CC-BY) — docs/VFX-ASSET-CREDITS.md",
+  "target": "public/assets/fx/forge/projectiles.png",
   "rows": [
     {
       "row": "arrow-basic",
-      "source": "public/assets/image2/fx/projectiles/arrow-basic-source.png",
-      "opaque": 1697,
+      "source": "scripts/compose_vfx_sheets.py",
+      "opaque": 8531,
       "greenResidue": 0,
       "greenDominant": 0,
       "edgeOpaque": 0
     },
     {
       "row": "bolt-basic",
-      "source": "public/assets/image2/fx/projectiles/bolt-basic-source.png",
-      "opaque": 3374,
+      "source": "scripts/compose_vfx_sheets.py",
+      "opaque": 7410,
       "greenResidue": 0,
       "greenDominant": 0,
-      "edgeOpaque": 6
+      "edgeOpaque": 0
     },
     {
       "row": "fire-basic",
-      "source": "public/assets/image2/fx/projectiles/fire-basic-source.png",
-      "opaque": 5125,
+      "source": "scripts/compose_vfx_sheets.py",
+      "opaque": 11815,
       "greenResidue": 0,
       "greenDominant": 0,
       "edgeOpaque": 0
     },
     {
       "row": "ice-basic",
-      "source": "public/assets/image2/fx/projectiles/ice-basic-source.png",
-      "opaque": 5824,
+      "source": "scripts/compose_vfx_sheets.py",
+      "opaque": 7955,
       "greenResidue": 0,
       "greenDominant": 0,
-      "edgeOpaque": 3
+      "edgeOpaque": 0
     },
     {
       "row": "shadow-basic",
-      "source": "public/assets/image2/fx/projectiles/shadow-basic-source.png",
-      "opaque": 4905,
+      "source": "scripts/compose_vfx_sheets.py",
+      "opaque": 15094,
       "greenResidue": 0,
       "greenDominant": 0,
-      "edgeOpaque": 36
+      "edgeOpaque": 0
     },
     {
       "row": "arrow-skill",
-      "source": "public/assets/image2/fx/projectiles/arrow-skill-source.png",
-      "opaque": 6065,
+      "source": "scripts/compose_vfx_sheets.py",
+      "opaque": 8531,
       "greenResidue": 0,
       "greenDominant": 0,
       "edgeOpaque": 0
     },
     {
       "row": "bolt-skill",
-      "source": "public/assets/image2/fx/projectiles/bolt-skill-source.png",
-      "opaque": 4484,
+      "source": "scripts/compose_vfx_sheets.py",
+      "opaque": 7410,
       "greenResidue": 0,
       "greenDominant": 0,
-      "edgeOpaque": 25
+      "edgeOpaque": 0
     },
     {
       "row": "fire-skill",
-      "source": "public/assets/image2/fx/projectiles/fire-skill-source.png",
-      "opaque": 9657,
+      "source": "scripts/compose_vfx_sheets.py",
+      "opaque": 11886,
       "greenResidue": 0,
-      "greenDominant": 3,
-      "edgeOpaque": 1
+      "greenDominant": 0,
+      "edgeOpaque": 0
     },
     {
       "row": "ice-skill",
-      "source": "public/assets/image2/fx/projectiles/ice-skill-source.png",
-      "opaque": 7209,
+      "source": "scripts/compose_vfx_sheets.py",
+      "opaque": 7933,
       "greenResidue": 0,
       "greenDominant": 0,
       "edgeOpaque": 0
     },
     {
       "row": "shadow-skill",
-      "source": "public/assets/image2/fx/projectiles/shadow-skill-source.png",
-      "opaque": 4356,
+      "source": "scripts/compose_vfx_sheets.py",
+      "opaque": 14029,
       "greenResidue": 0,
       "greenDominant": 0,
-      "edgeOpaque": 15
+      "edgeOpaque": 0
     }
-  ],
-  "target": "public/assets/fx/forge/projectiles.png"
+  ]
 }
