@@ -1,0 +1,290 @@
+[
+  {
+    "id": "repair-fx-combat-slash",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-combat-impact",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-combat-magic",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-combat-guard",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-combat-pickup",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-combat-playerHurt",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-combat-mercHurt",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-combat-monsterHurt",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-combat-fireBurst",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-combat-iceBurst",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-combat-shadowBurst",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-combat-holyBurst",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-combat-poisonBurst",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-combat-arrowPierce",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-knight-shield-royal-wall",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-lancer-dragonblood-dragon-rage",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-mercSig-forestarcher-forest-glance",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-mercSig-violet-violet-bind",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-mercSkill-emberpriest-ignite-mark",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-mercSkill-emberpriest-spark",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-mercSkill-runearcher-mark-trap",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-mercSkill-runearcher-snipe",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-mercSkill-shadowrogue-bleeding-cut",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-mercSkill-watchman-taunt",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-monster-claw",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-monster-bite",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-monster-casterBolt",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-monster-wraithDissolve",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-monster-stomp",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-monster-roar",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-monster-bossCleave",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-oracle-heal-aegis",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-oracle-heal-healing-choir",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-oracle-radiance-nova",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-oracle-sentence-edict",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-oracle-sentence-final-sentence",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-projectile-bolt-basic",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-projectile-fire-basic",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-projectile-ice-basic",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-projectile-shadow-basic",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-projectile-arrow-skill",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-projectile-bolt-skill",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-projectile-fire-skill",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-projectile-ice-skill",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-projectile-shadow-skill",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-ranger-bind-bramble-field",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-ranger-bind-root-cage",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-ranger-bind-thorn-snare",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-ranger-bind-worldroot",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-ranger-spiritbow-king-rain",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-ranger-spiritbow-rain-shot",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-ranger-wild-nature-wrath",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-ranger-wild-wild-host",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-sage-dragonword-bind-word",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-sage-dragonword-break-word",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-sage-dragonword-elder-roar",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-sage-dragonword-sear",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-sage-fire-blaze-ring",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-sage-fire-flame-storm",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-sage-fire-meteor",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-sage-rune-ancient-stasis",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-spike-shieldAura",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-spike-launchShockwave",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-spike-revivePillar",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-spike-atonementBeam",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-warlock-abyss-rift",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-warlock-abyss-voidfall",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-warlock-blackflame-eruption",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-warlock-blackflame-spark",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-warlock-blackflame-wildfire",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-warlock-curse-doom-sentence",
+    "issues": []
+  },
+  {
+    "id": "repair-fx-warlock-curse-frailty",
+    "issues": []
+  }
+]
