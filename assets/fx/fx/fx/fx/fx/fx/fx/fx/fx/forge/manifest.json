@@ -211,7 +211,7 @@
     }
   },
   "portalSource": "reference-2x2-motion-grid-dimensional-flame-portal-sheet; transparent-rgba; lossless-png",
-  "projectileProvider": "openai-image2-codex-app",
+  "projectileProvider": "opengameart-recomposite",
   "projectileGeneratedAt": "2026-06-05T06:46:21.495423+00:00",
   "projectileSources": [
     "public/assets/image2/fx/projectiles/arrow-basic-source.png",
@@ -241,5 +241,6 @@
     "public/assets/image2/fx/melee-basic/meleeKnight-source.png",
     "public/assets/image2/fx/melee-basic/meleeDuelist-source.png",
     "public/assets/image2/fx/melee-basic/meleeLancer-source.png"
-  ]
+  ],
+  "coreSheetNote": "2026-06-12: projectiles/combat/monster/melee-basic 4종 회화풍 재합성 (compose_vfx_sheets.py)"
 }
