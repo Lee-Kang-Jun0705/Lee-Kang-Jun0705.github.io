@@ -1,0 +1,1180 @@
+{
+  "savedAt": "2026-06-05T01:51:51.285Z",
+  "sourceUrl": "http://127.0.0.1:3000/assets/fx/forge/review/fx-background-qc.html",
+  "total": 72,
+  "counts": {
+    "mixed": 34,
+    "broken": 17,
+    "bg": 13,
+    "regen": 19,
+    "weak": 1
+  },
+  "grouped": {
+    "combat": 14,
+    "knight": 1,
+    "lancer": 1,
+    "mercSig": 2,
+    "mercSkill": 6,
+    "monster": 7,
+    "oracle": 5,
+    "projectile": 9,
+    "ranger": 8,
+    "sage": 8,
+    "spike": 4,
+    "warlock": 7
+  },
+  "items": [
+    {
+      "flags": {
+        "bg": false,
+        "broken": false,
+        "loud": false,
+        "mixed": true,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "combat-0",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/combat-effects.png",
+      "runtimeId": "combat-slash"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": false,
+        "loud": false,
+        "mixed": true,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "combat-1",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/combat-effects.png",
+      "runtimeId": "combat-impact"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": false,
+        "loud": false,
+        "mixed": true,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "combat-2",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/combat-effects.png",
+      "runtimeId": "combat-magic"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": false,
+        "loud": false,
+        "mixed": true,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "combat-3",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/combat-effects.png",
+      "runtimeId": "combat-guard"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": false,
+        "loud": false,
+        "mixed": true,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "combat-4",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/combat-effects.png",
+      "runtimeId": "combat-pickup"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": false,
+        "loud": false,
+        "mixed": true,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "combat-5",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/combat-effects.png",
+      "runtimeId": "combat-playerHurt"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": false,
+        "loud": false,
+        "mixed": true,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "combat-6",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/combat-effects.png",
+      "runtimeId": "combat-mercHurt"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": false,
+        "loud": false,
+        "mixed": true,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "combat-7",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/combat-effects.png",
+      "runtimeId": "combat-monsterHurt"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": false,
+        "loud": false,
+        "mixed": true,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "combat-8",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/combat-effects.png",
+      "runtimeId": "combat-fireBurst"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": false,
+        "loud": false,
+        "mixed": true,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "combat-9",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/combat-effects.png",
+      "runtimeId": "combat-iceBurst"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": false,
+        "loud": false,
+        "mixed": true,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "combat-10",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/combat-effects.png",
+      "runtimeId": "combat-shadowBurst"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": false,
+        "loud": false,
+        "mixed": true,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "combat-11",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/combat-effects.png",
+      "runtimeId": "combat-holyBurst"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": false,
+        "loud": false,
+        "mixed": true,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "combat-12",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/combat-effects.png",
+      "runtimeId": "combat-poisonBurst"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": false,
+        "loud": false,
+        "mixed": true,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "combat-13",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/combat-effects.png",
+      "runtimeId": "combat-arrowPierce"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": true,
+        "loud": false,
+        "mixed": false,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "knight-shield-royal-wall",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/knight-shield-royal-wall.png",
+      "runtimeId": "knight-shield-royal-wall"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": true,
+        "loud": false,
+        "mixed": false,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "lancer-dragonblood-dragon-rage",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/lancer-dragonblood-dragon-rage.png",
+      "runtimeId": "lancer-dragonblood-dragon-rage"
+    },
+    {
+      "flags": {
+        "bg": true,
+        "broken": false,
+        "loud": false,
+        "mixed": false,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "mercSig-forestarcher-forest-glance",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/mercSig-forestarcher-forest-glance.png",
+      "runtimeId": "mercSig-forestarcher-forest-glance"
+    },
+    {
+      "flags": {
+        "bg": true,
+        "broken": false,
+        "loud": false,
+        "mixed": false,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "mercSig-violet-violet-bind",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/mercSig-violet-violet-bind.png",
+      "runtimeId": "mercSig-violet-violet-bind"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": true,
+        "loud": false,
+        "mixed": false,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "mercSkill-emberpriest-ignite-mark",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/mercSkill-emberpriest-ignite-mark.png",
+      "runtimeId": "mercSkill-emberpriest-ignite-mark"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": true,
+        "loud": false,
+        "mixed": false,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "mercSkill-emberpriest-spark",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/mercSkill-emberpriest-spark.png",
+      "runtimeId": "mercSkill-emberpriest-spark"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": true,
+        "loud": false,
+        "mixed": false,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "mercSkill-runearcher-mark-trap",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/mercSkill-runearcher-mark-trap.png",
+      "runtimeId": "mercSkill-runearcher-mark-trap"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": true,
+        "loud": false,
+        "mixed": false,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "mercSkill-runearcher-snipe",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/mercSkill-runearcher-snipe.png",
+      "runtimeId": "mercSkill-runearcher-snipe"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": true,
+        "loud": false,
+        "mixed": false,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "mercSkill-shadowrogue-bleeding-cut",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/mercSkill-shadowrogue-bleeding-cut.png",
+      "runtimeId": "mercSkill-shadowrogue-bleeding-cut"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": true,
+        "loud": false,
+        "mixed": false,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "mercSkill-watchman-taunt",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/mercSkill-watchman-taunt.png",
+      "runtimeId": "mercSkill-watchman-taunt"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": false,
+        "loud": false,
+        "mixed": true,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "monster-0",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/monster-effects.png",
+      "runtimeId": "monster-claw"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": false,
+        "loud": false,
+        "mixed": true,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "monster-1",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/monster-effects.png",
+      "runtimeId": "monster-bite"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": false,
+        "loud": false,
+        "mixed": true,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "monster-2",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/monster-effects.png",
+      "runtimeId": "monster-casterBolt"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": false,
+        "loud": false,
+        "mixed": true,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "monster-3",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/monster-effects.png",
+      "runtimeId": "monster-wraithDissolve"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": false,
+        "loud": false,
+        "mixed": true,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "monster-4",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/monster-effects.png",
+      "runtimeId": "monster-stomp"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": false,
+        "loud": false,
+        "mixed": true,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "monster-5",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/monster-effects.png",
+      "runtimeId": "monster-roar"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": false,
+        "loud": false,
+        "mixed": true,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "monster-6",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/monster-effects.png",
+      "runtimeId": "monster-bossCleave"
+    },
+    {
+      "flags": {
+        "bg": true,
+        "broken": false,
+        "loud": false,
+        "mixed": false,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "oracle-heal-aegis",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/oracle-heal-aegis.png",
+      "runtimeId": "oracle-heal-aegis"
+    },
+    {
+      "flags": {
+        "bg": true,
+        "broken": false,
+        "loud": false,
+        "mixed": false,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "oracle-heal-healing-choir",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/oracle-heal-healing-choir.png",
+      "runtimeId": "oracle-heal-healing-choir"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": true,
+        "loud": false,
+        "mixed": false,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "oracle-radiance-nova",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/oracle-radiance-nova.png",
+      "runtimeId": "oracle-radiance-nova"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": true,
+        "loud": false,
+        "mixed": false,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "oracle-sentence-edict",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/oracle-sentence-edict.png",
+      "runtimeId": "oracle-sentence-edict"
+    },
+    {
+      "flags": {
+        "bg": true,
+        "broken": false,
+        "loud": false,
+        "mixed": false,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "oracle-sentence-final-sentence",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/oracle-sentence-final-sentence.png",
+      "runtimeId": "oracle-sentence-final-sentence"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": false,
+        "loud": false,
+        "mixed": true,
+        "ok": false,
+        "regen": true,
+        "weak": false
+      },
+      "id": "projectile-1",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/projectiles.png",
+      "runtimeId": "projectile-bolt-basic"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": false,
+        "loud": false,
+        "mixed": true,
+        "ok": false,
+        "regen": true,
+        "weak": false
+      },
+      "id": "projectile-2",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/projectiles.png",
+      "runtimeId": "projectile-fire-basic"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": false,
+        "loud": false,
+        "mixed": true,
+        "ok": false,
+        "regen": true,
+        "weak": false
+      },
+      "id": "projectile-3",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/projectiles.png",
+      "runtimeId": "projectile-ice-basic"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": false,
+        "loud": false,
+        "mixed": true,
+        "ok": false,
+        "regen": true,
+        "weak": false
+      },
+      "id": "projectile-4",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/projectiles.png",
+      "runtimeId": "projectile-shadow-basic"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": false,
+        "loud": false,
+        "mixed": true,
+        "ok": false,
+        "regen": true,
+        "weak": false
+      },
+      "id": "projectile-5",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/projectiles.png",
+      "runtimeId": "projectile-arrow-skill"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": false,
+        "loud": false,
+        "mixed": true,
+        "ok": false,
+        "regen": true,
+        "weak": false
+      },
+      "id": "projectile-6",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/projectiles.png",
+      "runtimeId": "projectile-bolt-skill"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": false,
+        "loud": false,
+        "mixed": true,
+        "ok": false,
+        "regen": true,
+        "weak": false
+      },
+      "id": "projectile-7",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/projectiles.png",
+      "runtimeId": "projectile-fire-skill"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": false,
+        "loud": false,
+        "mixed": true,
+        "ok": false,
+        "regen": true,
+        "weak": false
+      },
+      "id": "projectile-8",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/projectiles.png",
+      "runtimeId": "projectile-ice-skill"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": false,
+        "loud": false,
+        "mixed": true,
+        "ok": false,
+        "regen": true,
+        "weak": false
+      },
+      "id": "projectile-9",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/projectiles.png",
+      "runtimeId": "projectile-shadow-skill"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": true,
+        "loud": false,
+        "mixed": false,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "ranger-bind-bramble-field",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/ranger-bind-bramble-field.png",
+      "runtimeId": "ranger-bind-bramble-field"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": true,
+        "loud": false,
+        "mixed": false,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "ranger-bind-root-cage",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/ranger-bind-root-cage.png",
+      "runtimeId": "ranger-bind-root-cage"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": true,
+        "loud": false,
+        "mixed": false,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "ranger-bind-thorn-snare",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/ranger-bind-thorn-snare.png",
+      "runtimeId": "ranger-bind-thorn-snare"
+    },
+    {
+      "flags": {
+        "bg": true,
+        "broken": true,
+        "loud": false,
+        "mixed": false,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "ranger-bind-worldroot",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/ranger-bind-worldroot.png",
+      "runtimeId": "ranger-bind-worldroot"
+    },
+    {
+      "flags": {
+        "bg": true,
+        "broken": false,
+        "loud": false,
+        "mixed": false,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "ranger-spiritbow-king-rain",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/ranger-spiritbow-king-rain.png",
+      "runtimeId": "ranger-spiritbow-king-rain"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": true,
+        "loud": false,
+        "mixed": false,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "ranger-spiritbow-rain-shot",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/ranger-spiritbow-rain-shot.png",
+      "runtimeId": "ranger-spiritbow-rain-shot"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": true,
+        "loud": false,
+        "mixed": false,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "ranger-wild-nature-wrath",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/ranger-wild-nature-wrath.png",
+      "runtimeId": "ranger-wild-nature-wrath"
+    },
+    {
+      "flags": {
+        "bg": true,
+        "broken": false,
+        "loud": false,
+        "mixed": false,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "ranger-wild-wild-host",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/ranger-wild-wild-host.png",
+      "runtimeId": "ranger-wild-wild-host"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": false,
+        "loud": false,
+        "mixed": false,
+        "ok": false,
+        "regen": true,
+        "weak": false
+      },
+      "id": "sage-dragonword-bind-word",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/sage-dragonword-bind-word.png",
+      "runtimeId": "sage-dragonword-bind-word"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": false,
+        "loud": false,
+        "mixed": false,
+        "ok": false,
+        "regen": true,
+        "weak": false
+      },
+      "id": "sage-dragonword-break-word",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/sage-dragonword-break-word.png",
+      "runtimeId": "sage-dragonword-break-word"
+    },
+    {
+      "flags": {
+        "bg": true,
+        "broken": false,
+        "loud": false,
+        "mixed": false,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "sage-dragonword-elder-roar",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/sage-dragonword-elder-roar.png",
+      "runtimeId": "sage-dragonword-elder-roar"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": false,
+        "loud": false,
+        "mixed": false,
+        "ok": false,
+        "regen": true,
+        "weak": false
+      },
+      "id": "sage-dragonword-sear",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/sage-dragonword-sear.png",
+      "runtimeId": "sage-dragonword-sear"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": false,
+        "loud": false,
+        "mixed": false,
+        "ok": false,
+        "regen": true,
+        "weak": false
+      },
+      "id": "sage-fire-blaze-ring",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/sage-fire-blaze-ring.png",
+      "runtimeId": "sage-fire-blaze-ring"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": false,
+        "loud": false,
+        "mixed": false,
+        "ok": false,
+        "regen": true,
+        "weak": false
+      },
+      "id": "sage-fire-flame-storm",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/sage-fire-flame-storm.png",
+      "runtimeId": "sage-fire-flame-storm"
+    },
+    {
+      "flags": {
+        "bg": true,
+        "broken": false,
+        "loud": false,
+        "mixed": false,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "sage-fire-meteor",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/sage-fire-meteor.png",
+      "runtimeId": "sage-fire-meteor"
+    },
+    {
+      "flags": {
+        "bg": true,
+        "broken": false,
+        "loud": false,
+        "mixed": false,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "sage-rune-ancient-stasis",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/sage-rune-ancient-stasis.png",
+      "runtimeId": "sage-rune-ancient-stasis"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": false,
+        "loud": false,
+        "mixed": true,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "spike-0",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/spike-behavior-fx.png",
+      "runtimeId": "spike-shieldAura"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": false,
+        "loud": false,
+        "mixed": true,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "spike-1",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/spike-behavior-fx.png",
+      "runtimeId": "spike-launchShockwave"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": false,
+        "loud": false,
+        "mixed": true,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "spike-2",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/spike-behavior-fx.png",
+      "runtimeId": "spike-revivePillar"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": false,
+        "loud": false,
+        "mixed": true,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "spike-3",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/spike-behavior-fx.png",
+      "runtimeId": "spike-atonementBeam"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": false,
+        "loud": false,
+        "mixed": false,
+        "ok": false,
+        "regen": false,
+        "weak": true
+      },
+      "id": "warlock-abyss-rift",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/warlock-abyss-rift.png",
+      "runtimeId": "warlock-abyss-rift"
+    },
+    {
+      "flags": {
+        "bg": true,
+        "broken": false,
+        "loud": false,
+        "mixed": false,
+        "ok": false,
+        "regen": true,
+        "weak": false
+      },
+      "id": "warlock-abyss-voidfall",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/warlock-abyss-voidfall.png",
+      "runtimeId": "warlock-abyss-voidfall"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": false,
+        "loud": false,
+        "mixed": false,
+        "ok": false,
+        "regen": true,
+        "weak": false
+      },
+      "id": "warlock-blackflame-eruption",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/warlock-blackflame-eruption.png",
+      "runtimeId": "warlock-blackflame-eruption"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": false,
+        "loud": false,
+        "mixed": false,
+        "ok": false,
+        "regen": true,
+        "weak": false
+      },
+      "id": "warlock-blackflame-spark",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/warlock-blackflame-spark.png",
+      "runtimeId": "warlock-blackflame-spark"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": false,
+        "loud": false,
+        "mixed": false,
+        "ok": false,
+        "regen": true,
+        "weak": false
+      },
+      "id": "warlock-blackflame-wildfire",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/warlock-blackflame-wildfire.png",
+      "runtimeId": "warlock-blackflame-wildfire"
+    },
+    {
+      "flags": {
+        "bg": true,
+        "broken": false,
+        "loud": false,
+        "mixed": false,
+        "ok": false,
+        "regen": true,
+        "weak": false
+      },
+      "id": "warlock-curse-doom-sentence",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/warlock-curse-doom-sentence.png",
+      "runtimeId": "warlock-curse-doom-sentence"
+    },
+    {
+      "flags": {
+        "bg": false,
+        "broken": true,
+        "loud": false,
+        "mixed": false,
+        "ok": false,
+        "regen": false,
+        "weak": false
+      },
+      "id": "warlock-curse-frailty",
+      "issue": true,
+      "note": "",
+      "path": "/assets/fx/forge/warlock-curse-frailty.png",
+      "runtimeId": "warlock-curse-frailty"
+    }
+  ]
+}
