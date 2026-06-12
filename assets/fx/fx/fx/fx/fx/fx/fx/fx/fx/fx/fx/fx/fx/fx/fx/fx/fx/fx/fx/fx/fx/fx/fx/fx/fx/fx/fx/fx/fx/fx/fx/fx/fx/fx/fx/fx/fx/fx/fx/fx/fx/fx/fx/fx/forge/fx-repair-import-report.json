@@ -1,0 +1,437 @@
+{
+  "generatedAt": "2026-06-05T04:44:29.519519+00:00",
+  "results": [
+    {
+      "id": "combat-slash",
+      "status": "imported",
+      "target": "public/assets/fx/forge/combat-effects.png",
+      "source": "public/assets/image2/fx/repairs/combat-slash-source.png"
+    },
+    {
+      "id": "combat-impact",
+      "status": "imported",
+      "target": "public/assets/fx/forge/combat-effects.png",
+      "source": "public/assets/image2/fx/repairs/combat-impact-source.png"
+    },
+    {
+      "id": "combat-magic",
+      "status": "imported",
+      "target": "public/assets/fx/forge/combat-effects.png",
+      "source": "public/assets/image2/fx/repairs/combat-magic-source.png"
+    },
+    {
+      "id": "combat-guard",
+      "status": "imported",
+      "target": "public/assets/fx/forge/combat-effects.png",
+      "source": "public/assets/image2/fx/repairs/combat-guard-source.png"
+    },
+    {
+      "id": "combat-pickup",
+      "status": "imported",
+      "target": "public/assets/fx/forge/combat-effects.png",
+      "source": "public/assets/image2/fx/repairs/combat-pickup-source.png"
+    },
+    {
+      "id": "combat-playerHurt",
+      "status": "imported",
+      "target": "public/assets/fx/forge/combat-effects.png",
+      "source": "public/assets/image2/fx/repairs/combat-playerHurt-source.png"
+    },
+    {
+      "id": "combat-mercHurt",
+      "status": "imported",
+      "target": "public/assets/fx/forge/combat-effects.png",
+      "source": "public/assets/image2/fx/repairs/combat-mercHurt-source.png"
+    },
+    {
+      "id": "combat-monsterHurt",
+      "status": "imported",
+      "target": "public/assets/fx/forge/combat-effects.png",
+      "source": "public/assets/image2/fx/repairs/combat-monsterHurt-source.png"
+    },
+    {
+      "id": "combat-fireBurst",
+      "status": "imported",
+      "target": "public/assets/fx/forge/combat-effects.png",
+      "source": "public/assets/image2/fx/repairs/combat-fireBurst-source.png"
+    },
+    {
+      "id": "combat-iceBurst",
+      "status": "imported",
+      "target": "public/assets/fx/forge/combat-effects.png",
+      "source": "public/assets/image2/fx/repairs/combat-iceBurst-source.png"
+    },
+    {
+      "id": "combat-shadowBurst",
+      "status": "imported",
+      "target": "public/assets/fx/forge/combat-effects.png",
+      "source": "public/assets/image2/fx/repairs/combat-shadowBurst-source.png"
+    },
+    {
+      "id": "combat-holyBurst",
+      "status": "imported",
+      "target": "public/assets/fx/forge/combat-effects.png",
+      "source": "public/assets/image2/fx/repairs/combat-holyBurst-source.png"
+    },
+    {
+      "id": "combat-poisonBurst",
+      "status": "imported",
+      "target": "public/assets/fx/forge/combat-effects.png",
+      "source": "public/assets/image2/fx/repairs/combat-poisonBurst-source.png"
+    },
+    {
+      "id": "combat-arrowPierce",
+      "status": "imported",
+      "target": "public/assets/fx/forge/combat-effects.png",
+      "source": "public/assets/image2/fx/repairs/combat-arrowPierce-source.png"
+    },
+    {
+      "id": "knight-shield-royal-wall",
+      "status": "imported",
+      "target": "public/assets/fx/forge/knight-shield-royal-wall.png",
+      "source": "public/assets/image2/fx/repairs/knight-shield-royal-wall-source.png"
+    },
+    {
+      "id": "lancer-dragonblood-dragon-rage",
+      "status": "imported",
+      "target": "public/assets/fx/forge/lancer-dragonblood-dragon-rage.png",
+      "source": "public/assets/image2/fx/repairs/lancer-dragonblood-dragon-rage-source.png"
+    },
+    {
+      "id": "mercSig-forestarcher-forest-glance",
+      "status": "imported",
+      "target": "public/assets/fx/forge/mercSig-forestarcher-forest-glance.png",
+      "source": "public/assets/image2/fx/repairs/mercSig-forestarcher-forest-glance-source.png"
+    },
+    {
+      "id": "mercSig-violet-violet-bind",
+      "status": "imported",
+      "target": "public/assets/fx/forge/mercSig-violet-violet-bind.png",
+      "source": "public/assets/image2/fx/repairs/mercSig-violet-violet-bind-source.png"
+    },
+    {
+      "id": "mercSkill-emberpriest-ignite-mark",
+      "status": "imported",
+      "target": "public/assets/fx/forge/mercSkill-emberpriest-ignite-mark.png",
+      "source": "public/assets/image2/fx/repairs/mercSkill-emberpriest-ignite-mark-source.png"
+    },
+    {
+      "id": "mercSkill-emberpriest-spark",
+      "status": "imported",
+      "target": "public/assets/fx/forge/mercSkill-emberpriest-spark.png",
+      "source": "public/assets/image2/fx/repairs/mercSkill-emberpriest-spark-source.png"
+    },
+    {
+      "id": "mercSkill-runearcher-mark-trap",
+      "status": "imported",
+      "target": "public/assets/fx/forge/mercSkill-runearcher-mark-trap.png",
+      "source": "public/assets/image2/fx/repairs/mercSkill-runearcher-mark-trap-source.png"
+    },
+    {
+      "id": "mercSkill-runearcher-snipe",
+      "status": "imported",
+      "target": "public/assets/fx/forge/mercSkill-runearcher-snipe.png",
+      "source": "public/assets/image2/fx/repairs/mercSkill-runearcher-snipe-source.png"
+    },
+    {
+      "id": "mercSkill-shadowrogue-bleeding-cut",
+      "status": "imported",
+      "target": "public/assets/fx/forge/mercSkill-shadowrogue-bleeding-cut.png",
+      "source": "public/assets/image2/fx/repairs/mercSkill-shadowrogue-bleeding-cut-source.png"
+    },
+    {
+      "id": "mercSkill-watchman-taunt",
+      "status": "imported",
+      "target": "public/assets/fx/forge/mercSkill-watchman-taunt.png",
+      "source": "public/assets/image2/fx/repairs/mercSkill-watchman-taunt-source.png"
+    },
+    {
+      "id": "monster-claw",
+      "status": "imported",
+      "target": "public/assets/fx/forge/monster-effects.png",
+      "source": "public/assets/image2/fx/repairs/monster-claw-source.png"
+    },
+    {
+      "id": "monster-bite",
+      "status": "imported",
+      "target": "public/assets/fx/forge/monster-effects.png",
+      "source": "public/assets/image2/fx/repairs/monster-bite-source.png"
+    },
+    {
+      "id": "monster-casterBolt",
+      "status": "imported",
+      "target": "public/assets/fx/forge/monster-effects.png",
+      "source": "public/assets/image2/fx/repairs/monster-casterBolt-source.png"
+    },
+    {
+      "id": "monster-wraithDissolve",
+      "status": "imported",
+      "target": "public/assets/fx/forge/monster-effects.png",
+      "source": "public/assets/image2/fx/repairs/monster-wraithDissolve-source.png"
+    },
+    {
+      "id": "monster-stomp",
+      "status": "imported",
+      "target": "public/assets/fx/forge/monster-effects.png",
+      "source": "public/assets/image2/fx/repairs/monster-stomp-source.png"
+    },
+    {
+      "id": "monster-roar",
+      "status": "imported",
+      "target": "public/assets/fx/forge/monster-effects.png",
+      "source": "public/assets/image2/fx/repairs/monster-roar-source.png"
+    },
+    {
+      "id": "monster-bossCleave",
+      "status": "imported",
+      "target": "public/assets/fx/forge/monster-effects.png",
+      "source": "public/assets/image2/fx/repairs/monster-bossCleave-source.png"
+    },
+    {
+      "id": "oracle-heal-aegis",
+      "status": "imported",
+      "target": "public/assets/fx/forge/oracle-heal-aegis.png",
+      "source": "public/assets/image2/fx/repairs/oracle-heal-aegis-source.png"
+    },
+    {
+      "id": "oracle-heal-healing-choir",
+      "status": "imported",
+      "target": "public/assets/fx/forge/oracle-heal-healing-choir.png",
+      "source": "public/assets/image2/fx/repairs/oracle-heal-healing-choir-source.png"
+    },
+    {
+      "id": "oracle-radiance-nova",
+      "status": "imported",
+      "target": "public/assets/fx/forge/oracle-radiance-nova.png",
+      "source": "public/assets/image2/fx/repairs/oracle-radiance-nova-source.png"
+    },
+    {
+      "id": "oracle-sentence-edict",
+      "status": "imported",
+      "target": "public/assets/fx/forge/oracle-sentence-edict.png",
+      "source": "public/assets/image2/fx/repairs/oracle-sentence-edict-source.png"
+    },
+    {
+      "id": "oracle-sentence-final-sentence",
+      "status": "imported",
+      "target": "public/assets/fx/forge/oracle-sentence-final-sentence.png",
+      "source": "public/assets/image2/fx/repairs/oracle-sentence-final-sentence-source.png"
+    },
+    {
+      "id": "projectile-bolt-basic",
+      "status": "imported",
+      "target": "public/assets/fx/forge/projectiles.png",
+      "source": "public/assets/image2/fx/repairs/projectile-bolt-basic-source.png"
+    },
+    {
+      "id": "projectile-fire-basic",
+      "status": "imported",
+      "target": "public/assets/fx/forge/projectiles.png",
+      "source": "public/assets/image2/fx/repairs/projectile-fire-basic-source.png"
+    },
+    {
+      "id": "projectile-ice-basic",
+      "status": "imported",
+      "target": "public/assets/fx/forge/projectiles.png",
+      "source": "public/assets/image2/fx/repairs/projectile-ice-basic-source.png"
+    },
+    {
+      "id": "projectile-shadow-basic",
+      "status": "imported",
+      "target": "public/assets/fx/forge/projectiles.png",
+      "source": "public/assets/image2/fx/repairs/projectile-shadow-basic-source.png"
+    },
+    {
+      "id": "projectile-arrow-skill",
+      "status": "imported",
+      "target": "public/assets/fx/forge/projectiles.png",
+      "source": "public/assets/image2/fx/repairs/projectile-arrow-skill-source.png"
+    },
+    {
+      "id": "projectile-bolt-skill",
+      "status": "imported",
+      "target": "public/assets/fx/forge/projectiles.png",
+      "source": "public/assets/image2/fx/repairs/projectile-bolt-skill-source.png"
+    },
+    {
+      "id": "projectile-fire-skill",
+      "status": "imported",
+      "target": "public/assets/fx/forge/projectiles.png",
+      "source": "public/assets/image2/fx/repairs/projectile-fire-skill-source.png"
+    },
+    {
+      "id": "projectile-ice-skill",
+      "status": "imported",
+      "target": "public/assets/fx/forge/projectiles.png",
+      "source": "public/assets/image2/fx/repairs/projectile-ice-skill-source.png"
+    },
+    {
+      "id": "projectile-shadow-skill",
+      "status": "imported",
+      "target": "public/assets/fx/forge/projectiles.png",
+      "source": "public/assets/image2/fx/repairs/projectile-shadow-skill-source.png"
+    },
+    {
+      "id": "ranger-bind-bramble-field",
+      "status": "imported",
+      "target": "public/assets/fx/forge/ranger-bind-bramble-field.png",
+      "source": "public/assets/image2/fx/repairs/ranger-bind-bramble-field-source.png"
+    },
+    {
+      "id": "ranger-bind-root-cage",
+      "status": "imported",
+      "target": "public/assets/fx/forge/ranger-bind-root-cage.png",
+      "source": "public/assets/image2/fx/repairs/ranger-bind-root-cage-source.png"
+    },
+    {
+      "id": "ranger-bind-thorn-snare",
+      "status": "imported",
+      "target": "public/assets/fx/forge/ranger-bind-thorn-snare.png",
+      "source": "public/assets/image2/fx/repairs/ranger-bind-thorn-snare-source.png"
+    },
+    {
+      "id": "ranger-bind-worldroot",
+      "status": "imported",
+      "target": "public/assets/fx/forge/ranger-bind-worldroot.png",
+      "source": "public/assets/image2/fx/repairs/ranger-bind-worldroot-source.png"
+    },
+    {
+      "id": "ranger-spiritbow-king-rain",
+      "status": "imported",
+      "target": "public/assets/fx/forge/ranger-spiritbow-king-rain.png",
+      "source": "public/assets/image2/fx/repairs/ranger-spiritbow-king-rain-source.png"
+    },
+    {
+      "id": "ranger-spiritbow-rain-shot",
+      "status": "imported",
+      "target": "public/assets/fx/forge/ranger-spiritbow-rain-shot.png",
+      "source": "public/assets/image2/fx/repairs/ranger-spiritbow-rain-shot-source.png"
+    },
+    {
+      "id": "ranger-wild-nature-wrath",
+      "status": "imported",
+      "target": "public/assets/fx/forge/ranger-wild-nature-wrath.png",
+      "source": "public/assets/image2/fx/repairs/ranger-wild-nature-wrath-source.png"
+    },
+    {
+      "id": "ranger-wild-wild-host",
+      "status": "imported",
+      "target": "public/assets/fx/forge/ranger-wild-wild-host.png",
+      "source": "public/assets/image2/fx/repairs/ranger-wild-wild-host-source.png"
+    },
+    {
+      "id": "sage-dragonword-bind-word",
+      "status": "imported",
+      "target": "public/assets/fx/forge/sage-dragonword-bind-word.png",
+      "source": "public/assets/image2/fx/repairs/sage-dragonword-bind-word-source.png"
+    },
+    {
+      "id": "sage-dragonword-break-word",
+      "status": "imported",
+      "target": "public/assets/fx/forge/sage-dragonword-break-word.png",
+      "source": "public/assets/image2/fx/repairs/sage-dragonword-break-word-source.png"
+    },
+    {
+      "id": "sage-dragonword-elder-roar",
+      "status": "imported",
+      "target": "public/assets/fx/forge/sage-dragonword-elder-roar.png",
+      "source": "public/assets/image2/fx/repairs/sage-dragonword-elder-roar-source.png"
+    },
+    {
+      "id": "sage-dragonword-sear",
+      "status": "imported",
+      "target": "public/assets/fx/forge/sage-dragonword-sear.png",
+      "source": "public/assets/image2/fx/repairs/sage-dragonword-sear-source.png"
+    },
+    {
+      "id": "sage-fire-blaze-ring",
+      "status": "imported",
+      "target": "public/assets/fx/forge/sage-fire-blaze-ring.png",
+      "source": "public/assets/image2/fx/repairs/sage-fire-blaze-ring-source.png"
+    },
+    {
+      "id": "sage-fire-flame-storm",
+      "status": "imported",
+      "target": "public/assets/fx/forge/sage-fire-flame-storm.png",
+      "source": "public/assets/image2/fx/repairs/sage-fire-flame-storm-source.png"
+    },
+    {
+      "id": "sage-fire-meteor",
+      "status": "imported",
+      "target": "public/assets/fx/forge/sage-fire-meteor.png",
+      "source": "public/assets/image2/fx/repairs/sage-fire-meteor-source.png"
+    },
+    {
+      "id": "sage-rune-ancient-stasis",
+      "status": "imported",
+      "target": "public/assets/fx/forge/sage-rune-ancient-stasis.png",
+      "source": "public/assets/image2/fx/repairs/sage-rune-ancient-stasis-source.png"
+    },
+    {
+      "id": "spike-shieldAura",
+      "status": "imported",
+      "target": "public/assets/fx/forge/spike-behavior-fx.png",
+      "source": "public/assets/image2/fx/repairs/spike-shieldAura-source.png"
+    },
+    {
+      "id": "spike-launchShockwave",
+      "status": "imported",
+      "target": "public/assets/fx/forge/spike-behavior-fx.png",
+      "source": "public/assets/image2/fx/repairs/spike-launchShockwave-source.png"
+    },
+    {
+      "id": "spike-revivePillar",
+      "status": "imported",
+      "target": "public/assets/fx/forge/spike-behavior-fx.png",
+      "source": "public/assets/image2/fx/repairs/spike-revivePillar-source.png"
+    },
+    {
+      "id": "spike-atonementBeam",
+      "status": "imported",
+      "target": "public/assets/fx/forge/spike-behavior-fx.png",
+      "source": "public/assets/image2/fx/repairs/spike-atonementBeam-source.png"
+    },
+    {
+      "id": "warlock-abyss-rift",
+      "status": "imported",
+      "target": "public/assets/fx/forge/warlock-abyss-rift.png",
+      "source": "public/assets/image2/fx/repairs/warlock-abyss-rift-source.png"
+    },
+    {
+      "id": "warlock-abyss-voidfall",
+      "status": "imported",
+      "target": "public/assets/fx/forge/warlock-abyss-voidfall.png",
+      "source": "public/assets/image2/fx/repairs/warlock-abyss-voidfall-source.png"
+    },
+    {
+      "id": "warlock-blackflame-eruption",
+      "status": "imported",
+      "target": "public/assets/fx/forge/warlock-blackflame-eruption.png",
+      "source": "public/assets/image2/fx/repairs/warlock-blackflame-eruption-source.png"
+    },
+    {
+      "id": "warlock-blackflame-spark",
+      "status": "imported",
+      "target": "public/assets/fx/forge/warlock-blackflame-spark.png",
+      "source": "public/assets/image2/fx/repairs/warlock-blackflame-spark-source.png"
+    },
+    {
+      "id": "warlock-blackflame-wildfire",
+      "status": "imported",
+      "target": "public/assets/fx/forge/warlock-blackflame-wildfire.png",
+      "source": "public/assets/image2/fx/repairs/warlock-blackflame-wildfire-source.png"
+    },
+    {
+      "id": "warlock-curse-doom-sentence",
+      "status": "imported",
+      "target": "public/assets/fx/forge/warlock-curse-doom-sentence.png",
+      "source": "public/assets/image2/fx/repairs/warlock-curse-doom-sentence-source.png"
+    },
+    {
+      "id": "warlock-curse-frailty",
+      "status": "imported",
+      "target": "public/assets/fx/forge/warlock-curse-frailty.png",
+      "source": "public/assets/image2/fx/repairs/warlock-curse-frailty-source.png"
+    }
+  ]
+}
