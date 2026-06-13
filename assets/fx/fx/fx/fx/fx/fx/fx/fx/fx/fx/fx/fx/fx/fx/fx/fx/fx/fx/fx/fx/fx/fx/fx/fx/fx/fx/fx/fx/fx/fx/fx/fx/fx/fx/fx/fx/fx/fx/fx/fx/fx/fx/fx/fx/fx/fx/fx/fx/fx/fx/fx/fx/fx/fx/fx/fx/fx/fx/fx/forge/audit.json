@@ -1,0 +1,34 @@
+[
+  {
+    "file": "projectiles.png",
+    "failures": []
+  },
+  {
+    "file": "combat-effects.png",
+    "failures": []
+  },
+  {
+    "file": "monster-effects.png",
+    "failures": []
+  },
+  {
+    "file": "portal.png",
+    "failures": []
+  },
+  {
+    "file": "manifest.json",
+    "failures": []
+  },
+  {
+    "file": "loot-beam-legendary.png",
+    "failures": []
+  },
+  {
+    "file": "loot-beam-mythic.png",
+    "failures": []
+  },
+  {
+    "file": "loot-beam-primordial.png",
+    "failures": []
+  }
+]

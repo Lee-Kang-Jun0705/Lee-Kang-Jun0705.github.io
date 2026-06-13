@@ -1,0 +1,593 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="Cache-Control" content="no-cache,no-store,must-revalidate">
+  <title>RPG FX Runtime Motion QC</title>
+  <style>
+    :root{color-scheme:dark;--bg:#101116;--line:#3a3f50;--text:#f2f4f8;--muted:#aeb5c3;--gold:#f0c86a;--blue:#75b7ff;--green:#82e0a8}
+    *{box-sizing:border-box}html,body{min-height:100%;margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    body{min-height:100vh;overflow:auto;background:radial-gradient(circle at 50% 0,#252633 0,#101116 52%,#090a0f 100%)}button,input,textarea,select{font:inherit}
+    header{min-height:122px;padding:14px 18px;border-bottom:1px solid var(--line);background:rgba(10,11,16,.96)}h1{margin:0 0 6px;font-size:20px;letter-spacing:0}
+    p{margin:0;color:var(--muted);font-size:13px}.toolbar{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px;align-items:center}
+    button{height:34px;border:1px solid var(--line);border-radius:6px;background:#202330;color:var(--text);padding:0 12px;cursor:pointer}button.active{border-color:var(--gold);color:var(--gold);background:#302719}
+    label.ctrl{display:flex;align-items:center;gap:7px;height:34px;border:1px solid var(--line);border-radius:6px;padding:0 10px;background:#151720;color:var(--muted)}input[type=range]{width:96px}
+    main{min-height:calc(100dvh - 122px);width:min(1480px,100%);margin:0 auto;padding:18px;display:grid;grid-template-columns:minmax(680px,1fr) 430px;gap:16px;align-items:start}
+    section{border:1px solid var(--line);border-radius:8px;background:rgba(18,20,29,.92);box-shadow:0 14px 32px rgba(0,0,0,.24)}h2{margin:0;padding:12px 14px;border-bottom:1px solid var(--line);font-size:15px}
+    .arena{position:relative;height:850px;overflow:hidden;background:linear-gradient(#1d202c,#12141c 55%,#0d0e13);border-radius:0 0 8px 8px}.lane{position:absolute;left:0;right:0;height:54px;border-top:1px solid rgba(255,255,255,.04);cursor:pointer}
+    .lane.selected{background:rgba(117,183,255,.08);border-top-color:rgba(117,183,255,.56)}.path.selected{opacity:.9;background:linear-gradient(90deg,transparent,var(--blue),var(--gold),transparent)}
+    .origin.selected,.target.selected{box-shadow:0 0 0 3px rgba(117,183,255,.16),0 0 18px rgba(117,183,255,.44)}.shot.selected{filter:drop-shadow(0 0 10px rgba(117,183,255,.78))}
+    .lane b{position:absolute;left:10px;top:5px;font-size:11px;color:var(--muted);font-weight:650}.path{position:absolute;height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent);transform-origin:left center;opacity:.42}
+    .target,.origin{position:absolute;width:14px;height:14px;border:1px solid var(--gold);border-radius:50%;transform:translate(-50%,-50%)}.origin{border-color:var(--blue);opacity:.8}.badge{position:absolute;right:12px;top:10px;color:var(--muted);font-size:12px}
+    .shot,.impact,.skillFx{position:absolute;width:128px;height:128px;background-repeat:no-repeat;image-rendering:auto;will-change:transform,background-position,opacity;pointer-events:none}.shot{background-image:url("/assets/fx/forge/projectiles.png?v=runtime-qc-3");background-size:768px 1280px}
+    .shot,.impact{pointer-events:auto;cursor:pointer}.path,.origin,.target{cursor:pointer}
+    .impact{background-image:url("/assets/fx/forge/combat-effects.png?v=runtime-qc-3");background-size:768px 1792px;opacity:0}.basic{color:var(--green)}.skill{color:var(--blue)}
+    .side{display:grid;gap:16px}.tuneList{overflow:visible;padding:10px;display:grid;gap:8px}.tuneRow{display:grid;gap:7px;border:1px solid var(--line);border-radius:7px;background:#11131a;padding:9px}
+    .tuneHead{display:flex;justify-content:space-between;align-items:center;font-size:12px}.tuneHead strong{font-size:13px}.mini{display:grid;grid-template-columns:56px 1fr 44px;gap:7px;align-items:center;color:var(--muted);font-size:12px}
+    .toggles{display:flex;gap:7px;flex-wrap:wrap}.toggles button{height:30px;font-size:12px}.toggles button.on{border-color:var(--blue);color:var(--blue)}
+    .pt{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}.pt label{display:grid;gap:3px;color:var(--muted);font-size:11px}.pt input{width:100%;height:28px;border:1px solid var(--line);border-radius:5px;background:#0d0f15;color:var(--text);padding:0 5px}
+    .skillList,.catalogList{display:grid;grid-template-columns:1fr;gap:10px;padding:12px}.skillCard,.catalogCard{position:relative;min-height:128px;border:1px solid var(--line);border-radius:7px;background:#11131a;overflow:hidden}.skillCard .skillFx,.catalogCard .catalogSprite{left:8px;top:-14px;background-size:768px 128px;transform-origin:center}
+    .skillCard strong{display:block;margin:12px 12px 2px 114px;font-size:13px}.skillCard span{display:block;margin-left:114px;color:var(--muted);font-size:12px}.skillCtl{margin:9px 10px 0 114px;display:grid;grid-template-columns:42px 1fr 38px 68px;gap:6px;align-items:center;color:var(--muted);font-size:12px}.skillCtl input{width:100%}.skillCtl em{font-style:normal;text-align:right}.skillCtl button{height:28px;font-size:12px;padding:0 8px}.skillCtl button.on{border-color:var(--blue);color:var(--blue)}
+    .catalogTabs{display:flex;gap:7px;flex-wrap:wrap;padding:10px 12px 0}.catalogTabs button{height:30px;font-size:12px}.catalogCard strong{display:block;margin:12px 12px 2px 118px;font-size:13px}.catalogCard span{display:block;margin-left:118px;color:var(--muted);font-size:12px}.catalogSprite{position:absolute;background-repeat:no-repeat;image-rendering:auto;will-change:transform,background-position;pointer-events:none}.flagStrip{display:flex;gap:8px;flex-wrap:wrap;margin:8px 10px 10px 118px;color:var(--muted);font-size:11px}.flagStrip label{display:flex;gap:4px;align-items:center}
+    .checks{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:12px}
+    .checks label{display:flex;gap:7px;align-items:center;color:var(--muted);font-size:13px}.note{width:calc(100% - 24px);min-height:88px;margin:0 12px 12px;padding:10px;border:1px solid var(--line);border-radius:6px;background:#10121a;color:var(--text)}
+    pre{white-space:pre-wrap;margin:0 12px 12px;padding:10px;min-height:80px;border:1px solid var(--line);border-radius:6px;background:#08090d;color:#dfe5f2;font-size:12px}.actions{display:flex;gap:8px;padding:0 12px 12px;flex-wrap:wrap}
+    .jumpNav{position:fixed;right:14px;bottom:14px;z-index:10;display:grid;gap:6px;padding:8px;border:1px solid var(--line);border-radius:8px;background:rgba(8,9,13,.9);box-shadow:0 10px 26px rgba(0,0,0,.36)}
+    .jumpNav button{height:30px;min-width:68px;padding:0 9px;font-size:12px}
+    @media(max-width:980px){header{min-height:154px}main{min-height:calc(100dvh - 154px);grid-template-columns:1fr;padding:12px}.arena{height:900px}.toolbar{gap:6px}button,label.ctrl{height:32px;font-size:12px}}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>RPG 발사체 / 이펙트 런타임 모션 QC</h1>
+    <p>각 발사체별 속도, 각도, 스케일, 발사점, 도착점을 조정하고 기준 행을 전체 자동 적용한다.</p>
+    <div class="toolbar" id="toolbar"></div>
+  </header>
+  <nav class="jumpNav" id="jumpNav" aria-label="QC 스크롤 이동"></nav>
+  <main id="scrollShell">
+    <section id="motionView">
+      <h2>발사체 이동, 방향, 각도, 명중 FX</h2>
+      <div class="arena" id="arena"><span class="badge" id="readout"></span></div>
+    </section>
+    <div class="side">
+      <section id="tuneSection">
+        <h2>선택 발사체 튜닝</h2>
+        <div class="tuneList" id="tuneList"></div>
+      </section>
+      <section id="coreFxSection">
+        <h2>런타임 FX 전체 카탈로그 <span id="coreFxCount"></span></h2>
+        <div class="catalogTabs" id="catalogTabs"></div>
+        <div class="catalogList" id="coreFxList"></div>
+      </section>
+      <section id="skillSection">
+        <h2>전체 스킬 / 용병 FX 프레임 재생 <span id="skillCount"></span></h2>
+        <div class="skillList" id="skillList"></div>
+      </section>
+      <section id="issueSection">
+        <h2>같이 체크할 문제</h2>
+        <div class="checks" id="checks"></div>
+        <textarea class="note" id="note" placeholder="예: fire-skill 대각선 각도가 과하다, impact가 너무 늦다"></textarea>
+        <div class="actions"><button id="copyReport">리포트 복사</button><button id="pause">일시정지</button></div>
+        <pre id="report"></pre>
+      </section>
+    </div>
+  </main>
+  <script>
+    const projectileRows=["arrow-basic","bolt-basic","fire-basic","ice-basic","shadow-basic","arrow-skill","bolt-skill","fire-skill","ice-skill","shadow-skill"];
+    const combatRows=["slash","impact","magic","guard","pickup","playerHurt","mercHurt","monsterHurt","fireBurst","iceBurst","shadowBurst","holyBurst","poisonBurst","arrowPierce"];
+    const kinds=["arrow","bolt","fire","ice","shadow"];
+    let skills=["archer-snipe-vital-shot","sage-fire-flame-storm","warlock-blackflame-spark","guardian-shield-bash","oracle-heal-saving-hand","duelist-moonlight-moon-cut","lancer-charge-gale-charge"];
+    const labels={arrow:"화살",bolt:"볼트",fire:"화염",ice:"냉기",shadow:"암흑"};
+    const flags=["기본탄 회전 느낌 있음","스킬탄 각도 어긋남","프레임 튐/끊김","impact 타이밍 안맞음","효과 과함","너무 작음","row mismatch","RPG 타격감 부족"];
+    const perFxFlags=["방향","깨짐","배경","과함"];
+    const staticFrames={"arrow-basic":2,"bolt-basic":2,"fire-basic":2,"ice-basic":3,"shadow-basic":2};
+    const storageKey="fx-runtime-motion-qc-tuning-v1";
+    const defaultTune={"arrow-basic":{speed:1.5},"arrow-skill":{speed:1.5,spriteRot:23},"bolt-basic":{speed:1.45},"bolt-skill":{speed:1.5,flipX:true},"fire-basic":{speed:1.45,spriteRot:-3,flipX:true},"shadow-basic":{speed:1.45},"shadow-skill":{speed:1.4}};
+    const defaultSkillTune={"archer-snipe-vital-shot":{rot:0,flipX:true},"guardian-shield-bash":{rot:0,flipX:true},"oracle-heal-saving-hand":{rot:0,flipX:true},"duelist-moonlight-moon-cut":{rot:-7,flipX:true}};
+    const state={angle:0,tier:2,paused:false,scrollingUntil:0,dirtyReport:true,lastMotion:0,selected:0};
+    const motionLayout={top:104,gap:66,pad:96};
+    const catalogDefault={projectileRows,combatRows,monsterRows:[],spikeBehaviorRows:[],portalRows:[],lootRows:[],skillFxIds:skills};
+    const configs=[],skillConfigs={},fxConfigs={},fxFlags={};
+    let catalog=catalogDefault,coreFilter="all";
+
+    function rowIndex(kind,source){return projectileRows.indexOf(`${kind}-${source}`)}
+    function combatIndex(kind){return Math.max(0,combatRows.indexOf(kind))}
+    function frame(now,rate=18){return Math.floor(now*rate/1000)%6}
+    function travelFrame(t){return Math.min(5,Math.floor(t*6))}
+    function projectileFrame(t,p){return p.animMode==="static"?staticFrameFor(p):travelFrame(t)}
+    function staticFrameFor(p){return staticFrames[`${p.kind}-${p.source}`]??2}
+    function clamp(v,min,max){return Math.max(min,Math.min(max,v))}
+    function deg(rad){return rad*180/Math.PI}
+    function rad(degValue){return degValue*Math.PI/180}
+    function laneY(index){return motionLayout.top+index*motionLayout.gap}
+    function effectFor(kind){return kind==="arrow"?"arrowPierce":kind==="fire"?"fireBurst":kind==="ice"?"iceBurst":kind==="shadow"?"shadowBurst":"impact"}
+
+    function buildToolbar(){
+      const angles=[["우",0],["좌",Math.PI],["우상",-0.58],["우하",0.58],["좌상",-2.56],["좌하",2.56]];
+      const tier='<label class="ctrl">티어 <select id="tier"><option>1</option><option selected>2</option><option>3</option></select></label>';
+      document.getElementById("toolbar").innerHTML=angles.map(([t,a],i)=>`<button data-angle="${a}" class="${i===0?"active":""}">${t}</button>`).join("")+tier+`<button id="autoLayout">선택 위치 전체 적용</button><button id="saveTune">조정 저장</button>`;
+      document.querySelectorAll("[data-angle]").forEach((b)=>b.addEventListener("click",()=>setAngle(b)));
+      document.getElementById("tier").addEventListener("change",(e)=>{state.tier=Number(e.target.value);saveTuning()});
+      document.getElementById("autoLayout").addEventListener("click",()=>applyReference(state.selected));
+      document.getElementById("saveTune").addEventListener("click",()=>saveTuning(true));
+    }
+
+    function buildJumpNav(){
+      const items=[["stepUp","위"],["stepDown","아래"],["top","맨위"],["motionView","모션"],["tuneSection","튜닝"],["coreFxSection","전체FX"],["skillSection","스킬"],["issueSection","체크"],["bottom","맨아래"]];
+      const nav=document.getElementById("jumpNav");
+      nav.innerHTML=items.map(([id,label])=>`<button data-jump="${id}">${label}</button>`).join("");
+      nav.querySelectorAll("[data-jump]").forEach((button)=>button.addEventListener("click",()=>jumpTo(button.dataset.jump)));
+      bindWheelFallback();
+    }
+
+    async function loadCatalog(){
+      try{
+        const res=await fetch("/assets/fx/forge/review/fx-runtime-catalog.json?v=runtime-qc-4",{cache:"no-store"});
+        if(!res.ok) return;
+        catalog=await res.json();
+        if(Array.isArray(catalog.skillFxIds)&&catalog.skillFxIds.length) skills=catalog.skillFxIds;
+      }catch(error){}
+    }
+
+    function jumpTo(id){
+      markScrolling();
+      if(id==="stepUp"){window.scrollBy(0,-Math.round(innerHeight*.72));return}
+      if(id==="stepDown"){window.scrollBy(0,Math.round(innerHeight*.72));return}
+      if(id==="top"){window.scrollTo(0,0);return}
+      if(id==="bottom"){window.scrollTo(0,document.documentElement.scrollHeight);return}
+      document.getElementById(id)?.scrollIntoView({block:"start"});
+    }
+
+    function bindWheelFallback(){
+      window.addEventListener("scroll",markScrolling,{passive:true});
+      window.addEventListener("wheel",(event)=>{
+        if(event.target.closest("input,select,textarea")) return;
+        markScrolling();
+        const y=window.scrollY,delta=event.deltaY;
+        requestAnimationFrame(()=>{if(window.scrollY===y) window.scrollBy(0,delta)});
+      },{passive:true});
+    }
+
+    function markScrolling(){state.scrollingUntil=performance.now()+260}
+
+    function setAngle(button){
+      document.querySelectorAll("[data-angle]").forEach((b)=>b.classList.remove("active"));
+      button.classList.add("active"); state.angle=Number(button.dataset.angle);
+      renderPaths(); saveTuning();
+    }
+
+    function defaultPath(index,angle){
+      const arena=document.getElementById("arena"),w=arena.clientWidth||820,left=Math.cos(angle)<0,y=laneY(index);
+      const maxY=(arena.clientHeight||850)-motionLayout.pad;
+      const sx=left?w-76:76,ex=left?76:w-76,sy=y,ey=clamp(y+Math.sin(angle)*92,motionLayout.pad,maxY);
+      return {sx,sy,ex,ey};
+    }
+
+    function sourceFor(index,angle,config){
+      if(angle===0) return {sx:config.sx,sy:config.sy};
+      const base=defaultPath(index,0),next=defaultPath(index,angle),left=Math.cos(angle)<0;
+      const xOffset=config.sx-base.sx,yOffset=config.sy-base.sy;
+      return {sx:next.sx+(left?-xOffset:xOffset),sy:next.sy+yOffset};
+    }
+
+    function targetFor(index,angle,config){
+      if(angle===0) return {ex:config.ex,ey:config.ey};
+      const base=defaultPath(index,0),next=defaultPath(index,angle),left=Math.cos(angle)<0;
+      const xOffset=config.ex-base.ex,yOffset=config.ey-base.ey;
+      return {ex:next.ex+(left?-xOffset:xOffset),ey:next.ey+yOffset};
+    }
+
+    function ensureConfigs(){
+      if(configs.length) return;
+      kinds.flatMap((kind)=>["basic","skill"].map((source)=>({kind,source}))).forEach((item,index)=>{
+        const base={...item,...defaultPath(index,0),speed:1,scale:1,angleOffset:0,spriteRot:0,flipX:false,animMode:defaultAnimMode(item),impactAt:.78};
+        configs.push({...base,...(defaultTune[`${item.kind}-${item.source}`]||{})});
+      });
+      loadTuning();
+    }
+
+    function defaultAnimMode(item){
+      return item.source==="basic"?"static":"travel";
+    }
+
+    function pathFor(index){
+      const c=configs[index],start=sourceFor(index,state.angle,c),target=targetFor(index,state.angle,c);
+      const dist=Math.hypot(target.ex-start.sx,target.ey-start.sy);
+      const a=Math.atan2(target.ey-start.sy,target.ex-start.sx)+rad(c.angleOffset);
+      return {...c,...start,ex:start.sx+Math.cos(a)*dist,ey:start.sy+Math.sin(a)*dist,angle:a,dist};
+    }
+
+    function applyReference(index){
+      const ref=configs[index],dx=ref.ex-ref.sx,dy=ref.ey-ref.sy;
+      const h=document.getElementById("arena").clientHeight||850;
+      const maxY=h-motionLayout.pad;
+      configs.forEach((config,i)=>{config.sx=ref.sx;config.ex=ref.sx+dx;config.sy=laneY(i);config.ey=clamp(config.sy+dy,motionLayout.pad,maxY)});
+      syncTuneInputs(); renderPaths(); saveTuning();
+    }
+
+    function buildArena(){
+      ensureConfigs();
+      const arena=document.getElementById("arena");
+      arena.innerHTML='<span class="badge" id="readout"></span>';
+      configs.forEach(addLane); renderPaths(); markSelected();
+    }
+
+    function addLane(item,index){
+      const arena=document.getElementById("arena"),lane=el("div","lane"),shot=el("div",`shot ${item.source}`),impact=el("div","impact"),target=el("div","target"),origin=el("div","origin"),path=el("div","path");
+      lane.dataset.index=index; lane.addEventListener("click",()=>selectRow(index));
+      lane.style.top=`${laneY(index)-30}px`; lane.innerHTML=`<b>${labels[item.kind]} ${item.source==="basic"?"기본탄":"스킬탄"}</b>`;
+      setupSprite(shot,rowIndex(item.kind,item.source),6); setupSprite(impact,combatIndex(effectFor(item.kind)),6);
+      [shot,impact,target,origin,path].forEach((node)=>node.dataset.index=index);
+      [shot,impact,target,origin,path].forEach((node)=>node.addEventListener("click",()=>selectRow(index)));
+      arena.append(lane,path,origin,target,shot,impact);
+    }
+
+    function setupSprite(node,row,frames){
+      node.dataset.row=row; node.dataset.frames=frames;
+      node.style.backgroundPosition=`0px -${row*128}px`;
+    }
+
+    function renderPaths(){
+      document.querySelectorAll(".path,.target,.origin").forEach((node)=>placeGuide(node,pathFor(Number(node.dataset.index))));
+      updateReport(); state.dirtyReport=false;
+    }
+
+    function placeGuide(node,p){
+      if(node.classList.contains("origin")){node.style.left=`${p.sx}px`;node.style.top=`${p.sy}px`;return}
+      if(node.classList.contains("target")){node.style.left=`${p.ex}px`;node.style.top=`${p.ey}px`;return}
+      node.style.left=`${p.sx}px`;node.style.top=`${p.sy}px`;node.style.width=`${p.dist}px`;node.style.transform=`rotate(${p.angle}rad)`;
+    }
+
+    function buildTuneControls(){
+      const list=document.getElementById("tuneList"),i=state.selected,c=configs[i];
+      list.innerHTML=tuneRow(c,i);
+      list.querySelectorAll("[data-role]").forEach((node)=>node.addEventListener("input",()=>updateConfig(node)));
+      list.querySelectorAll("[data-op]").forEach((node)=>node.addEventListener("click",()=>updateOp(node)));
+      list.querySelectorAll("[data-apply]").forEach((node)=>node.addEventListener("click",()=>applyReference(Number(node.dataset.apply))));
+    }
+
+    function selectRow(index){
+      state.selected=clamp(index,0,configs.length-1);
+      markSelected(); buildTuneControls(); updateReport();
+    }
+
+    function markSelected(){
+      document.querySelectorAll(".lane,.path,.origin,.target,.shot,.impact").forEach((node)=>{
+        node.classList.toggle("selected",Number(node.dataset.index)===state.selected);
+      });
+    }
+
+    function tuneRow(c,i){
+      const title=`${labels[c.kind]} ${c.source==="basic"?"기본탄":"스킬탄"}`;
+      return `<div class="tuneRow" data-row="${i}"><div class="tuneHead"><strong>${title}</strong><button data-apply="${i}">이 위치 전체 적용</button></div>${slider(i,"speed","속도",.4,2.2,.05,c.speed)}${slider(i,"angleOffset","경로각",-45,45,1,c.angleOffset)}${slider(i,"spriteRot","회전",-180,180,1,c.spriteRot)}${slider(i,"scale","크기",.55,1.7,.05,c.scale)}<div class="toggles">${opButton(i,"animMode",c.animMode==="static"?"정지이미지 ON":"1회재생",c.animMode==="static")}${opButton(i,"flip",c.flipX?"좌우반전 ON":"좌우반전",c.flipX)}${opButton(i,"reverse","발사방향 반대",false)}</div><div class="pt">${point(i,"sx","시작X",c.sx)}${point(i,"sy","시작Y",c.sy)}${point(i,"ex","도착X",c.ex)}${point(i,"ey","도착Y",c.ey)}</div></div>`;
+    }
+
+    function slider(i,key,label,min,max,step,value){
+      return `<label class="mini">${label}<input data-index="${i}" data-role="${key}" type="range" min="${min}" max="${max}" step="${step}" value="${value}"><span data-value="${i}-${key}">${value}</span></label>`;
+    }
+
+    function point(i,key,label,value){
+      return `<label>${label}<input data-index="${i}" data-role="${key}" type="number" value="${Math.round(value)}"></label>`;
+    }
+
+    function opButton(i,op,label,on){
+      return `<button data-index="${i}" data-op="${op}" class="${on?"on":""}">${label}</button>`;
+    }
+
+    function updateConfig(node){
+      const i=Number(node.dataset.index),key=node.dataset.role,value=Number(node.value);
+      configs[i][key]=value; updateValueLabel(i,key,value); renderPaths(); saveTuning();
+    }
+
+    function updateOp(node){
+      const i=Number(node.dataset.index),config=configs[i];
+      if(node.dataset.op==="animMode") toggleAnimMode(node,config);
+      if(node.dataset.op==="flip") toggleFlip(node,config);
+      if(node.dataset.op==="reverse") reversePath(config);
+      syncTuneInputs(); renderPaths(); saveTuning();
+    }
+
+    function toggleAnimMode(node,config){
+      config.animMode=config.animMode==="static"?"travel":"static";
+      node.classList.toggle("on",config.animMode==="static");
+      node.textContent=config.animMode==="static"?"정지이미지 ON":"1회재생";
+    }
+
+    function toggleFlip(node,config){
+      config.flipX=!config.flipX;
+      node.classList.toggle("on",config.flipX);
+      node.textContent=config.flipX?"좌우반전 ON":"좌우반전";
+    }
+
+    function reversePath(config){
+      [config.sx,config.ex]=[config.ex,config.sx];
+      [config.sy,config.ey]=[config.ey,config.sy];
+    }
+
+    function updateValueLabel(i,key,value){
+      const label=document.querySelector(`[data-value="${i}-${key}"]`);
+      if(label) label.textContent=Number(value).toFixed(/angleOffset|spriteRot/.test(key)?0:2).replace(/\\.00$/,"");
+    }
+
+    function syncTuneInputs(){
+      configs.forEach((config,i)=>Object.keys(config).forEach((key)=>{
+        const input=document.querySelector(`[data-index="${i}"][data-role="${key}"]`);
+        if(input){input.value=/^[se][xy]$/.test(key)?Math.round(config[key]):config[key]; updateValueLabel(i,key,config[key])}
+      }));
+    }
+
+    function loadTuning(){
+      const saved=readSaved();
+      if(saved.angle!==undefined) state.angle=Number(saved.angle);
+      if(saved.tier!==undefined) state.tier=Number(saved.tier);
+      if(saved.selected!==undefined) state.selected=Number(saved.selected);
+      (saved.configs||[]).forEach((item)=>Object.assign(configs.find((c)=>configId(c)===item.id)||{},item));
+      Object.assign(skillConfigs,saved.skills||{});
+      Object.assign(fxConfigs,saved.fxConfigs||{});
+      Object.assign(fxFlags,saved.fxFlags||{});
+    }
+
+    function saveTuning(manual=false){
+      const data={angle:state.angle,tier:state.tier,selected:state.selected,configs:configs.map(storedConfig),skills:skillConfigs,fxConfigs,fxFlags};
+      try{localStorage.setItem(storageKey,JSON.stringify(data))}catch(error){}
+      updateReport(); if(manual) flashSave();
+    }
+
+    function readSaved(){
+      try{return JSON.parse(localStorage.getItem(storageKey)||"{}")}catch(error){return {}}
+    }
+
+    function storedConfig(c){
+      const {kind,source,speed,scale,angleOffset,spriteRot,flipX,animMode,sx,sy,ex,ey}=c;
+      return {id:configId(c),kind,source,speed,scale,angleOffset,spriteRot,flipX,animMode,sx,sy,ex,ey};
+    }
+
+    function configId(config){return `${config.kind}-${config.source}`}
+
+    function flashSave(){
+      const button=document.getElementById("saveTune");
+      if(!button) return;
+      button.textContent="저장됨";
+      setTimeout(()=>button.textContent="조정 저장",650);
+    }
+
+    function syncToolbarState(){
+      document.querySelectorAll("[data-angle]").forEach((button)=>{
+        button.classList.toggle("active",Math.abs(Number(button.dataset.angle)-state.angle)<.001);
+      });
+      const tier=document.getElementById("tier");
+      if(tier) tier.value=String(state.tier);
+    }
+
+    function tick(now){
+      if(!state.paused&&now>state.scrollingUntil&&now-state.lastMotion>50){
+        state.lastMotion=now; animateProjectiles(now); animateCoreFx(now); animateSkills(now);
+      }
+      if(state.dirtyReport){updateReport();state.dirtyReport=false}
+      requestAnimationFrame(tick);
+    }
+
+    function animateProjectiles(now){
+      document.querySelectorAll(".shot").forEach((shot)=>moveShot(shot,now));
+      document.querySelectorAll(".impact").forEach((impact)=>moveImpact(impact,now));
+      document.getElementById("readout").textContent=`rows ${configs.length} · tier ${state.tier}`;
+    }
+
+    function moveShot(shot,now){
+      const p=pathFor(Number(shot.dataset.index)),cycle=1900/p.speed,t=(now%cycle)/cycle;
+      const x=p.sx+(p.ex-p.sx)*t,y=p.sy+(p.ey-p.sy)*t,source=p.source,flip=p.flipX,rot=p.angle+rad(p.spriteRot||0);
+      const tier=source==="skill"?(state.tier===3?1.18:state.tier===2?1.08:1):.86;
+      shot.style.left=`${x}px`; shot.style.top=`${y}px`; shot.style.opacity=1;
+      shot.style.backgroundPosition=`-${projectileFrame(t,p)*128}px -${shot.dataset.row*128}px`;
+      shot.style.transform=`translate(-50%,-50%) rotate(${rot}rad) scaleX(${flip?-1:1}) scale(${p.scale*tier})`;
+    }
+
+    function moveImpact(impact,now){
+      const p=pathFor(Number(impact.dataset.index)),cycle=1900/p.speed,t=(now%cycle)/cycle,active=t>p.impactAt,local=active?(t-p.impactAt)/(1-p.impactAt):0;
+      impact.style.left=`${p.ex}px`; impact.style.top=`${p.ey}px`; impact.style.opacity=active?1-local:0;
+      impact.style.backgroundPosition=`-${Math.min(5,Math.floor(local*6))*128}px -${impact.dataset.row*128}px`;
+      impact.style.transform=`translate(-50%,-50%) scale(${p.scale*(1+local*.18)})`;
+    }
+
+    function buildCoreFx(){
+      const tabs=["all","projectile","combat","monster","spike","portal","loot"];
+      document.getElementById("catalogTabs").innerHTML=tabs.map((id)=>`<button data-core="${id}" class="${coreFilter===id?"active":""}">${id}</button>`).join("");
+      document.querySelectorAll("[data-core]").forEach((node)=>node.addEventListener("click",()=>setCoreFilter(node)));
+      const all=coreFxItems(),items=all.filter((item)=>coreFilter==="all"||item.group===coreFilter);
+      document.getElementById("coreFxCount").textContent=`${items.length}/${all.length}`;
+      document.getElementById("coreFxList").innerHTML=items.map(coreFxCard).join("");
+      bindFxCardControls(document.getElementById("coreFxList")); syncCoreFxTransforms();
+    }
+
+    function setCoreFilter(node){
+      coreFilter=node.dataset.core; buildCoreFx();
+    }
+
+    function coreFxItems(){
+      return [
+        ...sheetRows("projectile",catalog.projectileRows,"/assets/fx/forge/projectiles.png",6,10,96,96),
+        ...sheetRows("combat",catalog.combatRows,"/assets/fx/forge/combat-effects.png",6,14,96,96),
+        ...sheetRows("monster",catalog.monsterRows,"/assets/fx/forge/monster-effects.png",6,7,96,96),
+        ...sheetRows("spike",catalog.spikeBehaviorRows,"/assets/fx/forge/spike-behavior-fx.png",6,4,96,96),
+        ...sheetRows("portal",catalog.portalRows,"/assets/fx/forge/portal.png",8,2,112,112),
+        ...lootRows(catalog.lootRows),
+      ];
+    }
+
+    function sheetRows(group,rows,src,frames,totalRows,w,h){
+      return (rows||[]).map((id,row)=>({key:`${group}:${id}`,id,group,src,frames,row,rows:totalRows,w,h}));
+    }
+
+    function lootRows(rows){
+      return (rows||[]).map((id)=>({key:`loot:${id}`,id:`loot-${id}`,group:"loot",src:`/assets/image2/fx/loot-beam-${id}.webp`,frames:8,row:0,rows:1,w:72,h:144}));
+    }
+
+    function coreFxCard(item){
+      const tune=fxTune(item.key),size=`${item.frames*item.w}px ${item.rows*item.h}px`;
+      return `<div class="catalogCard" data-fx-card="${item.key}"><div class="catalogSprite" data-fx="${item.key}" data-frames="${item.frames}" data-row="${item.row}" data-w="${item.w}" data-h="${item.h}" style="width:${item.w}px;height:${item.h}px;background-image:url('${item.src}?v=runtime-qc-4');background-size:${size}"></div><strong>${item.id}</strong><span>${item.group} · ${item.frames}f</span>${fxControl(item.key,tune)}${flagStrip(item.key)}</div>`;
+    }
+
+    function fxControl(id,tune){
+      return `<label class="skillCtl">각도 <input data-fx="${id}" data-fx-role="rot" type="range" min="-180" max="180" step="1" value="${tune.rot}"><em data-fx-value="${id}">${tune.rot}</em><button data-fx="${id}" data-fx-op="flip" class="${tune.flipX?"on":""}">${tune.flipX?"반전 ON":"반전"}</button></label>`;
+    }
+
+    function flagStrip(id){
+      return `<div class="flagStrip">${perFxFlags.map((flag)=>`<label><input data-fx="${id}" data-fx-flag="${flag}" type="checkbox" ${flagOn(id,flag)?"checked":""}>${flag}</label>`).join("")}</div>`;
+    }
+
+    function bindFxCardControls(root){
+      root.querySelectorAll("[data-fx-role]").forEach((node)=>node.addEventListener("input",()=>updateFxConfig(node)));
+      root.querySelectorAll("[data-fx-op]").forEach((node)=>node.addEventListener("click",()=>toggleFxFlip(node)));
+      root.querySelectorAll("[data-fx-flag]").forEach((node)=>node.addEventListener("change",()=>updateFxFlag(node)));
+    }
+
+    function fxTune(id){
+      return fxConfigs[id]??={rot:0,flipX:false};
+    }
+
+    function flagOn(id,flag){
+      return Boolean(fxFlags[id]?.[flag]);
+    }
+
+    function updateFxConfig(node){
+      const id=node.dataset.fx,tune=fxTune(id);
+      tune[node.dataset.fxRole]=Number(node.value);
+      document.querySelector(`[data-fx-value="${id}"]`).textContent=node.value;
+      syncCoreFxTransforms(); saveTuning();
+    }
+
+    function toggleFxFlip(node){
+      const id=node.dataset.fx,tune=fxTune(id);
+      tune.flipX=!tune.flipX; node.classList.toggle("on",tune.flipX);
+      node.textContent=tune.flipX?"반전 ON":"반전";
+      syncCoreFxTransforms(); saveTuning();
+    }
+
+    function updateFxFlag(node){
+      const id=node.dataset.fx,flag=node.dataset.fxFlag;
+      fxFlags[id]??={}; fxFlags[id][flag]=node.checked;
+      saveTuning();
+    }
+
+    function syncCoreFxTransforms(){
+      document.querySelectorAll(".catalogSprite").forEach((node)=>applyFxTransform(node));
+    }
+
+    function applyFxTransform(node){
+      const tune=fxTune(node.dataset.fx);
+      node.style.transform=`rotate(${tune.rot}deg) scaleX(${tune.flipX?-1:1})`;
+    }
+
+    function animateCoreFx(now){
+      document.querySelectorAll(".catalogSprite").forEach((node)=>animateSpriteNode(node,now,14));
+    }
+
+    function animateSpriteNode(node,now,rate){
+      if(!visibleSprite(node)) return;
+      const f=frame(now,rate),w=Number(node.dataset.w),h=Number(node.dataset.h),row=Number(node.dataset.row);
+      node.style.backgroundPosition=`-${f*w}px -${row*h}px`;
+    }
+
+    function visibleSprite(node){
+      const rect=node.getBoundingClientRect();
+      return rect.bottom>-160&&rect.top<innerHeight+160;
+    }
+
+    function buildSkills(){
+      ensureSkillConfigs();
+      document.getElementById("skillCount").textContent=String(skills.length);
+      document.getElementById("skillList").innerHTML=skills.map(skillCard).join("");
+      document.querySelectorAll(".skillFx").forEach((node)=>node.style.backgroundImage=`url("/assets/fx/forge/${node.dataset.skill}.png?v=runtime-qc-3")`);
+      document.querySelectorAll("[data-skill-role]").forEach((node)=>node.addEventListener("input",()=>updateSkillConfig(node)));
+      document.querySelectorAll("[data-skill-op]").forEach((node)=>node.addEventListener("click",()=>toggleSkillFlip(node)));
+      document.getElementById("skillList").querySelectorAll("[data-fx-flag]").forEach((node)=>node.addEventListener("change",()=>updateFxFlag(node)));
+      syncSkillFxTransforms();
+    }
+
+    function animateSkills(now){
+      document.querySelectorAll(".skillFx").forEach((node)=>{if(visibleSprite(node))node.style.backgroundPosition=`-${frame(now,16)*128}px 0`});
+    }
+
+    function ensureSkillConfigs(){
+      skills.forEach((id)=>skillConfigs[id]??={rot:0,flipX:false,...(defaultSkillTune[id]||{})});
+    }
+
+    function skillCard(id){
+      const tune=skillConfigs[id]||{rot:0,flipX:false};
+      const flip=tune.flipX?"반전 ON":"반전";
+      return `<div class="skillCard"><div class="skillFx" data-skill="${id}"></div><strong>${id}</strong><span>1x6 Image2 strip · 16fps</span><label class="skillCtl">각도 <input data-skill="${id}" data-skill-role="rot" type="range" min="-180" max="180" step="1" value="${tune.rot}"><em data-skill-value="${id}">${tune.rot}</em><button data-skill="${id}" data-skill-op="flip" class="${tune.flipX?"on":""}">${flip}</button></label>${flagStrip(`skill:${id}`)}</div>`;
+    }
+
+    function updateSkillConfig(node){
+      const id=node.dataset.skill,key=node.dataset.skillRole;
+      skillConfigs[id][key]=Number(node.value);
+      document.querySelector(`[data-skill-value="${id}"]`).textContent=node.value;
+      syncSkillFxTransforms(); saveTuning();
+    }
+
+    function toggleSkillFlip(node){
+      const id=node.dataset.skill,tune=skillConfigs[id];
+      tune.flipX=!tune.flipX; node.classList.toggle("on",tune.flipX);
+      node.textContent=tune.flipX?"반전 ON":"반전";
+      syncSkillFxTransforms(); saveTuning();
+    }
+
+    function syncSkillFxTransforms(){
+      document.querySelectorAll(".skillFx").forEach((node)=>applySkillFxTransform(node));
+    }
+
+    function applySkillFxTransform(node){
+      const tune=skillConfigs[node.dataset.skill]||{rot:0,flipX:false};
+      node.style.transform=`rotate(${tune.rot}deg) scaleX(${tune.flipX?-1:1})`;
+    }
+
+    function buildChecks(){
+      document.getElementById("checks").innerHTML=flags.map((flag)=>`<label><input type="checkbox" value="${flag}"> ${flag}</label>`).join("");
+      document.querySelectorAll("#checks input,#note").forEach((node)=>node.addEventListener("input",updateReport));
+      document.getElementById("copyReport").addEventListener("click",copyReport);
+      document.getElementById("pause").addEventListener("click",togglePause);
+    }
+
+    function updateReport(){
+      const checked=[...document.querySelectorAll("#checks input:checked")].map((n)=>n.value);
+      const note=document.getElementById("note").value.trim();
+      const tuned=configs.map((c,i)=>`${i}:${c.kind}-${c.source} view=${Math.round(deg(state.angle))} mode=${c.animMode} speed=${c.speed} path=${c.angleOffset} rot=${c.spriteRot} flip=${c.flipX?"on":"off"} scale=${c.scale} base ${Math.round(c.sx)},${Math.round(c.sy)}>${Math.round(c.ex)},${Math.round(c.ey)}`).join("\n");
+      const skillTuned=skills.map((id)=>`${id} rot=${skillConfigs[id]?.rot||0} flip=${skillConfigs[id]?.flipX?"on":"off"}`).join("\n");
+      const fxTuned=tunedCoreFx().join("\n")||"none";
+      const marked=markedFx().join("\n")||"none";
+      document.getElementById("report").textContent=[`tier=${state.tier}`,`coreFx=${coreFxItems().length}`,`skillFxCount=${skills.length}`,tuned,`skillFx=${skillTuned}`,`fxTuned=${fxTuned}`,`marked=${marked}`,`issues=${checked.join(", ")||"none"}`,`note=${note||"-"}`].join("\n");
+    }
+
+    function tunedCoreFx(){
+      return Object.entries(fxConfigs).filter(([,t])=>t.rot||t.flipX).map(([id,t])=>`${id} rot=${t.rot||0} flip=${t.flipX?"on":"off"}`);
+    }
+
+    function markedFx(){
+      return Object.entries(fxFlags).map(([id,flags])=>[id,Object.keys(flags).filter((k)=>flags[k])]).filter(([,list])=>list.length).map(([id,list])=>`${id} ${list.join("/")}`);
+    }
+
+    function scheduleReport(){state.dirtyReport=true}
+
+    async function copyReport(){
+      updateReport();
+      await navigator.clipboard?.writeText(document.getElementById("report").textContent);
+    }
+
+    function togglePause(){
+      state.paused=!state.paused;
+      document.getElementById("pause").textContent=state.paused?"재생":"일시정지";
+    }
+
+    function el(tag,cls){const node=document.createElement(tag);node.className=cls;return node}
+
+    async function boot(){
+      await loadCatalog();
+      buildToolbar(); buildJumpNav(); ensureConfigs(); syncToolbarState();
+      buildArena(); buildTuneControls(); buildCoreFx(); buildSkills(); buildChecks();
+      requestAnimationFrame(tick);
+    }
+    boot();
+  </script>
+</body>
+</html>
