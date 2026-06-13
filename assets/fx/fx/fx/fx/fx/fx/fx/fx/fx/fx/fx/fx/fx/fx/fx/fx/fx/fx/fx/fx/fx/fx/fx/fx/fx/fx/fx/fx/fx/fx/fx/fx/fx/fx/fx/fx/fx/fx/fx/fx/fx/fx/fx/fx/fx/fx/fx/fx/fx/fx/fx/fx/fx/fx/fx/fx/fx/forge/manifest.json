@@ -225,5 +225,21 @@
     "public/assets/image2/fx/projectiles/ice-skill-source.png",
     "public/assets/image2/fx/projectiles/shadow-skill-source.png"
   ],
-  "projectileRepair": "arrow-skill runtime row recentered from existing Image2-cleaned atlas; no Image2 regeneration"
+  "projectileRepair": "arrow-skill runtime row recentered from existing Image2-cleaned atlas; no Image2 regeneration",
+  "meleeBasicRows": [
+    "meleeGuardian",
+    "meleeGreatsword",
+    "meleeKnight",
+    "meleeDuelist",
+    "meleeLancer"
+  ],
+  "meleeBasicProvider": "openai-image2-codex-app",
+  "meleeBasicGeneratedAt": "2026-06-05T09:34:49.832976+00:00",
+  "meleeBasicSources": [
+    "public/assets/image2/fx/melee-basic/meleeGuardian-source.png",
+    "public/assets/image2/fx/melee-basic/meleeGreatsword-source.png",
+    "public/assets/image2/fx/melee-basic/meleeKnight-source.png",
+    "public/assets/image2/fx/melee-basic/meleeDuelist-source.png",
+    "public/assets/image2/fx/melee-basic/meleeLancer-source.png"
+  ]
 }
