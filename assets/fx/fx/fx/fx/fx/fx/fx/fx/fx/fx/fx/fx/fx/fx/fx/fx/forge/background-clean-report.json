@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-05T04:58:50.008310+00:00",
+  "generatedAt": "2026-06-11T14:40:54.168404+00:00",
   "rows": [
     {
       "path": "public/assets/fx/forge/archer-pierce-piercing-shot.png",
@@ -14,7 +14,9 @@
         0
       ],
       "blackOpaque": 84,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/archer-pierce-rail-shot.png",
@@ -29,7 +31,9 @@
         0
       ],
       "blackOpaque": 78,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/archer-pierce-sky-piercer.png",
@@ -44,7 +48,9 @@
         0
       ],
       "blackOpaque": 1,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/archer-pierce-split-bolt.png",
@@ -59,7 +65,9 @@
         0
       ],
       "blackOpaque": 85,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/archer-snipe-death-mark.png",
@@ -74,7 +82,9 @@
         0
       ],
       "blackOpaque": 299,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/archer-snipe-eagle-shot.png",
@@ -89,7 +99,9 @@
         0
       ],
       "blackOpaque": 70,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/archer-snipe-sure-arrow.png",
@@ -104,7 +116,9 @@
         0
       ],
       "blackOpaque": 1,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/archer-snipe-vital-shot.png",
@@ -119,7 +133,9 @@
         0
       ],
       "blackOpaque": 61,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/archer-tactic-hunt-call.png",
@@ -134,7 +150,9 @@
         0
       ],
       "blackOpaque": 23,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/archer-tactic-kill-zone.png",
@@ -149,7 +167,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/archer-tactic-mark-shot.png",
@@ -164,7 +184,9 @@
         0
       ],
       "blackOpaque": 2581,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/archer-tactic-trap-volley.png",
@@ -179,7 +201,9 @@
         0
       ],
       "blackOpaque": 111,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/combat-effects.png",
@@ -193,8 +217,10 @@
         0,
         0
       ],
-      "blackOpaque": 13,
-      "keyResidue": 0
+      "blackOpaque": 0,
+      "keyResidue": 0,
+      "changed": true,
+      "removed": 59201
     },
     {
       "path": "public/assets/fx/forge/duelist-duelist-execution-dance.png",
@@ -209,7 +235,9 @@
         0
       ],
       "blackOpaque": 135,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/duelist-duelist-red-finale.png",
@@ -224,7 +252,9 @@
         0
       ],
       "blackOpaque": 83,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/duelist-duelist-ripper.png",
@@ -239,7 +269,9 @@
         0
       ],
       "blackOpaque": 49,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/duelist-duelist-twin-lash.png",
@@ -254,7 +286,9 @@
         0
       ],
       "blackOpaque": 14,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/duelist-evasion-afterimage.png",
@@ -269,7 +303,9 @@
         0
       ],
       "blackOpaque": 217,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/duelist-evasion-mirror-dance.png",
@@ -284,7 +320,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/duelist-evasion-phantom-cut.png",
@@ -299,7 +337,9 @@
         0
       ],
       "blackOpaque": 20,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/duelist-evasion-riposte.png",
@@ -314,7 +354,9 @@
         0
       ],
       "blackOpaque": 18,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/duelist-moonlight-crescent.png",
@@ -329,7 +371,9 @@
         0
       ],
       "blackOpaque": 35,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/duelist-moonlight-fullmoon.png",
@@ -344,7 +388,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/duelist-moonlight-moon-cut.png",
@@ -359,7 +405,9 @@
         0
       ],
       "blackOpaque": 28,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/duelist-moonlight-silver-rush.png",
@@ -374,7 +422,9 @@
         0
       ],
       "blackOpaque": 87,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/greatsword-blood-blood-revel.png",
@@ -389,7 +439,9 @@
         0
       ],
       "blackOpaque": 247,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/greatsword-blood-blood-thirst.png",
@@ -404,7 +456,9 @@
         0
       ],
       "blackOpaque": 575,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/greatsword-blood-crimson-harvest.png",
@@ -419,7 +473,9 @@
         0
       ],
       "blackOpaque": 488,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/greatsword-blood-vampiric-cut.png",
@@ -434,7 +490,9 @@
         0
       ],
       "blackOpaque": 150,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/greatsword-greatsword-execution-cut.png",
@@ -449,7 +507,9 @@
         0
       ],
       "blackOpaque": 37,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/greatsword-greatsword-guillotine.png",
@@ -464,7 +524,9 @@
         0
       ],
       "blackOpaque": 1208,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/greatsword-greatsword-skull-split.png",
@@ -479,7 +541,9 @@
         0
       ],
       "blackOpaque": 247,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/greatsword-greatsword-sky-cleave.png",
@@ -494,7 +558,9 @@
         0
       ],
       "blackOpaque": 227,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/greatsword-hellfire-flame-burst.png",
@@ -509,7 +575,9 @@
         0
       ],
       "blackOpaque": 66,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/greatsword-hellfire-hellforge.png",
@@ -524,7 +592,9 @@
         0
       ],
       "blackOpaque": 237,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/greatsword-hellfire-hellslash.png",
@@ -539,7 +609,9 @@
         0
       ],
       "blackOpaque": 27,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/greatsword-hellfire-inferno-edge.png",
@@ -554,7 +626,9 @@
         0
       ],
       "blackOpaque": 22,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/guardian-holy-barrier.png",
@@ -569,7 +643,9 @@
         0
       ],
       "blackOpaque": 340,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/guardian-holy-prayer.png",
@@ -584,7 +660,9 @@
         0
       ],
       "blackOpaque": 48,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/guardian-holy-sanctify.png",
@@ -599,7 +677,9 @@
         0
       ],
       "blackOpaque": 10,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/guardian-holy-tribunal.png",
@@ -614,7 +694,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/guardian-judgment-atonement.png",
@@ -629,7 +711,9 @@
         0
       ],
       "blackOpaque": 6,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/guardian-judgment-final.png",
@@ -644,7 +728,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/guardian-judgment-punish.png",
@@ -659,7 +745,9 @@
         0
       ],
       "blackOpaque": 38,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/guardian-judgment-riposte.png",
@@ -674,7 +762,9 @@
         0
       ],
       "blackOpaque": 32,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/guardian-shield-bash.png",
@@ -689,7 +779,9 @@
         0
       ],
       "blackOpaque": 62,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/guardian-shield-bulwark.png",
@@ -704,7 +796,9 @@
         0
       ],
       "blackOpaque": 204,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/guardian-shield-fortress.png",
@@ -719,7 +813,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/guardian-shield-taunt.png",
@@ -734,7 +830,9 @@
         0
       ],
       "blackOpaque": 9,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/knight-command-all-out.png",
@@ -749,7 +847,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/knight-command-charge-order.png",
@@ -764,7 +864,9 @@
         0
       ],
       "blackOpaque": 12,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/knight-command-rally.png",
@@ -779,7 +881,9 @@
         0
       ],
       "blackOpaque": 485,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/knight-command-war-cry.png",
@@ -794,7 +898,9 @@
         0
       ],
       "blackOpaque": 14,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/knight-shield-bash.png",
@@ -809,7 +915,9 @@
         0
       ],
       "blackOpaque": 129,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/knight-shield-counterwall.png",
@@ -824,7 +932,9 @@
         0
       ],
       "blackOpaque": 59,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/knight-shield-royal-wall.png",
@@ -839,7 +949,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/knight-shield-shield-crash.png",
@@ -854,7 +966,9 @@
         0
       ],
       "blackOpaque": 318,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/knight-sword-combo.png",
@@ -869,7 +983,9 @@
         0
       ],
       "blackOpaque": 15,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/knight-sword-cross-cut.png",
@@ -884,7 +1000,9 @@
         0
       ],
       "blackOpaque": 97,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/knight-sword-king-blow.png",
@@ -899,7 +1017,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/knight-sword-lion-strike.png",
@@ -914,7 +1034,9 @@
         0
       ],
       "blackOpaque": 148,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/lancer-charge-gale-charge.png",
@@ -929,7 +1051,9 @@
         0
       ],
       "blackOpaque": 46,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/lancer-charge-line-break.png",
@@ -944,7 +1068,9 @@
         0
       ],
       "blackOpaque": 19,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/lancer-charge-sky-charge.png",
@@ -959,7 +1085,9 @@
         0
       ],
       "blackOpaque": 18,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/lancer-charge-skyfall.png",
@@ -974,7 +1102,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/lancer-dragonblood-awakening.png",
@@ -989,7 +1119,9 @@
         0
       ],
       "blackOpaque": 196,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/lancer-dragonblood-blood-lance.png",
@@ -1004,7 +1136,9 @@
         0
       ],
       "blackOpaque": 114,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/lancer-dragonblood-dragon-rage.png",
@@ -1019,7 +1153,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/lancer-dragonblood-dragon-roar.png",
@@ -1034,7 +1170,9 @@
         0
       ],
       "blackOpaque": 62,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/lancer-shatter-breaker.png",
@@ -1049,7 +1187,9 @@
         0
       ],
       "blackOpaque": 19,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/lancer-shatter-crush.png",
@@ -1064,7 +1204,9 @@
         0
       ],
       "blackOpaque": 146,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/lancer-shatter-earth-shatter.png",
@@ -1079,7 +1221,9 @@
         0
       ],
       "blackOpaque": 7,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/lancer-shatter-earth-split.png",
@@ -1094,7 +1238,26 @@
         0
       ],
       "blackOpaque": 51,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
+    },
+    {
+      "path": "public/assets/fx/forge/melee-basic-effects.png",
+      "size": [
+        768,
+        640
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "blackOpaque": 0,
+      "keyResidue": 0,
+      "changed": true,
+      "removed": 14711
     },
     {
       "path": "public/assets/fx/forge/mercSig-cleric-endless-prayer.png",
@@ -1109,7 +1272,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/mercSig-crystal-crystal-thrust.png",
@@ -1124,7 +1289,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/mercSig-emberknight-dragonblood-formation.png",
@@ -1139,7 +1306,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/mercSig-forestarcher-forest-glance.png",
@@ -1154,7 +1323,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/mercSig-forestdruid-forest-ember.png",
@@ -1169,7 +1340,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/mercSig-ironwall-ironwall-formation.png",
@@ -1184,7 +1357,9 @@
         0
       ],
       "blackOpaque": 1,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/mercSig-mage-wandering-circle.png",
@@ -1199,7 +1374,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/mercSig-paladin-oath-strike.png",
@@ -1214,7 +1391,9 @@
         0
       ],
       "blackOpaque": 25,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/mercSig-pathwarden-not-late-arrow.png",
@@ -1229,7 +1408,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/mercSig-rogue-plunderer-shadow.png",
@@ -1244,7 +1425,9 @@
         0
       ],
       "blackOpaque": 238,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/mercSig-runepriest-ward-bind.png",
@@ -1259,7 +1442,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/mercSig-shadowblade-nameless-blade.png",
@@ -1274,7 +1459,9 @@
         0
       ],
       "blackOpaque": 750,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/mercSig-spellblade-arcblade-flow.png",
@@ -1289,7 +1476,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/mercSig-starlit-starlight-guard.png",
@@ -1304,7 +1493,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/mercSig-swordsman-comrade-blade.png",
@@ -1319,7 +1510,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/mercSig-totem-totem-call.png",
@@ -1334,7 +1527,9 @@
         0
       ],
       "blackOpaque": 211,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/mercSig-violet-violet-bind.png",
@@ -1349,7 +1544,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/mercSig-warden-bastion-shadow.png",
@@ -1364,7 +1561,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/mercSig-warlockpupil-fringe-flame.png",
@@ -1379,7 +1578,9 @@
         0
       ],
       "blackOpaque": 68,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/mercSig-watchman-citizen-stance.png",
@@ -1394,7 +1595,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/mercSig-winged-wing-shield.png",
@@ -1409,7 +1612,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/mercSkill-cleric-aura-mend.png",
@@ -1424,7 +1629,9 @@
         0
       ],
       "blackOpaque": 165,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/mercSkill-cleric-heal-touch.png",
@@ -1439,7 +1646,9 @@
         0
       ],
       "blackOpaque": 28,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/mercSkill-cleric-light-strike.png",
@@ -1454,7 +1663,9 @@
         0
       ],
       "blackOpaque": 73,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/mercSkill-emberpriest-burn-field.png",
@@ -1469,7 +1680,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/mercSkill-emberpriest-ignite-mark.png",
@@ -1484,7 +1697,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/mercSkill-emberpriest-spark.png",
@@ -1499,7 +1714,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/mercSkill-runearcher-mark-trap.png",
@@ -1514,7 +1731,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/mercSkill-runearcher-rune-arrow.png",
@@ -1529,7 +1748,9 @@
         0
       ],
       "blackOpaque": 128,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/mercSkill-runearcher-snipe.png",
@@ -1544,7 +1765,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/mercSkill-shadowrogue-bleeding-cut.png",
@@ -1559,7 +1782,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/mercSkill-shadowrogue-blink.png",
@@ -1574,7 +1799,9 @@
         0
       ],
       "blackOpaque": 280,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/mercSkill-shadowrogue-twin-strike.png",
@@ -1589,7 +1816,9 @@
         0
       ],
       "blackOpaque": 72,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/mercSkill-watchman-block-counter.png",
@@ -1604,7 +1833,9 @@
         0
       ],
       "blackOpaque": 700,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/mercSkill-watchman-guard-sweep.png",
@@ -1619,7 +1850,9 @@
         0
       ],
       "blackOpaque": 20,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/mercSkill-watchman-taunt.png",
@@ -1634,7 +1867,9 @@
         0
       ],
       "blackOpaque": 1,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/monster-effects.png",
@@ -1648,8 +1883,10 @@
         0,
         0
       ],
-      "blackOpaque": 3,
-      "keyResidue": 0
+      "blackOpaque": 0,
+      "keyResidue": 0,
+      "changed": true,
+      "removed": 32863
     },
     {
       "path": "public/assets/fx/forge/oracle-heal-aegis.png",
@@ -1664,7 +1901,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/oracle-heal-healing-choir.png",
@@ -1679,7 +1918,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/oracle-heal-resurrection.png",
@@ -1694,7 +1935,9 @@
         0
       ],
       "blackOpaque": 11,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/oracle-heal-saving-hand.png",
@@ -1709,7 +1952,9 @@
         0
       ],
       "blackOpaque": 41,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/oracle-radiance-dawn-judgment.png",
@@ -1724,7 +1969,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/oracle-radiance-dawn-ray.png",
@@ -1739,7 +1986,9 @@
         0
       ],
       "blackOpaque": 24,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/oracle-radiance-flash.png",
@@ -1754,7 +2003,9 @@
         0
       ],
       "blackOpaque": 22,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/oracle-radiance-nova.png",
@@ -1769,7 +2020,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/oracle-sentence-edict.png",
@@ -1784,7 +2037,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/oracle-sentence-execution.png",
@@ -1799,7 +2054,9 @@
         0
       ],
       "blackOpaque": 74,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/oracle-sentence-final-sentence.png",
@@ -1814,7 +2071,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/oracle-sentence-verdict.png",
@@ -1829,7 +2088,9 @@
         0
       ],
       "blackOpaque": 72,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/portal.png",
@@ -1844,7 +2105,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/projectiles.png",
@@ -1858,8 +2121,10 @@
         0,
         0
       ],
-      "blackOpaque": 1,
-      "keyResidue": 0
+      "blackOpaque": 0,
+      "keyResidue": 0,
+      "changed": true,
+      "removed": 28515
     },
     {
       "path": "public/assets/fx/forge/ranger-bind-bramble-field.png",
@@ -1874,7 +2139,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/ranger-bind-root-cage.png",
@@ -1889,7 +2156,9 @@
         0
       ],
       "blackOpaque": 4,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/ranger-bind-thorn-snare.png",
@@ -1904,7 +2173,9 @@
         0
       ],
       "blackOpaque": 4,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/ranger-bind-worldroot.png",
@@ -1919,7 +2190,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/ranger-spiritbow-king-rain.png",
@@ -1934,7 +2207,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/ranger-spiritbow-rain-shot.png",
@@ -1949,7 +2224,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/ranger-spiritbow-spirit-shot.png",
@@ -1964,7 +2241,9 @@
         0
       ],
       "blackOpaque": 76,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/ranger-spiritbow-storm-arrow.png",
@@ -1979,7 +2258,9 @@
         0
       ],
       "blackOpaque": 10,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/ranger-wild-beast-call.png",
@@ -1994,7 +2275,9 @@
         0
       ],
       "blackOpaque": 38,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/ranger-wild-fang-rush.png",
@@ -2009,7 +2292,9 @@
         0
       ],
       "blackOpaque": 11,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/ranger-wild-nature-wrath.png",
@@ -2024,7 +2309,9 @@
         0
       ],
       "blackOpaque": 2,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/ranger-wild-wild-host.png",
@@ -2039,7 +2326,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/sage-dragonword-bind-word.png",
@@ -2054,7 +2343,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/sage-dragonword-break-word.png",
@@ -2069,7 +2360,9 @@
         0
       ],
       "blackOpaque": 1,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/sage-dragonword-elder-roar.png",
@@ -2084,7 +2377,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/sage-dragonword-sear.png",
@@ -2099,7 +2394,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/sage-fire-blaze-ring.png",
@@ -2114,7 +2411,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/sage-fire-flame-storm.png",
@@ -2129,7 +2428,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/sage-fire-inferno.png",
@@ -2144,7 +2445,9 @@
         0
       ],
       "blackOpaque": 36,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/sage-fire-meteor.png",
@@ -2159,7 +2462,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/sage-rune-ancient-stasis.png",
@@ -2174,7 +2479,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/sage-rune-rune-prison.png",
@@ -2189,7 +2496,9 @@
         0
       ],
       "blackOpaque": 48,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/sage-rune-time-sigil.png",
@@ -2204,7 +2513,9 @@
         0
       ],
       "blackOpaque": 101,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/sage-rune-ward.png",
@@ -2219,7 +2530,9 @@
         0
       ],
       "blackOpaque": 69,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/spike-behavior-fx.png",
@@ -2234,7 +2547,9 @@
         0
       ],
       "blackOpaque": 56,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/warlock-abyss-grasp.png",
@@ -2249,7 +2564,9 @@
         0
       ],
       "blackOpaque": 856,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/warlock-abyss-rift.png",
@@ -2264,7 +2581,9 @@
         0
       ],
       "blackOpaque": 121,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/warlock-abyss-terror.png",
@@ -2279,7 +2598,9 @@
         0
       ],
       "blackOpaque": 133,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/warlock-abyss-voidfall.png",
@@ -2294,7 +2615,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/warlock-blackflame-black-sun.png",
@@ -2309,7 +2632,9 @@
         0
       ],
       "blackOpaque": 1627,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/warlock-blackflame-eruption.png",
@@ -2324,7 +2649,9 @@
         0
       ],
       "blackOpaque": 663,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/warlock-blackflame-spark.png",
@@ -2339,7 +2666,9 @@
         0
       ],
       "blackOpaque": 184,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/warlock-blackflame-wildfire.png",
@@ -2354,7 +2683,9 @@
         0
       ],
       "blackOpaque": 324,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/warlock-curse-decay.png",
@@ -2369,7 +2700,9 @@
         0
       ],
       "blackOpaque": 2065,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/warlock-curse-doom-sentence.png",
@@ -2384,7 +2717,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/warlock-curse-doom-word.png",
@@ -2399,7 +2734,9 @@
         0
       ],
       "blackOpaque": 343,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     },
     {
       "path": "public/assets/fx/forge/warlock-curse-frailty.png",
@@ -2414,7 +2751,9 @@
         0
       ],
       "blackOpaque": 0,
-      "keyResidue": 0
+      "keyResidue": 0,
+      "changed": false,
+      "removed": 0
     }
   ],
   "review": "public/assets/fx/forge/review/fx-background-qc.html"
